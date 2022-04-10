@@ -14,8 +14,10 @@ Ciência da Computação
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - André Lucas Pardinho Ferreira Ferraz
+> - Gabriel Vargas Bento de Souza
+> - Gabriela Colem Castelo Borges
+> - Stefani da Silva Honório
 
 # Estrutura do Documento
 
