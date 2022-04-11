@@ -71,6 +71,14 @@ Os membros do grupo são:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> -
+> -
+> Resumo links:
+> Buscar, dentro do tema, um problema que deseja resolver. Definido sob forma de pergunta, ou seja, a sua pesquisa será uma resposta para essa questão. Sim, o seu problema de pesquisa é apenas uma pergunta. Portanto, “converse” com seu tema e levante suas dúvidas sobre todas as variáveis possíveis, a partir daí, escolha um de seus questionamentos e avalie se é viável respondê-lo através do seu estudo.
+DICA: As perguntas do problema, geralmente, seguem este tipo de formato: “Existe uma relação entre… e …?”, “Quais são os fatores que determinam…?”, “Quais os efeitos de … sobre …?”, “Quais são as diferenças (ou semelhanças) entre … e …?”
+O PROBLEMA irá responder O QUÊ você deseja resolver realizando este estudo.
+Ex.: A redução do consume de carne na cidade de Florianópolis possui relação com o aumento da conscientização ambiental?
+
 
 ## Objetivos
 
@@ -84,6 +92,44 @@ Os membros do grupo são:
 > 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+> -
+> -
+> -Resumo links:
+>   -- Geral:
+> Definir o que você está buscando com o problema que foi levantado para o estudo, ou seja, onde você deseja chegar com essa pesquisa.
+Utilizar verbos sempre no infinitivo, expressando a delimitação do tema
+Os OBJETIVOS irão responder COMO você fará para responder ao problema deste estudo.
+
+Exemplo:
+“Verificar se existe relação entre a redução de consumo de carne na cidade de Florianópolis e o aumento de conscientização ambiental”
+Finalidade do trabalho: Verificar se existe relação entre a redução de consumo de carne e o aumento de conscientização ambiental
+Delimitação da pesquisa: na cidade de Florianópolis
+
+Verbos a serem utilizados:
+– Verbos de conhecimento: Associar; calcular; citar; classificar; definir; descrever; distinguir; enumerar; especificar; enunciar; estabelecer; exemplificar; expressar; identificar; indicar; medir; mostrar; nomear; registrar; relacionar; relatar; selecionar.
+
+– Verbos de compreensão: Concluir; descrever; distinguir; deduzir; demonstrar; discutir; explicar; identificar; ilustrar; inferir; interpretar; localizar – relatar; revisar.
+Verbos de Aplicação: Aplicar; estruturar; ilustrar; interpretar; organizar; relacionar.
+
+– Verbos de aplicação: Aplicar; Demonstrar; Dramatizar; Empregar; Ilustrar; Interpretar; Praticar; Traçar; Usar;
+
+– Verbos de análise: Analisar; classificar; categorizar; combinar; comparar; comprovar; contrastar; correlacionar; diferenciar; discutir; detectar; descobrir; discriminar; examinar; experimentar; identificar; investigar; provar; selecionar.
+
+– Verbos de síntese: Combinar; compor; criar; comprovar; deduzir; desenvolver; documentar; explicar; organizar; planejar; relacionar.
+– Verbos de avaliação: Avaliar; concluir; constatar; criticar; interpretar; julgar; justificar; padronizar; relacionar; selecionar; validar; valorizar.
+
+>  -- Especificos:
+>  Além dos mesmos verbos, Descrever as etapas da pesquisa em sequência de execução para alcançar ao objetivo central (descrevem os resultados que se pretender alcançar a partir da pesquisa).
+Redigidos em formato de tópicos. 
+Verbos no infinitivo.
+Os OBJETIVOS irão responder COMO você fará para responder ao problema deste estudo.
+
+Exemplo:
+Analisar a redução do consumo de carne em Florianópolis
+Analisar o aumento da conscientização ambiental em Florianópolis
+Comparar a redução do consumo de carne com a conscientização ambiental em Florianópolis
+
+
 
 ## Justificativa
 
@@ -100,6 +146,19 @@ Os membros do grupo são:
 >
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+> -
+> Resumo links:
+> Apontar as possíveis contribuições do seu estudo para a área em que você busca a formação acadêmica ou para a sociedade em geral. Aqui pode entrar, também, a justificativa de questões pessoais ou profissionais que lhe levaram a realizar o estudo sobre o tema escolhido.
+A JUSTIFICATIVA irá responder o PORQUÊ de você estar realizando este estudo.
+Possui 4 pontos:
+*O porquê (motivo pelo qual este tema foi escolhido),
+*O que (qual a função do projeto),
+*Quem (público alvo da obra)
+*E base (fonte de informações onde seu trabalho está baseado).
+
+![image](https://user-images.githubusercontent.com/103389529/162645445-ab97640b-1d35-47cb-875e-3dd7e0cc785a.png)
+
+
 
 ## Público-Alvo
 
@@ -119,6 +178,15 @@ Os membros do grupo são:
 > **Links Úteis**:
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+> -
+>   Resumo links:
+>   Conjunto de pessoas com maiores chances de interesse pelo que você tem a oferecer.
+ 
+As características de seu público-alvo são de duas naturezas principais: demográficas e comportamentais.
+Demográficas: quem são, onde moram, idade, estado civil, se têm filhos, com o que trabalham, quanto ganham
+Comportamentais: como vivem e o que fazem estas pessoas, por exemplo, o que compram, quanto gastam, entre outras características.
+É a parcela da população para quem se destina sua mensagem, serviço ou produto. O público-alvo pode se definir por: região, classe social, poder de compra, faixa etária, sexo, comportamento e preferências.
+
  
 # Especificações do Projeto
 
