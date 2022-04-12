@@ -54,9 +54,8 @@ Os membros do grupo são:
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Podemos definir primeiros socorros como sendo os cuidados imediatos que devem ser prestados rapidamente a uma pessoa, vítima de acidentes ou de mal súbito com o fim de manter as funções vitais e evitar o agravamento de suas condições, aplicando medidas e procedimentos até a chegada de assistência qualificada. Entretanto, é notório que a maioria da população brasileira não apresenta os conhecimentos básicos para prestar tal ajuda, o que pode agravar o estado clínico do paciente. Esse desconhecimento tem como causa a falta/dificuldade de acesso à informação, a negligência e o medo. Logo, é um problema evidente que necessita de soluções práticas e inovadoras. ......
 
->Podemos definir primeiros socorros como sendo os cuidados imediatos que devem ser prestados rapidamente a uma pessoa, vítima de acidentes ou de mal súbito com o fim de manter as funções vitais e evitar o agravamento de suas condições, aplicando medidas e procedimentos até a chegada de assistência qualificada. Entretanto, é notório que a maioria da população brasileira não apresenta os conhecimentos básicos para prestar tal ajuda, o que pode agravar o estado clínico do paciente. Esse desconhecimento tem como causa a falta/dificuldade de acesso à informação, a negligência e o medo. Logo, é um problema evidente que necessita de soluções práticas e inovadoras.
 
 
 ## Objetivos
