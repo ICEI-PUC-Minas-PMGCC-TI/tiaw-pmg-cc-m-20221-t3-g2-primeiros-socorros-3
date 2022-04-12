@@ -67,20 +67,20 @@ Os membros do grupo são:
 
 ### Objetivos especificos
 
-  Exemplificar e identificar as formas de acidentes mais presentes;
-  Minimizar as possíveis vítimas, graves ou fatais, de acidentes em casa;
-  Colaborar com a área da saúde e da medicida, no que tange ao atendimento de urgência;
-  Disponibilizar, no site, o conhecimento, utilizando videoaulas e tutoriais;
-  Sanar dúvidas sobre a prática do rápido salvamento em casos de acidentes;
-  Divulgar sites, videos e textos relacionados a Primeiros Socorros;
-  Maximizar o conhecimento sobre Primeiros Socorros;
-  Combinar praticidade, rapidez e simplicidade durante a criação do software;
-  Planejar e solucionar a falta de divulgação acerca dos Primeiros Socorros;
-  Proporcionar uma área virtual de acesso a uma grande parcela populacional;
-  Quebrar o paradigma de ser difícil, demorado e complexo o estudo sobre Primeiros Socorros;
-  Demonstrar o quão válido e necessário é o aprendizado nesta área;
-  Mediar o conhecimento entre o atendimento médico de urgência e as vítimas;
-  Capacitar uma maior parte da população para saber lidar com acidentes domésticos.
+- Exemplificar e identificar as formas de acidentes mais presentes;
+- Minimizar as possíveis vítimas, graves ou fatais, de acidentes em casa;
+- Colaborar com a área da saúde e da medicida, no que tange ao atendimento de urgência;
+- Disponibilizar, no site, o conhecimento, utilizando videoaulas e tutoriais;
+- Sanar dúvidas sobre a prática do rápido salvamento em casos de acidentes;
+- Divulgar sites, videos e textos relacionados a Primeiros Socorros;
+- Maximizar o conhecimento sobre Primeiros Socorros;
+- Combinar praticidade, rapidez e simplicidade durante a criação do software;
+- Planejar e solucionar a falta de divulgação acerca dos Primeiros Socorros;
+- Proporcionar uma área virtual de acesso a uma grande parcela populacional;
+- Quebrar o paradigma de ser difícil, demorado e complexo o estudo sobre Primeiros Socorros;
+- Demonstrar o quão válido e necessário é o aprendizado nesta área;
+- Mediar o conhecimento entre o atendimento médico de urgência e as vítimas;
+- Capacitar uma maior parte da população para saber lidar com acidentes domésticos.
 
 ## Justificativa
 
@@ -144,6 +144,9 @@ Comportamentais: como vivem e o que fazem estas pessoas, por exemplo, o que comp
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
+  Durante o processo de entendimento e de consolidação das ideias, foram criadas três personas, com seus respectivos mapas de empatia, representado um válido mecanismo de compreensão do problema, bem como uma forma de tornar a ideia mais palpável. Os aspectos mais relevantes, favoráveis ou não à resolução do desafio levantado, foram articulados na parte de histórias de usuários e, em seguida, eluciados na área de requisitos e restrições. 
+
+
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
 > realizar a especificações do projeto
@@ -182,8 +185,26 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Fabiana            | um site mais divulgado             | conseguir salvar mais pacientes        |
+| Fabiana            | informações corretas e comprovadas | evitar que medidas erradas sejam tomadas|
+| Fabiana            | uma plataforma online              | recomendar aos pacientes               |
+| Fabiana            | videoaulas com medicos             | mostrar procedimentos válidos          |
+| Fabiana            | canal de comunicação com emergência| possibilitar um socorro rápido         |
+| Fabiana            | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+| Lucas              | incluir informações sobre esporte  | que alunos e colegas de profissão acessem|
+| Lucas              | Alterar permissões                 | Permitir que possam administrar contas |
+| Lucas              | Alterar permissões                 | Permitir que possam administrar contas |
+| Lucas              | Alterar permissões                 | Permitir que possam administrar contas |
+| Lucas              | Alterar permissões                 | Permitir que possam administrar contas |
+| Lucas              | Alterar permissões                 | Permitir que possam administrar contas |
+| Helena             | acesso rápido e simplificado       | saber cuidar da sua avó                |
+| Helena             | site simples e acessível           | que parentes e familizares possam usar |
+| Helena             | explicação simples e eficaz        | sua avó poder abrir caso precise       |
+| Helena             | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+| Helena             | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+| Helena             | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+
+
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
