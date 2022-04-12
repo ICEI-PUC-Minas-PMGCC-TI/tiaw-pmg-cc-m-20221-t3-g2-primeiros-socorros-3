@@ -56,28 +56,7 @@ Os membros do grupo são:
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-> -
-> -
-> Resumo links:
-> Buscar, dentro do tema, um problema que deseja resolver. Definido sob forma de pergunta, ou seja, a sua pesquisa será uma resposta para essa questão. Sim, o seu problema de pesquisa é apenas uma pergunta. Portanto, “converse” com seu tema e levante suas dúvidas sobre todas as variáveis possíveis, a partir daí, escolha um de seus questionamentos e avalie se é viável respondê-lo através do seu estudo.
-DICA: As perguntas do problema, geralmente, seguem este tipo de formato: “Existe uma relação entre… e …?”, “Quais são os fatores que determinam…?”, “Quais os efeitos de … sobre …?”, “Quais são as diferenças (ou semelhanças) entre … e …?”
-O PROBLEMA irá responder O QUÊ você deseja resolver realizando este estudo.
-Ex.: A redução do consume de carne na cidade de Florianópolis possui relação com o aumento da conscientização ambiental?
+>Podemos definir primeiros socorros como sendo os cuidados imediatos que devem ser prestados rapidamente a uma pessoa, vítima de acidentes ou de mal súbito com o fim de manter as funções vitais e evitar o agravamento de suas condições, aplicando medidas e procedimentos até a chegada de assistência qualificada. Entretanto, é notório que a maioria da população brasileira não apresenta os conhecimentos básicos para prestar tal ajuda, o que pode agravar o estado clínico do paciente. Esse desconhecimento tem como causa a falta/dificuldade de acesso à informação, a negligência e o medo. Logo, é um problema evidente que necessita de soluções práticas e inovadoras.
 
 
 ## Objetivos
@@ -146,7 +125,8 @@ Comparar a redução do consumo de carne com a conscientização ambiental em Fl
 >
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-> -
+> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+
 > Resumo links:
 > Apontar as possíveis contribuições do seu estudo para a área em que você busca a formação acadêmica ou para a sociedade em geral. Aqui pode entrar, também, a justificativa de questões pessoais ou profissionais que lhe levaram a realizar o estudo sobre o tema escolhido.
 A JUSTIFICATIVA irá responder o PORQUÊ de você estar realizando este estudo.
