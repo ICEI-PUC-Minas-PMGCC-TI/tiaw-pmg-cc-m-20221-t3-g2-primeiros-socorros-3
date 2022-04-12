@@ -1,11 +1,6 @@
-# Informações do Projeto
-`TÍTULO DO PROJETO`  
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-`CURSO` 
-
-Ciência da Computação
+# TRABALHO TIAW
+DESCONHECIMENTO SOBRE PRIMEIROS SOCORROS
+Primeiro Período - Ciência da Computação PUC Minas
 
 ## Participantes
 
