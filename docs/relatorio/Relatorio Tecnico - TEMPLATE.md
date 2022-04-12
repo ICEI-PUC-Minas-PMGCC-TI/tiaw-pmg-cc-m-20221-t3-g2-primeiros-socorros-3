@@ -1,5 +1,10 @@
 # TRABALHO TIAW
-DESCONHECIMENTO SOBRE PRIMEIROS SOCORROS
+
+`Tema`
+
+Desconhecimento Sobre Primeiros Socorros
+
+`Curso`
 
 Primeiro Período - Ciência da Computação PUC Minas
 
@@ -19,6 +24,8 @@ Os membros do grupo são:
 - [Introdução](#introdução)
   - [Problema](#problema)
   - [Objetivos](#objetivos)
+    - [Objetivo Geral](#objetivo-geral)
+    - [Objetivos Específicos](#objetivos-especificos)
   - [Justificativa](#justificativa)
   - [Público-Alvo](#público-alvo)
 - [Especificações do Projeto](#especificações-do-projeto)
@@ -50,60 +57,30 @@ Os membros do grupo são:
 
 ## Problema
 
-  Podemos definir primeiros socorros como sendo os cuidados imediatos que devem ser prestados rapidamente a uma pessoa, vítima de acidentes ou de mal súbito com o fim de manter as funções vitais e evitar o agravamento de suas condições, aplicando medidas e procedimentos até a chegada de assistência qualificada. Entretanto, é notório que a maioria da população brasileira não apresenta os conhecimentos básicos para prestar tal ajuda, o que pode agravar o estado clínico do paciente. Esse desconhecimento tem como causa a falta/dificuldade de acesso à informação, a negligência e o medo. Logo, é um problema evidente que necessita de soluções práticas e inovadoras.
-
-
+  Pode-se definir primeiros socorros como sendo os cuidados imediatos que devem ser prestados rapidamente a uma pessoa, a vítima de acidentes ou de mal súbito, com o fim de manter as funções vitais e de evitar o agravamento de suas condições, aplicando medidas e procedimentos até a chegada de assistência qualificada. Entretanto, é notório que a maioria da população brasileira não apresenta os conhecimentos básicos para prestar tal ajuda, o que pode agravar o estado clínico do paciente. Esse desconhecimento tem como causa a falta e a dificuldade de acesso à informação, a negligência e o medo populacional. Logo, é um problema evidente que necessita de soluções práticas e inovadoras.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### Objetivo Geral
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-> -
-> -
-> -Resumo links:
->   -- Geral:
-> Definir o que você está buscando com o problema que foi levantado para o estudo, ou seja, onde você deseja chegar com essa pesquisa.
-Utilizar verbos sempre no infinitivo, expressando a delimitação do tema
-Os OBJETIVOS irão responder COMO você fará para responder ao problema deste estudo.
+  Tem-se o objetivo de desenvolver um software capaz de ampliar o conhecimento e a divulgação sobre os cuidados e as práticas relacionados aos Primeiros Socorros.
 
-Exemplo:
-“Verificar se existe relação entre a redução de consumo de carne na cidade de Florianópolis e o aumento de conscientização ambiental”
-Finalidade do trabalho: Verificar se existe relação entre a redução de consumo de carne e o aumento de conscientização ambiental
-Delimitação da pesquisa: na cidade de Florianópolis
+### Objetivos especificos
 
-Verbos a serem utilizados:
-– Verbos de conhecimento: Associar; calcular; citar; classificar; definir; descrever; distinguir; enumerar; especificar; enunciar; estabelecer; exemplificar; expressar; identificar; indicar; medir; mostrar; nomear; registrar; relacionar; relatar; selecionar.
-
-– Verbos de compreensão: Concluir; descrever; distinguir; deduzir; demonstrar; discutir; explicar; identificar; ilustrar; inferir; interpretar; localizar – relatar; revisar.
-Verbos de Aplicação: Aplicar; estruturar; ilustrar; interpretar; organizar; relacionar.
-
-– Verbos de aplicação: Aplicar; Demonstrar; Dramatizar; Empregar; Ilustrar; Interpretar; Praticar; Traçar; Usar;
-
-– Verbos de análise: Analisar; classificar; categorizar; combinar; comparar; comprovar; contrastar; correlacionar; diferenciar; discutir; detectar; descobrir; discriminar; examinar; experimentar; identificar; investigar; provar; selecionar.
-
-– Verbos de síntese: Combinar; compor; criar; comprovar; deduzir; desenvolver; documentar; explicar; organizar; planejar; relacionar.
-– Verbos de avaliação: Avaliar; concluir; constatar; criticar; interpretar; julgar; justificar; padronizar; relacionar; selecionar; validar; valorizar.
-
->  -- Especificos:
->  Além dos mesmos verbos, Descrever as etapas da pesquisa em sequência de execução para alcançar ao objetivo central (descrevem os resultados que se pretender alcançar a partir da pesquisa).
-Redigidos em formato de tópicos. 
-Verbos no infinitivo.
-Os OBJETIVOS irão responder COMO você fará para responder ao problema deste estudo.
-
-Exemplo:
-Analisar a redução do consumo de carne em Florianópolis
-Analisar o aumento da conscientização ambiental em Florianópolis
-Comparar a redução do consumo de carne com a conscientização ambiental em Florianópolis
-
-
+  Exemplificar e identificar as formas de acidentes mais presentes;
+  Minimizar as possíveis vítimas, graves ou fatais, de acidentes em casa;
+  Colaborar com a área da saúde e da medicida, no que tange ao atendimento de urgência;
+  Disponibilizar, no site, o conhecimento, utilizando videoaulas e tutoriais;
+  Sanar dúvidas sobre a prática do rápido salvamento em casos de acidentes;
+  Divulgar sites, videos e textos relacionados a Primeiros Socorros;
+  Maximizar o conhecimento sobre Primeiros Socorros;
+  Combinar praticidade, rapidez e simplicidade durante a criação do software;
+  Planejar e solucionar a falta de divulgação acerca dos Primeiros Socorros;
+  Proporcionar uma área virtual de acesso a uma grande parcela populacional;
+  Quebrar o paradigma de ser difícil, demorado e complexo o estudo sobre Primeiros Socorros;
+  Demonstrar o quão válido e necessário é o aprendizado nesta área;
+  Mediar o conhecimento entre o atendimento médico de urgência e as vítimas;
+  Capacitar uma maior parte da população para saber lidar com acidentes domésticos.
 
 ## Justificativa
 
