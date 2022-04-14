@@ -187,6 +187,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Fabiana            | videoaulas com medicos             | mostrar procedimentos válidos            |
 | Fabiana            | canal de comunicação com emergência| possibilitar um socorro rápido           |
 | Fabiana            | hiperlinks com mais informações    | ampliar o leque de conhecimento          |
+| Fabiana            | poder fazer comentários            | disponível a outros usuários/pacientes   |
+| Fabiana            |cadastro diferencial a médicos      | compartilhar em reuniões do hospital     |
 | Fabiana            |                                    |                                          |
 | Lucas              | incluir informações sobre esporte  | que alunos e colegas de profissão acessem|
 | Lucas              | software disponível para celular   | poder acessar mais facilmente em campo   |
@@ -199,7 +201,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Helena             | site simples e acessível           | que parentes e familizares possam usar   |
 | Helena             | explicação simples e eficaz        | sua avó poder abrir caso precise         |
 | Helena             |demostração de cada tipo de acidente| se sentir preparada em variadas situações|
-| Helena             |                                    |                                          |
+| Helena             | poder abrir no celular             |ser prática, pois computador pode demorar |
 | Helena             |                                    |                                          |
 | Helena             |                                    |                                          |
 
@@ -220,10 +222,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito                                             | Prioridade |
+|------|-----------------------------------------                           |------------|
+|RF-001| Possibilitar o compartilhamento de links para divulgação           | ALTA       | 
+|RF-002| Permitir o cadastro de usuário                                     | MÉDIA      |
+|RF-003| Possibilitar canal de comunicação direta com canais de emergência  | ALTA       |
+|RF-004| Exemplificar os tipos de acidentes mais comuns                     | ALTA       |
+|RF-005| Proporcionar videoaulas informativas sobre prevenção               | ALTA       |
+|RF-005| Disponibilizar o tipo de socorro preciso às situações comuns       | ALTA       |
+|RF-006| Ter área exclusiva para discussão no esporte                       | BAIXA      |
 
 
 ### Requisitos não Funcionais
