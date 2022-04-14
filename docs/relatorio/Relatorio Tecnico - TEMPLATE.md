@@ -222,23 +222,32 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito                                             | Prioridade |
-|------|-----------------------------------------                           |------------|
-|RF-001| Possibilitar o compartilhamento de links para divulgação           | ALTA       | 
-|RF-002| Permitir o cadastro de usuário                                     | MÉDIA      |
-|RF-003| Possibilitar canal de comunicação direta com canais de emergência  | ALTA       |
-|RF-004| Exemplificar os tipos de acidentes mais comuns                     | ALTA       |
-|RF-005| Proporcionar videoaulas informativas sobre prevenção               | ALTA       |
-|RF-005| Disponibilizar o tipo de socorro preciso às situações comuns       | ALTA       |
-|RF-006| Ter área exclusiva para discussão no esporte                       | BAIXA      |
+|ID    | Descrição do Requisito                                                         | Prioridade |
+|------|--------------------------------------------------------------------------------|------------|
+|RF-001| O site deve possibilitar o compartilhamento de links para divulgação           | ALTA       | 
+|RF-002| O site deve possibilitar canal de comunicação direta com canais de emergência  | ALTA       |
+|RF-003| O site deve exemplificar os tipos de acidentes mais comuns                     | ALTA       |
+|RF-004| O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção | ALTA       |
+|RF-005| O site deve disponibilizar o tipo de socorro preciso às situações comuns       | ALTA       |
+|RF-006| O site deve permitir o cadastro de usuário                                     | MÉDIA      |
+|RF-006| O site deve permitir o cadastro de médicos                                     | MÉDIA      |
+|RF-008| O site deve ter área exclusiva para discussão no esporte                       | BAIXA      |
+|RF-009| O site deve exibir comentários de médicos sobre as aulas                       | BAIXA      |
+|RF-010|                                                                                |            |
+|RF-011|                                                                                |            |
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito                                                         | Prioridade |
+|-------|--------------------------------------------------------------------------------|------------|
+|RNF-001| O site deve ser responsivo para rodar em um dispositivos móvel                 | ALTA       | 
+|RNF-002| O site deve ser de acesso fácil, fluido e simplicado                           | ALTA       |
+|RNF-003| O site deve ser responsivo para rodar em um dispositivos móvel                 | ALTA       |
+|RNF-004| O site deve possuir compatibilidade com maior parte dos navegadores            | ALTA       |
+|RNF-005| O site deve apresentar um layout clean e intuitivo                             | ALTA       | 
+|RNF-006|                                                                                |            | 
+|RNF-007|                                                                                |            | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
@@ -266,11 +275,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|ID| Restrição                                                               |
+|--|-------------------------------------------------------------------------|
+|01| O projeto final deverá ser entregue até o final do semestre ( 03 / 07 ) |
+|02| Não pode ser desenvolvido um módulo de backend                          |
+|03| O site deve ser feito exclusivamente pelos estudantes do curso          |
+|04|                                                                         |
+|05|                                                                         |
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
 > geralmente limitam a solução candidata.
@@ -282,7 +293,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+Após um maior entendimento e esclarecimento sobre a ideia, utilizando as personas, as histórias de usuários e os requisitos, percebe-se que o ponto diferencial do projeto deverá ser um site que proporcione fluidez e agilidade durante o uso, uma vez que, por se tratar de Primeiros Socorros, o tempo é, sem dúvida, um elemento de extremo valor. Ademais, um layout clean é importante para não confundir o usuário durante a utilização. Tendo isso em vista, desenhou-se a seguinte interface ...(?)
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
@@ -363,12 +374,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
-| Ambiente  | Plataforma              |Link de Acesso |
-|-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+| Ambiente                   | Plataforma        |Link de Acesso                                                                            |
+|----------------------------|-------------------|------------------------------------------------------------------------------------------|
+|Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB68uOY=/                                                 | 
+|Repositório de código       | GitHub            | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t3-g2-primeiros-socorros-3| 
+|Hospedagem do site          | Heroku            | https://XXXXXXX.herokuapp.com             | 
+|Protótipo Interativo        | MavelApp ou Figma | https://figma.com/XXXXXXX               | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
