@@ -140,7 +140,7 @@ Comportamentais: como vivem e o que fazem estas pessoas, por exemplo, o que comp
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-  Durante o processo de entendimento e de consolidação das ideias, foram criadas três personas, com seus respectivos mapas de empatia, representado um válido mecanismo de compreensão do problema, bem como uma forma de tornar a ideia mais palpável. Os aspectos mais relevantes, favoráveis ou não à resolução do desafio levantado, foram articulados na parte de histórias de usuários e, em seguida, eluciados na área de requisitos e restrições. 
+  Durante o processo de entendimento e de consolidação das ideias, foram criadas três personas, com seus respectivos mapas de empatia, representado um válido mecanismo de compreensão do problema, bem como uma forma de tornar a ideia mais palpável. Os aspectos mais relevantes, favoráveis ou não à resolução do desafio levantado, foram articulados na parte de histórias de usuários e, em seguida, eluciados na área de requisitos e de restrições.
 
 
 > Apresente uma visão geral do que será abordado nesta parte do
