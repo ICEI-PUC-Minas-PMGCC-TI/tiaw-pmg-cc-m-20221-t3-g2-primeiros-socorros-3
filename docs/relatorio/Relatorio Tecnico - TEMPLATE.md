@@ -86,54 +86,10 @@ Os membros do grupo são:
 
 O que impulsionou a realização desse trabalho foi a compreensão em grande escala de desinformação dos primeiros socorros, tendo como base a necessidade da ampliação dos meios de divulgação. A escolha do tema ACIDENTES DOMÉSTICOS foi feita visando acidentes recorrentes e que em muitos casos não agimos de forma correta.
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
-> Resumo links:
-> Apontar as possíveis contribuições do seu estudo para a área em que você busca a formação acadêmica ou para a sociedade em geral. Aqui pode entrar, também, a justificativa de questões pessoais ou profissionais que lhe levaram a realizar o estudo sobre o tema escolhido.
-A JUSTIFICATIVA irá responder o PORQUÊ de você estar realizando este estudo.
-Possui 4 pontos:
-*O porquê (motivo pelo qual este tema foi escolhido),
-*O que (qual a função do projeto),
-*Quem (público alvo da obra)
-*E base (fonte de informações onde seu trabalho está baseado).
-
-![image](https://user-images.githubusercontent.com/103389529/162645445-ab97640b-1d35-47cb-875e-3dd7e0cc785a.png)
-
-
 
 ## Público-Alvo
 
 O público alvo do nosso projeto são tanto empresas que em parceria com nosso site seriam beneficiadas de um material interativo com os usuários do serviço, que facilitariam na aprendizagem de manobras e procedimentos corretos a serem realizados em situações emergenciais. Assim como pessoas no âmbito geral do que se diz respeito a área da saúde, podendo adquirir conhecimento prévio e ser capacitado a lidar com situações extremas.
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. 
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
-> -
->   Resumo links:
->   Conjunto de pessoas com maiores chances de interesse pelo que você tem a oferecer.
- 
-As características de seu público-alvo são de duas naturezas principais: demográficas e comportamentais.
-Demográficas: quem são, onde moram, idade, estado civil, se têm filhos, com o que trabalham, quanto ganham
-Comportamentais: como vivem e o que fazem estas pessoas, por exemplo, o que compram, quanto gastam, entre outras características.
-É a parcela da população para quem se destina sua mensagem, serviço ou produto. O público-alvo pode se definir por: região, classe social, poder de compra, faixa etária, sexo, comportamento e preferências.
 
  
 # Especificações do Projeto
@@ -189,14 +145,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Fabiana            | hiperlinks com mais informações    | ampliar o leque de conhecimento          |
 | Fabiana            | poder fazer comentários            | disponível a outros usuários/pacientes   |
 | Fabiana            |cadastro diferencial a médicos      | compartilhar em reuniões do hospital     |
-| Fabiana            |                                    |                                          |
+|                    |                                    |                                          |
 | Lucas              | incluir informações sobre esporte  | que alunos e colegas de profissão acessem|
 | Lucas              | software disponível para celular   | poder acessar mais facilmente em campo   |
 | Lucas              | falas de especialistas             | conseguir passar segurante aos colegas   |
 | Lucas              | parceria com uma empresa de esporte| possibilitar um engajamento dos jogadores|
-| Lucas              |                                    |                                          |
-| Lucas              |                                    |                                          |
-| Lucas              |                                    |                                          |
+|                    |                                    |                                          |
 | Helena             | acesso rápido e simplificado       | saber cuidar da sua avó                  |
 | Helena             | site simples e acessível           | que parentes e familizares possam usar   |
 | Helena             | explicação simples e eficaz        | sua avó poder abrir caso precise         |
@@ -205,16 +159,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Helena             |                                    |                                          |
 | Helena             |                                    |                                          |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
@@ -249,27 +193,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-006|                                                                                |            | 
 |RNF-007|                                                                                |            | 
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 
 ## Restrições
 
@@ -278,17 +201,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                                               |
 |--|-------------------------------------------------------------------------|
 |01| O projeto final deverá ser entregue até o final do semestre ( 03 / 07 ) |
-|02| Não pode ser desenvolvido um módulo de backend                          |
+|02| Não pode ser desenvolvido um módulo de back-end                          |
 |03| O site deve ser feito exclusivamente pelos estudantes do curso          |
 |04|                                                                         |
 |05|                                                                         |
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
 # Projeto de Interface
