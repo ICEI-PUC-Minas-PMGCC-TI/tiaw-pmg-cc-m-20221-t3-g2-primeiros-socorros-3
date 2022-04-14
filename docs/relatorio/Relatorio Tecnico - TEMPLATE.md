@@ -84,7 +84,7 @@ Os membros do grupo são:
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O que impulsionou a realização desse trabalho foi a compreensão em grande escala de desinformação dos primeiros socorros, tendo como base a necessidade da ampliação dos meios de divulgação. A escolha do tema ACIDENTES DOMÉSTICOS foi feita visando acidentes recorrentes e que em muitos casos não agimos de forma correta.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -114,7 +114,7 @@ Possui 4 pontos:
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público alvo do nosso projeto são tanto empresas que em parceria com nosso site seriam beneficiadas de um material interativo com os usuários do serviço, que facilitariam na aprendizagem de manobras e procedimentos corretos a serem realizados em situações emergenciais. Assim como pessoas no âmbito geral do que se diz respeito a área da saúde, podendo adquirir conhecimento prévio e ser capacitado a lidar com situações extremas.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
