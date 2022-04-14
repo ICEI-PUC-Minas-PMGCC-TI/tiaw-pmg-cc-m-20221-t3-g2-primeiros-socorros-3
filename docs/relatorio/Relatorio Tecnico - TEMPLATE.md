@@ -117,11 +117,7 @@ Possui 4 pontos:
 O público alvo do nosso projeto são tanto empresas que em parceria com nosso site seriam beneficiadas de um material interativo com os usuários do serviço, que facilitariam na aprendizagem de manobras e procedimentos corretos a serem realizados em situações emergenciais. Assim como pessoas no âmbito geral do que se diz respeito a área da saúde, podendo adquirir conhecimento prévio e ser capacitado a lidar com situações extremas.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
+> diferentes perfis. 
 >
 > Adicione informações sobre o público-alvo por meio de uma descrição
 > textual, ou diagramas de personas, mapa de stakeholders, ou como o
