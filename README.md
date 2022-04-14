@@ -1,6 +1,6 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7591145&assignment_repo_type=AssignmentRepo)
 # Nome do projeto
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O desconhecimento sobre primeiros socorros é inegável na sociedade, pois, embora extremamente necessário, é um tema pouquíssimo discutido e divulgado. Entretanto, o maior conhecimento nessa área, além de ser um recurso útil no dia a dia de cada uma das pessoas, em especial daquelas que venham a presenciar algum acidente, favorece o trabalho de médicos e de enfermeiros em caso de urgência, possibilitando, assim, o cuidado de mais vítimas com êxito.
 
 ## Alunos integrantes da equipe
 
@@ -11,8 +11,9 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Calor Alberto Marques Pietrobon
+* Daniel de Oliveira Capanema (? - conferir!)
+* Rommel Vieira Carneiro
 
 ## Instruções de utilização
 
