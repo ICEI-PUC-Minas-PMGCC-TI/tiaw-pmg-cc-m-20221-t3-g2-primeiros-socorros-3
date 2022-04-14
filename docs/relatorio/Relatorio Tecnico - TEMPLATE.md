@@ -179,28 +179,29 @@ Comportamentais: como vivem e o que fazem estas pessoas, por exemplo, o que comp
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-| Fabiana            | um site mais divulgado             | conseguir salvar mais pacientes        |
-| Fabiana            | informações corretas e comprovadas | evitar que medidas erradas sejam tomadas|
-| Fabiana            | uma plataforma online              | recomendar aos pacientes               |
-| Fabiana            | videoaulas com medicos             | mostrar procedimentos válidos          |
-| Fabiana            | canal de comunicação com emergência| possibilitar um socorro rápido         |
-| Fabiana            | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                   |
+|--------------------|------------------------------------|------------------------------------------|
+| Fabiana            | um site mais divulgado             | conseguir salvar mais pacientes          |
+| Fabiana            | informações corretas e comprovadas | evitar que medidas erradas sejam tomadas |
+| Fabiana            | uma plataforma online              | poder recomendar aos pacientes           |
+| Fabiana            | videoaulas com medicos             | mostrar procedimentos válidos            |
+| Fabiana            | canal de comunicação com emergência| possibilitar um socorro rápido           |
+| Fabiana            | hiperlinks com mais informações    | ampliar o leque de conhecimento          |
+| Fabiana            |                                    |                                          |
 | Lucas              | incluir informações sobre esporte  | que alunos e colegas de profissão acessem|
-| Lucas              | Alterar permissões                 | Permitir que possam administrar contas |
-| Lucas              | Alterar permissões                 | Permitir que possam administrar contas |
-| Lucas              | Alterar permissões                 | Permitir que possam administrar contas |
-| Lucas              | Alterar permissões                 | Permitir que possam administrar contas |
-| Lucas              | Alterar permissões                 | Permitir que possam administrar contas |
-| Helena             | acesso rápido e simplificado       | saber cuidar da sua avó                |
-| Helena             | site simples e acessível           | que parentes e familizares possam usar |
-| Helena             | explicação simples e eficaz        | sua avó poder abrir caso precise       |
-| Helena             | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-| Helena             | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-| Helena             | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-
-
+| Lucas              | software disponível para celular   | poder acessar mais facilmente em campo   |
+| Lucas              | falas de especialistas             | conseguir passar segurante aos colegas   |
+| Lucas              | parceria com uma empresa de esporte| possibilitar um engajamento dos jogadores|
+| Lucas              |                                    |                                          |
+| Lucas              |                                    |                                          |
+| Lucas              |                                    |                                          |
+| Helena             | acesso rápido e simplificado       | saber cuidar da sua avó                  |
+| Helena             | site simples e acessível           | que parentes e familizares possam usar   |
+| Helena             | explicação simples e eficaz        | sua avó poder abrir caso precise         |
+| Helena             |demostração de cada tipo de acidente| se sentir preparada em variadas situações|
+| Helena             |                                    |                                          |
+| Helena             |                                    |                                          |
+| Helena             |                                    |                                          |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
