@@ -107,23 +107,14 @@ O público alvo do nosso projeto são tanto empresas que em parceria com nosso s
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
+**Lucas:**
+Descrição: Jovem de 18 anos, que sonha em trabalhar ensinando futebol a crianças. Faz trabalho voluntários quando pode e sente grande prazer e realização nessa atividade.
+Como ele usaria nosso serviço: Além dele aprender os primeiros socorros para utilizar em sua futura profissão, uma vez que é um ambiente propicio a acidentes, ele vai utilizar caso aconteça algum acidente enquanto ele faz trabalho voluntário em asilos ou em creches.
 
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
+**Helena:** 
+Descrição: Jovem de 18 anos, que estuda psicologia e ama ler e estudar. Mora com a avó, já idosa, e com seus pais. 
+Como ela usaria nosso serviço: Ela poderia ajudar a avó em caso de acidentes, uma vez que ela teria o conhecimento prévio de primeiros socorros.
+
 > **Exemplo de Persona**
 > 
 > ![Exemplo de Persona](imaages/../images/persona.png)
