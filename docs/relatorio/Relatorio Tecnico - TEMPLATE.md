@@ -179,7 +179,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-Após um maior entendimento e esclarecimento sobre a ideia, utilizando as personas, as histórias de usuários e os requisitos, percebe-se que o ponto diferencial do projeto deverá ser um site que proporcione fluidez e agilidade durante o uso, uma vez que, por se tratar de Primeiros Socorros, o tempo é, sem dúvida, um elemento de extremo valor. Ademais, um layout clean é importante para não confundir o usuário durante a utilização. Tendo isso em vista, desenhou-se a seguinte interface ...(?)
+  Após um maior entendimento e esclarecimento sobre a ideia, utilizando as personas, as histórias de usuários e os requisitos, percebe-se que o ponto diferencial do projeto deverá ser um site que proporcione fluidez e agilidade durante o uso, uma vez que, por se tratar de Primeiros Socorros, o tempo é, sem dúvida, um elemento de extremo valor. Ademais, um layout clean é importante para não confundir o usuário durante a utilização. Tendo isso em vista, desenhou-se a seguinte interface ...(?)
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
@@ -188,27 +188,40 @@ Após um maior entendimento e esclarecimento sobre a ideia, utilizando as person
 
 ## User Flow
 
+  O seguinte User Flow, representado pela Figura 1, mostra, de forma simplificada, a interação que será proporcionada entre o usuário e o software. Cada processo de telas está devidamente legendado.
+
 ![image](https://user-images.githubusercontent.com/103389529/163689900-6276575f-4e65-476a-802a-38c64a66715c.png)
+
+Figura 1 - Fluxo de telas do Usuário
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+Os Wireframes, baseados no User Flow e retratados nas figuras 2 a 6, apresentam um sistemas de telas com interações simples, rápidas e práticas, visando, sempre, a um acesso facilitado pelo usuário, de modo a plataforma servir como uma facilitador, e não um dificultador no processo dos Primeiros Socorros.
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+![image](https://user-images.githubusercontent.com/103389529/163690252-46ea4453-285e-497e-8bbd-2deed2e219ee.png)
+Figura 2 - Página Inicial
 
+Explicação:
+
+![image](https://user-images.githubusercontent.com/103389529/163690311-34ebb390-73a5-402e-bcb6-12423f9552f9.png)
+Figura 3 - Página Inicial (alternativa)
+
+Explicação:
+
+![image](https://user-images.githubusercontent.com/103389529/163690267-f3f104bc-22af-4631-b525-c82b782d532d.png)
+Figura 4 - Página de Pesquisa
+
+Explicação:
+
+![image](https://user-images.githubusercontent.com/103389529/163690378-b0be8d30-cd73-43dc-869c-e56063a95ae1.png)
+Figura 5 - Página Principal
+
+Explicação:
+
+![image](https://user-images.githubusercontent.com/103389529/163690405-2dda1a57-52eb-42bf-a210-7351f23358fc.png)
+Figura 6 - Página de Comentários
+
+Explicação:
 
 # Metodologia
 
@@ -232,7 +245,8 @@ Após um maior entendimento e esclarecimento sobre a ideia, utilizando as person
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  O trabalho precisou, sem dúvidas, ser dividido entre os quatro integrantes para que fosse completado com sucesso.
+  
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
