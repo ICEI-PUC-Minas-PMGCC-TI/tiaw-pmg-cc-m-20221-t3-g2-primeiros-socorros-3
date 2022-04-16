@@ -203,7 +203,7 @@ Figura 2 - Página Inicial
 
 Explicação:
 
-![image](https://user-images.githubusercontent.com/103389529/163690311-34ebb390-73a5-402e-bcb6-12423f9552f9.png)
+![image](https://user-images.githubusercontent.com/103389529/163690528-8fbb7ef9-44a6-41e7-8b1a-78795f5a372a.png)
 Figura 3 - Página Inicial (alternativa)
 
 Explicação:
@@ -213,12 +213,12 @@ Figura 4 - Página de Pesquisa
 
 Explicação:
 
-![image](https://user-images.githubusercontent.com/103389529/163690378-b0be8d30-cd73-43dc-869c-e56063a95ae1.png)
+![image](https://user-images.githubusercontent.com/103389529/163690475-dcd426d6-f784-4558-91d2-f63a211f3d26.png)
 Figura 5 - Página Principal
 
 Explicação:
 
-![image](https://user-images.githubusercontent.com/103389529/163690405-2dda1a57-52eb-42bf-a210-7351f23358fc.png)
+![image](https://user-images.githubusercontent.com/103389529/163690465-4e08ba60-dc68-4ca0-b9aa-fb5919c3078a.png)
 Figura 6 - Página de Comentários
 
 Explicação:
@@ -257,13 +257,13 @@ Explicação:
 
 ## Ferramentas
 
-| Ambiente                   | Plataforma        |Link de Acesso                                                                                |
-|----------------------------|-------------------|----------------------------------------------------------------------------------------------|
-|Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB68uOY=/                                                     | 
-|Repositório de código       | GitHub            | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t3-g2-primeiros-socorros-3    | 
-|User Flow                   | Figma             | https://www.figma.com/file/gfqgNdxjHh7YSI8eMX13BK/User-flow--Primeiros-socorros?node-id=0%3A1| 
-|Hospedagem do site          | Heroku            | https://XXXXXXX.herokuapp.com             | 
-|Protótipo Interativo        | MavelApp ou Figma | https://figma.com/XXXXXXX               | 
+| Ambiente                   | Plataforma        |Link de Acesso                                                                                 |
+|----------------------------|-------------------|-----------------------------------------------------------------------------------------------|
+|Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB68uOY=/                                                      | 
+|Repositório de código       | GitHub            | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t3-g2-primeiros-socorros-3     | 
+|User Flow                   | Figma             | https://www.figma.com/file/gfqgNdxjHh7YSI8eMX13BK/User-flow--Primeiros-socorros?node-id=0%3A1 | 
+|Wireframes                  | Figma             | https://www.figma.com/file/KxY5qxhoxyo6xGYenlH0Rg/Wireframe-Primeiros-Socorros?node-id=8%3A372| 
+|Protótipo Interativo        | Figma             | https://figma.com/XXXXXXX                                                                     | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
