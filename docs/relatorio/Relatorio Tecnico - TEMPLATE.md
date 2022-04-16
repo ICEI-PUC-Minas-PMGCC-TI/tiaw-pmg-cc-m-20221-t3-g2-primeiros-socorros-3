@@ -84,24 +84,17 @@ Os membros do grupo são:
 
 ## Justificativa
 
-O que impulsionou a realização desse trabalho foi a compreensão em grande escala de desinformação dos primeiros socorros, tendo como base a necessidade da ampliação dos meios de divulgação. A escolha do tema ACIDENTES DOMÉSTICOS foi feita visando acidentes recorrentes e que em muitos casos não agimos de forma correta.
+  O que impulsionou a realização deste trabalho foi a compreensão, em grande escala de desinformação, dos primeiros socorros, tendo como base a necessidade de uma ampliação dos meios de divulgação. A escolha do tema acidentes domésticos foi feita visando a acidentes recorrentes e que, em muitos casos, não há uma atitude correta de auxílio e de socorro.
 
 
 ## Público-Alvo
 
-O público alvo do nosso projeto são tanto empresas que em parceria com nosso site seriam beneficiadas de um material interativo com os usuários do serviço, que facilitariam na aprendizagem de manobras e procedimentos corretos a serem realizados em situações emergenciais. Assim como pessoas no âmbito geral do que se diz respeito a área da saúde, podendo adquirir conhecimento prévio e ser capacitado a lidar com situações extremas.
+  O público alvo do projeto compreende tanto empresas que, em parceria com o site, seriam beneficiadas de um material interativo com os usuários do serviço, facilitando na aprendizagem de manobras e de procedimentos corretos a serem realizados em situações emergenciais. Quanto as pessoas, no âmbito geral, do que se diz respeito à área da saúde, podendo adquirir conhecimentos prévios e seres capacitadas a lidar com situações de urgência.
 
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
   Durante o processo de entendimento e de consolidação das ideias, foram criadas três personas, com seus respectivos mapas de empatia, representado um válido mecanismo de compreensão do problema, bem como uma forma de tornar a ideia mais palpável. Os aspectos mais relevantes, favoráveis ou não à resolução do desafio levantado, foram articulados na parte de histórias de usuários e, em seguida, eluciados na área de requisitos e de restrições.
-
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
 
 ## Personas e Mapas de Empatia
 
@@ -136,20 +129,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Fabiana            | hiperlinks com mais informações    | ampliar o leque de conhecimento          |
 | Fabiana            | poder fazer comentários            | disponível a outros usuários/pacientes   |
 | Fabiana            |cadastro diferencial a médicos      | compartilhar em reuniões do hospital     |
-|                    |                                    |                                          |
 | Lucas              | incluir informações sobre esporte  | que alunos e colegas de profissão acessem|
 | Lucas              | software disponível para celular   | poder acessar mais facilmente em campo   |
 | Lucas              | falas de especialistas             | conseguir passar segurante aos colegas   |
 | Lucas              | parceria com uma empresa de esporte| possibilitar um engajamento dos jogadores|
-|                    |                                    |                                          |
 | Helena             | acesso rápido e simplificado       | saber cuidar da sua avó                  |
 | Helena             | site simples e acessível           | que parentes e familizares possam usar   |
 | Helena             | explicação simples e eficaz        | sua avó poder abrir caso precise         |
 | Helena             |demostração de cada tipo de acidente| se sentir preparada em variadas situações|
 | Helena             | poder abrir no celular             |ser prática, pois computador pode demorar |
-| Helena             |                                    |                                          |
-| Helena             |                                    |                                          |
-
 
 ## Requisitos
 
@@ -165,12 +153,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção | ALTA       |
 |RF-005| O site deve disponibilizar o tipo de socorro preciso às situações comuns       | ALTA       |
 |RF-006| O site deve permitir o cadastro de usuário                                     | MÉDIA      |
-|RF-006| O site deve permitir o cadastro de médicos                                     | MÉDIA      |
+|RF-007| O site deve permitir o cadastro de médicos                                     | MÉDIA      |
 |RF-008| O site deve ter área exclusiva para discussão no esporte                       | BAIXA      |
 |RF-009| O site deve exibir comentários de médicos sobre as aulas                       | BAIXA      |
-|RF-010|                                                                                |            |
-|RF-011|                                                                                |            |
-
 
 ### Requisitos não Funcionais
 
@@ -181,9 +166,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O site deve ser responsivo para rodar em um dispositivos móvel                 | ALTA       |
 |RNF-004| O site deve possuir compatibilidade com maior parte dos navegadores            | ALTA       |
 |RNF-005| O site deve apresentar um layout clean e intuitivo                             | ALTA       | 
-|RNF-006|                                                                                |            | 
-|RNF-007|                                                                                |            | 
-
 
 ## Restrições
 
@@ -192,12 +174,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                                               |
 |--|-------------------------------------------------------------------------|
 |01| O projeto final deverá ser entregue até o final do semestre ( 03 / 07 ) |
-|02| Não pode ser desenvolvido um módulo de back-end                          |
+|02| Não pode ser desenvolvido um módulo de back-end                         |
 |03| O site deve ser feito exclusivamente pelos estudantes do curso          |
-|04|                                                                         |
-|05|                                                                         |
-
-
 
 # Projeto de Interface
 
@@ -210,22 +188,7 @@ Após um maior entendimento e esclarecimento sobre a ideia, utilizando as person
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
-
+![image](https://user-images.githubusercontent.com/103389529/163689900-6276575f-4e65-476a-802a-38c64a66715c.png)
 
 ## Wireframes
 
@@ -280,12 +243,11 @@ Após um maior entendimento e esclarecimento sobre a ideia, utilizando as person
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
-| Ambiente                   | Plataforma        |Link de Acesso                                                                            |
-|----------------------------|-------------------|------------------------------------------------------------------------------------------|
-|Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB68uOY=/                                                 | 
-|Repositório de código       | GitHub            | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t3-g2-primeiros-socorros-3| 
+| Ambiente                   | Plataforma        |Link de Acesso                                                                                |
+|----------------------------|-------------------|----------------------------------------------------------------------------------------------|
+|Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB68uOY=/                                                     | 
+|Repositório de código       | GitHub            | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t3-g2-primeiros-socorros-3    | 
+|User Flow                   | Figma             | https://www.figma.com/file/gfqgNdxjHh7YSI8eMX13BK/User-flow--Primeiros-socorros?node-id=0%3A1| 
 |Hospedagem do site          | Heroku            | https://XXXXXXX.herokuapp.com             | 
 |Protótipo Interativo        | MavelApp ou Figma | https://figma.com/XXXXXXX               | 
 
