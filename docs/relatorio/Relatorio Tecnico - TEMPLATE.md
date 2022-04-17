@@ -220,7 +220,8 @@ Explicação:
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A metodologia usada foi de uma profunda analise pra implementação de um sólido processo de design thinking com a implementação do Scrum, na divisão de papéis foi separado no processo de Design thinking, projeção no figma, e construção do Wireframe
+no nosso processo de design thinking tentamos entrar na mente do usúario e analisar friamente os tipos de perfis tendenciosos a utilização do nosso serviço.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -241,6 +242,7 @@ Explicação:
 ## Divisão de Papéis
 
   O trabalho precisou, sem dúvidas, ser dividido entre os quatro integrantes para que fosse completado com sucesso.
+  
   
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
