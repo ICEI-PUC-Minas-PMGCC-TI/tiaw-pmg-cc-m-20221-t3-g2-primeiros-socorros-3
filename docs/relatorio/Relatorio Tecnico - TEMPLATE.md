@@ -221,24 +221,8 @@ Explicação:
 
 # Metodologia
 
-  A metodologia utilizada foi de uma profunda analise pra implementação de um sólido processo de design thinking com a implementação do Scrum, na divisão de papéis foi separado no processo de Design thinking, projeção no figma, e construção do Wireframe
-no nosso processo de design thinking tentamos entrar na mente do usúario e analisar friamente os tipos de perfis tendenciosos a utilização do nosso serviço.
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+  A metodologia utilizada compreende os mecanismos utilizados para que o projeto fosse comcluído de uma maneira prática e suave. Em especial, tomou-se como base o Design Thinking. Para tanto, inicialmente, realizou-se um brainstore no Miro, visando à obtenção de ideias e de pensamentos, de forma a startar o trabalho. Em seguida, foi feito um Google Forms com as perguntas direcionadoras de ideias e, em seguida, uma análise completa dos resultados. Dessa forma, foi possível perceber as demandas dos futuros usuários do software e compreender profundamente os tipos de perfis e as possíveis personas.
+  Assim, foi possível aprimorar e lapidar as ideias tidas no início do trabalho e, com elas, inciar a parte de requisitos funcionais e não funcionais. Logo, foi realizado o User Flow e o Wireframe, com o Figma, tendo sempre em vista as determinações dos usuários do serviço.
 
 ## Divisão de Papéis
 
