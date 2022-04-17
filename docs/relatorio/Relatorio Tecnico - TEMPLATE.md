@@ -98,7 +98,6 @@ Os membros do grupo são:
 
 ## Personas e Mapas de Empatia
 
-
 **Fabiana**
 
 ![image](https://user-images.githubusercontent.com/103389529/163735359-86c1d960-c8c6-4b8a-ae42-da08f6e04b61.png)          
@@ -118,41 +117,29 @@ Ele é um jovem de 18 anos, que, mesmo ainda na faculdade, sonha em trabalhar en
 ![image](https://user-images.githubusercontent.com/103389529/163735867-064435c9-5b21-43b4-800a-d2884ef5c6de.png)
 Figura 2 - Persona Helena
 
-É uma jovem de 18 anos e estudante de psicologia, sua grande paixão desde pequena. Amante de livros de romance e de estudos sobre a mente, mora com a sua avó, já idosa, e com seus pais. Ela tem um enorme medo de algo acontecer à sua querida avó. Então, embora se prepare pesquisando em alguns sites sobre possíveis acidentes, ainda não se sente apta a prestar todos os socorros, necessitando de um mecanismo online de fácil acesso. O mesmo ocorre com o ciclo familiar que percebe um significativo despreparo médico. Dessa forma, além de se capacitar, os seus pais e parentes poderiam ter um válido conhecimento prévio de Primeiros Socorros.
-
-ora com a avó, já idosa, e com seus pais. 
-Como ela usaria nosso serviço: Ela poderia ajudar a avó em caso de acidentes, uma vez que ela teria o conhecimento prévio de primeiros socorros.
-
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
-
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                   |
-|--------------------|------------------------------------|------------------------------------------|
-| Fabiana            | um site mais divulgado             | conseguir salvar mais pacientes          |
-| Fabiana            | informações corretas e comprovadas | evitar que medidas erradas sejam tomadas |
-| Fabiana            | uma plataforma online              | poder recomendar aos pacientes           |
-| Fabiana            | videoaulas com medicos             | mostrar procedimentos válidos            |
-| Fabiana            | canal de comunicação com emergência| possibilitar um socorro rápido           |
-| Fabiana            | hiperlinks com mais informações    | ampliar o leque de conhecimento          |
-| Fabiana            | poder fazer comentários            | disponível a outros usuários/pacientes   |
-| Fabiana            |cadastro diferencial a médicos      | compartilhar em reuniões do hospital     |
-| Lucas              | incluir informações sobre esporte  | que alunos e colegas de profissão acessem|
-| Lucas              | software disponível para celular   | poder acessar mais facilmente em campo   |
-| Lucas              | falas de especialistas             | conseguir passar segurante aos colegas   |
-| Lucas              | parceria com uma empresa de esporte| possibilitar um engajamento dos jogadores|
-| Helena             | acesso rápido e simplificado       | saber cuidar da sua avó                  |
-| Helena             | site simples e acessível           | que parentes e familizares possam usar   |
-| Helena             | explicação simples e eficaz        | sua avó poder abrir caso precise         |
-| Helena             |demostração de cada tipo de acidente| se sentir preparada em variadas situações|
-| Helena             | poder abrir no celular             |ser prática, pois computador pode demorar |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                           |
+|--------------------|------------------------------------|--------------------------------------------------|
+| Fabiana            | um site mais divulgado             | conseguir salvar mais pacientes                  | 
+| Fabiana            | informações corretas e comprovadas | evitar que medidas erradas sejam tomadas         |
+| Fabiana            | uma plataforma online              | poder recomendar aos pacientes e a parentes deles|
+| Fabiana            | videoaulas com medicos             | mostrar procedimentos válidos                    |
+| Fabiana            | canal de comunicação com emergência| possibilitar um socorro rápido                   |
+| Fabiana            | hiperlinks com mais informações    | ampliar o leque de conhecimento                  |
+| Fabiana            | poder fazer comentários            | disponível a outros usuários/pacientes           |
+| Fabiana            | cadastro diferencial a médicos     | compartilhar em reuniões da Casa de Idosos       |
+| Lucas              | incluir informações sobre esporte  | que alunos e colegas de profissão acessem        |
+| Lucas              | software disponível para celular   | poder acessar mais facilmente em campo           |
+| Lucas              | falas de especialistas             | conseguir passar segurança aos colegas           |
+| Lucas              | parceria com uma empresa de esporte| possibilitar um engajamento dos jogadores        |
+| Helena             | acesso rápido e simplificado       | saber cuidar da sua avó                          |
+| Helena             | site simples e acessível           | que parentes e familizares possam usar           |
+| Helena             | explicação simples e eficaz        | sua avó poder abrir caso precise                 |
+| Helena             |demostração de cada tipo de acidente| se sentir preparada em variadas situações        |
+| Helena             | poder abrir no celular             |ser prática, pois computador pode demorar         |
 
 ## Requisitos
 
@@ -178,9 +165,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|--------------------------------------------------------------------------------|------------|
 |RNF-001| O site deve ser responsivo para rodar em um dispositivos móvel                 | ALTA       | 
 |RNF-002| O site deve ser de acesso fácil, fluido e simplicado                           | ALTA       |
-|RNF-003| O site deve ser responsivo para rodar em um dispositivos móvel                 | ALTA       |
-|RNF-004| O site deve possuir compatibilidade com maior parte dos navegadores            | ALTA       |
-|RNF-005| O site deve apresentar um layout clean e intuitivo                             | ALTA       | 
+|RNF-003| O site deve possuir compatibilidade com maior parte dos navegadores            | ALTA       |
+|RNF-004| O site deve apresentar um layout clean e intuitivo                             | ALTA       | 
 
 ## Restrições
 
@@ -189,7 +175,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                                               |
 |--|-------------------------------------------------------------------------|
 |01| O projeto final deverá ser entregue até o final do semestre ( 03 / 07 ) |
-|02| Não pode ser desenvolvido um módulo de back-end                         |
+|02| Não pode ser desenvolvido um módulo de backend                          |
 |03| O site deve ser feito exclusivamente pelos estudantes do curso          |
 
 # Projeto de Interface
@@ -198,44 +184,44 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-  O User Flow, representado pela Figura 1, mostra, de forma simplificada, a interação que será proporcionada entre o usuário e o software. Cada processo de telas está devidamente legendado.
+  O User Flow, representado pela Figura 4, mostra, de forma simplificada, a interação que será proporcionada entre o usuário e o software. Cada processo de telas está devidamente legendado.
 
 ![image](https://user-images.githubusercontent.com/103389529/163689900-6276575f-4e65-476a-802a-38c64a66715c.png)
 
-Figura 1 - Fluxo de telas do Usuário
+Figura 4 - Fluxo de telas do Usuário
 
 ## Wireframes
 
-Os Wireframes, baseados no User Flow e retratados nas figuras 2 a 6, apresentam um sistemas de telas com interações simples, rápidas e práticas, visando, sempre, a um acesso facilitado pelo usuário, de modo a plataforma servir como uma facilitador, e não um dificultador no processo dos Primeiros Socorros.
+Os Wireframes, baseados no User Flow e retratados nas figuras 5 a 9, apresentam um sistemas de telas com interações simples, rápidas e práticas, visando, sempre, a um acesso facilitado pelo usuário, de modo a plataforma servir como uma facilitador, e não um dificultador no processo dos Primeiros Socorros.
 
 ![image](https://user-images.githubusercontent.com/103389529/163690252-46ea4453-285e-497e-8bbd-2deed2e219ee.png)
-Figura 2 - Página Inicial
+Figura 5 - Página Inicial
 
 Explicação:
 
 ![image](https://user-images.githubusercontent.com/103389529/163690528-8fbb7ef9-44a6-41e7-8b1a-78795f5a372a.png)
-Figura 3 - Página Inicial (alternativa)
+Figura 6 - Página Inicial (alternativa)
 
 Explicação:
 
 ![image](https://user-images.githubusercontent.com/103389529/163690267-f3f104bc-22af-4631-b525-c82b782d532d.png)
-Figura 4 - Página de Pesquisa
+Figura 7 - Página de Pesquisa
 
 Explicação:
 
 ![image](https://user-images.githubusercontent.com/103389529/163690475-dcd426d6-f784-4558-91d2-f63a211f3d26.png)
-Figura 5 - Página Principal
+Figura 8 - Página Principal
 
 Explicação:
 
 ![image](https://user-images.githubusercontent.com/103389529/163690465-4e08ba60-dc68-4ca0-b9aa-fb5919c3078a.png)
-Figura 6 - Página de Comentários
+Figura 9 - Página de Comentários
 
 Explicação:
 
 # Metodologia
 
-A metodologia usada foi de uma profunda analise pra implementação de um sólido processo de design thinking com a implementação do Scrum, na divisão de papéis foi separado no processo de Design thinking, projeção no figma, e construção do Wireframe
+  A metodologia utilizada foi de uma profunda analise pra implementação de um sólido processo de design thinking com a implementação do Scrum, na divisão de papéis foi separado no processo de Design thinking, projeção no figma, e construção do Wireframe
 no nosso processo de design thinking tentamos entrar na mente do usúario e analisar friamente os tipos de perfis tendenciosos a utilização do nosso serviço.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
