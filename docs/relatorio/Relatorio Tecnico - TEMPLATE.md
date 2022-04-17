@@ -100,17 +100,27 @@ Os membros do grupo são:
 
 
 **Fabiana**
+
 ![image](https://user-images.githubusercontent.com/103389529/163735359-86c1d960-c8c6-4b8a-ae42-da08f6e04b61.png)          
 Figura 1 - Persona Fabiana
 
 Ela tem 38 anos e trabalha como médica em uma Casa de Idosos, pois gosta de mudar o mundo e de fazer diferença na vida das pessoas. Pretende, sempre que possível, disponibilizar um maior conhecimento aos colegas de profissão e aos parentes de seus pacientes. Entretanto, ela se sente triste por não conseguir divulgar o suficiente sobre Primeiros Socorros para além dos muros de seu trabalho, o que dificulta o salvamento de vidas. Embora tenha perdido conhecidos devido à falta de tratamento correto, é motivada, diariamente, pela felicidade de quem ela trata com o devido suporte. Acreditando, então, que um site possa facilitar em todo esse processo.
 
 **Lucas:**
-Descrição: Jovem de 18 anos, que sonha em trabalhar ensinando futebol a crianças. Faz trabalho voluntários quando pode e sente grande prazer e realização nessa atividade.
-Como ele usaria nosso serviço: Além dele aprender os primeiros socorros para utilizar em sua futura profissão, uma vez que é um ambiente propicio a acidentes, ele vai utilizar caso aconteça algum acidente enquanto ele faz trabalho voluntário em asilos ou em creches.
+
+![image](https://user-images.githubusercontent.com/103389529/163735762-dcccfee9-9916-481f-8f0f-04b071a0625c.png)
+Figura 2 - Persona Lucas
+
+Ele é um jovem de 18 anos, que, mesmo ainda na faculdade, sonha em trabalhar ensinando futebol às crianças. Durante o tempo livre, adora ir à academia para relaxar e para desestresar. Faz trabalho voluntários quando pode e sente enorme prazer e realização nessa atividade, pois, durante a infância, sentiu falta desse carinho. Ele pensa que, além de ele aprender os primeiros socorros para utilizar em sua futura profissão, uma vez que é um ambiente propicio a situações de emergência, ele vai utilizar o site caso aconteça algum acidente enquanto ele faz trabalho voluntário em asilos ou em creches. Sendo, assim, um excelente mecanismo de divulgação de conhecimento.
 
 **Helena:** 
-Descrição: Jovem de 18 anos, que estuda psicologia e ama ler e estudar. Mora com a avó, já idosa, e com seus pais. 
+
+![image](https://user-images.githubusercontent.com/103389529/163735867-064435c9-5b21-43b4-800a-d2884ef5c6de.png)
+Figura 2 - Persona Helena
+
+É uma jovem de 18 anos e estudante de psicologia, sua grande paixão desde pequena. Amante de livros de romance e de estudos sobre a mente, mora com a sua avó, já idosa, e com seus pais. Ela tem um enorme medo de algo acontecer à sua querida avó. Então, embora se prepare pesquisando em alguns sites sobre possíveis acidentes, ainda não se sente apta a prestar todos os socorros, necessitando de um mecanismo online de fácil acesso. O mesmo ocorre com o ciclo familiar que percebe um significativo despreparo médico. Dessa forma, além de se capacitar, os seus pais e parentes poderiam ter um válido conhecimento prévio de Primeiros Socorros.
+
+ora com a avó, já idosa, e com seus pais. 
 Como ela usaria nosso serviço: Ela poderia ajudar a avó em caso de acidentes, uma vez que ela teria o conhecimento prévio de primeiros socorros.
 
 > **Exemplo de Persona**
