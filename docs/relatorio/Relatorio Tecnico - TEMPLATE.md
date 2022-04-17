@@ -68,7 +68,7 @@ Os membros do grupo são:
 ### Objetivos especificos
 
 - Exemplificar e identificar as formas de acidentes mais presentes;
-- Minimizar as possíveis vítimas, graves ou fatais, de acidentes em casa;
+- Minimizar as possíveis vítimas de acidentes em casa;
 - Colaborar com a área da saúde e da medicida, no que tange ao atendimento de urgência;
 - Disponibilizar, no site, o conhecimento, utilizando videoaulas e tutoriais;
 - Sanar dúvidas sobre a prática do rápido salvamento em casos de acidentes;
@@ -84,12 +84,12 @@ Os membros do grupo são:
 
 ## Justificativa
 
-  O que impulsionou a realização deste trabalho foi a compreensão, em grande escala de desinformação, dos primeiros socorros, tendo como base a necessidade de uma ampliação dos meios de divulgação. A escolha do tema acidentes domésticos foi feita visando a acidentes recorrentes e que, em muitos casos, não há uma atitude correta de auxílio e de socorro.
+  O que impulsionou a realização deste trabalho foi a percepção de que desinformação, em grande escala, acerca dos primeiros socorros, sendo perceptível, inclusive, no cotidiano. Assim, tendo como base a necessidade de uma ampliação dos meios de divulgação, a escolha de um recorte temático para o tema acidentes com idosos e com crianças foi feita, visando a acidentes recorrentes e que, em muitos casos, não há uma atitude correta de auxílio e de socorro.
 
 
 ## Público-Alvo
 
-  O público alvo do projeto compreende tanto empresas que, em parceria com o site, seriam beneficiadas de um material interativo com os usuários do serviço, facilitando na aprendizagem de manobras e de procedimentos corretos a serem realizados em situações emergenciais. Quanto as pessoas, no âmbito geral, do que se diz respeito à área da saúde, podendo adquirir conhecimentos prévios e seres capacitadas a lidar com situações de urgência.
+  O público alvo do projeto compreende tanto empresas que, em parceria com o site, seriam beneficiadas de um material interativo com os usuários do serviço, facilitando na aprendizagem de manobras e de procedimentos corretos a serem realizados em situações emergenciais. Quanto quem convive com a parcela populacional idosa e infantil, podendo adquirir conhecimentos prévios e seres capacitados a lidar com situações de urgência, no que se tange à área da saúde. 
 
  
 # Especificações do Projeto
@@ -98,7 +98,12 @@ Os membros do grupo são:
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+
+**Fabiana**
+![image](https://user-images.githubusercontent.com/103389529/163735359-86c1d960-c8c6-4b8a-ae42-da08f6e04b61.png)          
+Figura 1 - Persona Fabiana
+
+Ela tem 38 anos e trabalha como médica em uma Casa de Idosos, pois gosta de mudar o mundo e de fazer diferença na vida das pessoas. Pretende, sempre que possível, disponibilizar um maior conhecimento aos colegas de profissão e aos parentes de seus pacientes. Entretanto, ela se sente triste por não conseguir divulgar o suficiente sobre Primeiros Socorros para além dos muros de seu trabalho, o que dificulta o salvamento de vidas. Embora tenha perdido conhecidos devido à falta de tratamento correto, é motivada, diariamente, pela felicidade de quem ela trata com o devido suporte. Acreditando, então, que um site possa facilitar em todo esse processo.
 
 **Lucas:**
 Descrição: Jovem de 18 anos, que sonha em trabalhar ensinando futebol a crianças. Faz trabalho voluntários quando pode e sente grande prazer e realização nessa atividade.
