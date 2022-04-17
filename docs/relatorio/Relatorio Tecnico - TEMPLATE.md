@@ -117,6 +117,9 @@ Ele é um jovem de 18 anos, que, mesmo ainda na faculdade, sonha em trabalhar en
 ![image](https://user-images.githubusercontent.com/103389529/163735867-064435c9-5b21-43b4-800a-d2884ef5c6de.png)
 Figura 2 - Persona Helena
 
+Ela é uma jovem de 18 anos de idade e estuda psicologia. Amante de livros de romance e de estudos sobre a mente humana, Helena mora com a avó, já idosa, e com seus pais. Embora, com muita dificuldade, procure saber sobre Primeiros Socorros para a sua avó, sente-se extremamente despreparada para prestar o socorro necessário em caso de acidente, o que a deixa com muito medo. Ela vê que o seu ciclo familiar apresenta o mesmo sentimento, mas que adoraria estar mais apta para prestar ajuda de emergência. Acredita, então, que um software será de grande valor ara ganhar confiança e, também, segurança para realizar o tratamento.
+
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
