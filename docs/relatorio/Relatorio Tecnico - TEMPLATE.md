@@ -219,8 +219,8 @@ Figura 9 - Página de Comentários
 
 # Metodologia
 
-  A metodologia utilizada compreende os mecanismos utilizados para que o projeto fosse comcluído de uma maneira prática e suave. Em especial, tomou-se como base o Design Thinking. Para tanto, inicialmente, realizou-se um brainstore no Miro, visando à obtenção de ideias e de pensamentos, de forma a startar o trabalho. Em seguida, foi feito um Google Forms com as perguntas direcionadoras de ideias e, em seguida, uma análise completa dos resultados. Dessa forma, foi possível perceber as demandas dos futuros usuários do software e compreender profundamente os tipos de perfis e as possíveis personas.
-  Assim, foi possível aprimorar e lapidar as ideias tidas no início do trabalho e, com elas, inciar a parte de requisitos funcionais e não funcionais. Logo, foi realizado o User Flow e o Wireframe, com o Figma, tendo sempre em vista as determinações dos usuários do serviço.
+  A metodologia utilizada compreende os mecanismos utilizados para que o projeto fosse concluído de uma maneira prática e suave. Em especial, tomou-se como base o Design Thinking. Para tanto, inicialmente, realizou-se um brainstore no Miro, visando à obtenção de ideias e de pensamentos, de forma a startar o trabalho. Em seguida, foi feito um Google Forms com as perguntas direcionadoras de ideias e, em seguida, uma análise completa dos resultados. Dessa forma, foi possível perceber as demandas dos futuros usuários do software e compreender profundamente os tipos de perfis e as possíveis personas. 
+  Assim, foi possível aprimorar e lapidar as ideias tidas no início do trabalho e, com elas, iniciar a parte de requisitos funcionais e não funcionais. Logo, foram realizados o User Flow e o Wireframe, com o Figma, tendo sempre em vista as determinações dos usuários do serviço.
 
 ## Divisão de Papéis
 
