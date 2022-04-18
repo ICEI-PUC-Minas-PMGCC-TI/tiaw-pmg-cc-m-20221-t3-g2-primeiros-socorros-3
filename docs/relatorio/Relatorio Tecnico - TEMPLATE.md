@@ -110,12 +110,12 @@ Ela tem 38 anos e trabalha como médica em uma Casa de Idosos, pois gosta de mud
 ![image](https://user-images.githubusercontent.com/103389529/163735762-dcccfee9-9916-481f-8f0f-04b071a0625c.png)
 Figura 2 - Persona Lucas
 
-Ele é um jovem de 18 anos, que, mesmo ainda na faculdade, sonha em trabalhar ensinando futebol às crianças. Durante o tempo livre, adora ir à academia para relaxar e para desestresar. Faz trabalho voluntários quando pode e sente enorme prazer e realização nessa atividade, pois, durante a infância, sentiu falta desse carinho. Ele pensa que, além de ele aprender os primeiros socorros para utilizar em sua futura profissão, uma vez que é um ambiente propicio a situações de emergência, ele vai utilizar o site caso aconteça algum acidente enquanto ele faz trabalho voluntário em asilos ou em creches. Sendo, assim, um excelente mecanismo de divulgação de conhecimento.
+Ele é um jovem de 18 anos, que, mesmo ainda na faculdade, sonha em trabalhar ensinando futebol às crianças. Durante o tempo livre, adora ir à academia para relaxar e para desestresar. Faz trabalhos voluntários quando pode e sente enorme prazer e realização nessa atividade, pois, durante a infância, sentiu falta desse carinho. Ele pensa que, além de ele aprender os primeiros socorros para utilizar em sua futura profissão, uma vez que é um ambiente propicio a situações de emergência, ele vai utilizar o site caso aconteça algum acidente enquanto ele faz trabalho voluntário em asilos ou em creches. Sendo, assim, um excelente mecanismo de divulgação de conhecimento.
 
 **Helena:** 
 
 ![image](https://user-images.githubusercontent.com/103389529/163735867-064435c9-5b21-43b4-800a-d2884ef5c6de.png)
-Figura 2 - Persona Helena
+Figura 3 - Persona Helena
 
 Ela é uma jovem de 18 anos de idade e estuda psicologia. Amante de livros de romance e de estudos sobre a mente humana, Helena mora com a avó, já idosa, e com seus pais. Embora, com muita dificuldade, procure saber sobre Primeiros Socorros para a sua avó, sente-se extremamente despreparada para prestar o socorro necessário em caso de acidente, o que a deixa com muito medo. Ela vê que o seu ciclo familiar apresenta o mesmo sentimento, mas que adoraria estar mais apta para prestar ajuda de emergência. Acredita, então, que um software será de grande valor ara ganhar confiança e, também, segurança para realizar o tratamento.
 
