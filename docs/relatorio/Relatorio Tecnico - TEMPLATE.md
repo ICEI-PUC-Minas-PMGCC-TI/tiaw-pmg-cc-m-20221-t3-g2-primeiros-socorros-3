@@ -198,29 +198,24 @@ Figura 4 - Fluxo de telas do Usuário
 Os Wireframes, baseados no User Flow e retratados nas figuras 5 a 9, apresentam um sistemas de telas com interações simples, rápidas e práticas, visando, sempre, a um acesso facilitado pelo usuário, de modo a plataforma servir como uma facilitador, e não um dificultador no processo dos Primeiros Socorros.
 
 ![image](https://user-images.githubusercontent.com/103389529/163690252-46ea4453-285e-497e-8bbd-2deed2e219ee.png)
+
 Figura 5 - Página Inicial
 
-Explicação:
-
 ![image](https://user-images.githubusercontent.com/103389529/163690528-8fbb7ef9-44a6-41e7-8b1a-78795f5a372a.png)
+
 Figura 6 - Página Inicial (alternativa)
 
-Explicação:
-
 ![image](https://user-images.githubusercontent.com/103389529/163690267-f3f104bc-22af-4631-b525-c82b782d532d.png)
+
 Figura 7 - Página de Pesquisa
 
-Explicação:
-
 ![image](https://user-images.githubusercontent.com/103389529/163690475-dcd426d6-f784-4558-91d2-f63a211f3d26.png)
+
 Figura 8 - Página Principal
 
-Explicação:
-
 ![image](https://user-images.githubusercontent.com/103389529/163690465-4e08ba60-dc68-4ca0-b9aa-fb5919c3078a.png)
-Figura 9 - Página de Comentários
 
-Explicação:
+Figura 9 - Página de Comentários
 
 # Metodologia
 
@@ -274,24 +269,18 @@ Explicação:
 
   Pra facilitar, a utilização dos seguintes mecanismos pode ser útil:
   
-O projeto segue a seguinte convenção para o nome de branchs:
+  O projeto seguir a seguinte convenção para o nome de branchs:
  
 - `master`: versão estável já testada do software
 - `unstable`: versão já testada do software, porém instável
 - `testing`: versão em testes do software
 - `dev`: versão de desenvolvimento do software
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
+  Quanto à gerência de issues, o projeto adotar a seguinte convenção para etiquetas:
 
 - `bugfix`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
-
-
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
