@@ -267,7 +267,7 @@ Após experiências nas matérias de Algoritmos e Estruturas de Dados e de Desen
 
   Entretando, espera-se o uso da ferramenta de controle de versão como sendo o [Git](https://git-scm.com/) e, também, o [Github](https://github.com) para hospedagem do repositório `upstream`.
 
-  Pra facilitar, a utilização dos seguintes mecanismos pode ser útil:
+  Para facilitar, a utilização dos seguintes mecanismos pode ser útil:
   
   O projeto seguir a seguinte convenção para o nome de branchs:
  
