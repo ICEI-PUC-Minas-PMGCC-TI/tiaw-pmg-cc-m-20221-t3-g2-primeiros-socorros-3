@@ -226,7 +226,8 @@ Figura 9 - Página de Comentários
 
   O trabalho precisou, sem dúvidas, ser dividido entre os quatro integrantes para que fosse completado com sucesso.
   
-  Foi utilizado, então, o Miro para ser feito um controle de entrada das tarefas do trabalho. Cada um dos elementos do Sprint 1 foi separado entre a equipe, de modo que, ao mesmo tempo que todos tenham conhecimento sobre as partes do projeto, não há uma sobrecarga a um único integrante apenas. Subdividimos as partes e cada um liderou uma parte do trabalho específica,contribuindo para a organização dos outros. 
+  Foi utilizado, então, o Miro para ser feito um controle de entrada das tarefas do trabalho. Cada um dos elementos do Sprint 1 foi separado entre a equipe, de modo que, ao mesmo tempo que todos tenham conhecimento sobre as partes do projeto, não há uma sobrecarga a um único integrante apenas. Subdividiu-se as partes, e cada um liderou uma parte do trabalho específica, contribuindo para a organização dos outros. 
+  
 - Gabriel -> Dirigiu o documento 
 - Stephanie e André -> Organizaram a parte de User Flow e Wireframe
 - Gabriela -> Se responsabilizou pela apresentação
