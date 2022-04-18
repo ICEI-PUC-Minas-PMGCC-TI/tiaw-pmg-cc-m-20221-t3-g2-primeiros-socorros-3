@@ -241,8 +241,6 @@ Figura 9 - Página de Comentários
 |User Flow                   | Figma             | https://www.figma.com/file/gfqgNdxjHh7YSI8eMX13BK/User-flow--Primeiros-socorros?node-id=0%3A1 | 
 |Wireframes                  | Figma             | https://www.figma.com/file/KxY5qxhoxyo6xGYenlH0Rg/Wireframe-Primeiros-Socorros?node-id=8%3A372|
 |Apresentação                | Canva             | https://www.canva.com/design/DAE-EYoqQd0/Q5qoWJlzMyKO4IEzne_oDg/view?utm_content=DAE-EYoqQd0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink|
-|Protótipo Interativo        | Figma             | https://figma.com/XXXXXXX                                                                     | 
-
 
 As ferramentas empregadas no projeto são:
 
