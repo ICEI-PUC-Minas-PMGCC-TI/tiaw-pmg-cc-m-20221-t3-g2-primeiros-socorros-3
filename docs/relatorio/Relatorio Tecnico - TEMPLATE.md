@@ -195,7 +195,7 @@ Figura 4 - Fluxo de telas do Usuário
 
 ## Wireframes
 
-Os Wireframes, baseados no User Flow e retratados nas figuras 5 a 9, apresentam um sistemas de telas com interações simples, rápidas e práticas, visando, sempre, a um acesso facilitado pelo usuário, de modo a plataforma servir como uma facilitador, e não um dificultador no processo dos Primeiros Socorros.
+Os Wireframes, baseados no User Flow e retratados nas figuras 5 a 9, apresentam sistemas de telas com interações simples, rápidas e práticas, visando, sempre, a um acesso facilitado pelo usuário, de modo a plataforma servir como um facilitador, e não um dificultador no processo dos Primeiros Socorros.
 
 ![image](https://user-images.githubusercontent.com/103389529/163690252-46ea4453-285e-497e-8bbd-2deed2e219ee.png)
 
