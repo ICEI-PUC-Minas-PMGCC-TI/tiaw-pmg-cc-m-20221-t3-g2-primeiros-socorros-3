@@ -166,7 +166,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito                                                         | Prioridade |
 |-------|--------------------------------------------------------------------------------|------------|
-|RNF-001| O site deve ser responsivo para rodar em um dispositivos móvel                 | ALTA       | 
+|RNF-001| O site deve ser responsivo para rodar em dispositivos móveis                   | ALTA       | 
 |RNF-002| O site deve ser de acesso fácil, fluido e simplicado                           | ALTA       |
 |RNF-003| O site deve possuir compatibilidade com maior parte dos navegadores            | ALTA       |
 |RNF-004| O site deve apresentar um layout clean e intuitivo                             | ALTA       | 
