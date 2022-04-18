@@ -248,32 +248,16 @@ O site é um quadro branco onlide e foi escolhido, pois possibilita, em equipe, 
 - Repositório de código: GitHub
 Embora o principal motivo de utilização tenha sido a disponibilização pela PUC, é uma ferramenta incrível, pois permite a criação de pastas e de documentos, bem como a utilização por toda a equipe.
 
--User Flow e Wireframes: Figma
+- User Flow e Wireframes: Figma
 O software Figma é uma ferramenta excelente para a criação de protótipos relacionados à criação dos sites, pois tem um layout fácil e prático e, também, permite que o grupo trabalhe junto.
 
 - Apresentação: Canva
+A ferramenta online permite, dentre muitas funcionalidades, a criação de apresentação de slides simplificados e bem estruturados, de modo a tornar a apresentação mais clara e atrativa.
 
-
-- Editor de código: Visual Studio Code*
+- Editor de código: Visual Studio Code"
 Após experiências nas matérias de Algoritmos e Estruturas de Dados e de Desenvolvimento de Interfaces Web, acredita-se que o aplicativo seja a melhor ferramenta para a edição dos códigos do software
 
-* Ainda não foi utilizado
-
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+"Ainda não foi utilizado
 
 ## Controle de Versão
 
