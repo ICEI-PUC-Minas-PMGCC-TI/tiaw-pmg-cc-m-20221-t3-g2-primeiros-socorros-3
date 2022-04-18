@@ -124,25 +124,25 @@ Ela é uma jovem de 18 anos de idade e estuda psicologia. Amante de livros de ro
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                           |
-|--------------------|------------------------------------|--------------------------------------------------|
-| Fabiana            | um site mais divulgado             | conseguir salvar mais pacientes                  | 
-| Fabiana            | informações corretas e comprovadas | evitar que medidas erradas sejam tomadas         |
-| Fabiana            | uma plataforma online              | poder recomendar aos pacientes e a parentes deles|
-| Fabiana            | videoaulas com medicos             | mostrar procedimentos válidos                    |
-| Fabiana            | canal de comunicação com emergência| possibilitar um socorro rápido                   |
-| Fabiana            | hiperlinks com mais informações    | ampliar o leque de conhecimento                  |
-| Fabiana            | poder fazer comentários            | disponível a outros usuários/pacientes           |
-| Fabiana            | cadastro diferencial a médicos     | compartilhar em reuniões da Casa de Idosos       |
-| Lucas              | incluir informações sobre esporte  | que alunos e colegas de profissão acessem        |
-| Lucas              | software disponível para celular   | poder acessar mais facilmente em campo           |
-| Lucas              | falas de especialistas             | conseguir passar segurança aos colegas           |
-| Lucas              | parceria com uma empresa de esporte| possibilitar um engajamento dos jogadores        |
-| Helena             | acesso rápido e simplificado       | saber cuidar da sua avó                          |
-| Helena             | site simples e acessível           | que parentes e familizares possam usar           |
-| Helena             | explicação simples e eficaz        | sua avó poder abrir caso precise                 |
-| Helena             |demostração de cada tipo de acidente| se sentir preparada em variadas situações        |
-| Helena             | poder abrir no celular             |ser prática, pois computador pode demorar         |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                           |
+|--------------------|-------------------------------------|--------------------------------------------------|
+| Fabiana            | um site mais divulgado              | conseguir salvar mais pacientes                  | 
+| Fabiana            | informações corretas e comprovadas  | evitar que medidas erradas sejam tomadas         |
+| Fabiana            | uma plataforma online               | poder recomendar aos pacientes e a parentes deles|
+| Fabiana            | videoaulas com médicos              | mostrar procedimentos válidos                    |
+| Fabiana            | canal de comunicação com emergência | possibilitar um socorro rápido                   |
+| Fabiana            | hiperlinks com mais informações     | ampliar o leque de conhecimento                  |
+| Fabiana            | poder fazer comentários             | disponível a outros usuários/pacientes           |
+| Fabiana            | cadastro diferencial a médicos      | compartilhar em reuniões da Casa de Idosos       |
+| Lucas              | incluir informações sobre esporte   | que alunos e colegas de profissão acessem        |
+| Lucas              | software disponível para celular    | poder acessar mais facilmente em campo           |
+| Lucas              | falas de especialistas              | conseguir passar segurança aos colegas           |
+| Lucas              | parceria com uma empresa de esporte | possibilitar um engajamento dos jogadores        |
+| Helena             | acesso rápido e simplificado        | saber cuidar da sua avó                          |
+| Helena             | site simples e acessível            | que parentes e familiares possam usar           |
+| Helena             | explicação simples e eficaz         | sua avó poder abrir caso precise                 |
+| Helena             |demonstração de cada tipo de acidente| se sentir preparada em variadas situações        |
+| Helena             | poder abrir no celular              |ser prática, pois computador pode demorar         |
 
 ## Requisitos
 
