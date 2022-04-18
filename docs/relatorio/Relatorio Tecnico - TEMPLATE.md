@@ -271,16 +271,16 @@ Após experiências nas matérias de Algoritmos e Estruturas de Dados e de Desen
   
   O projeto seguir a seguinte convenção para o nome de branchs:
  
-- `master`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `master`: versão estável já testada do software;
+- `unstable`: versão já testada do software, porém instável;
+- `testing`: versão em testes do software;
+- `dev`: versão de desenvolvimento do software.
 
   Quanto à gerência de issues, o projeto adotar a seguinte convenção para etiquetas:
 
-- `bugfix`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `bugfix`: uma funcionalidade encontra-se com problemas;
+- `enhancement`: uma funcionalidade precisa ser melhorada;
+- `feature`: uma nova funcionalidade precisa ser introduzida.
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
