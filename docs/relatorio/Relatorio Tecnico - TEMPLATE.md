@@ -235,16 +235,30 @@ Figura 9 - Página de Comentários
 |Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB68uOY=/                                                      | 
 |Repositório de código       | GitHub            | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t3-g2-primeiros-socorros-3     | 
 |User Flow                   | Figma             | https://www.figma.com/file/gfqgNdxjHh7YSI8eMX13BK/User-flow--Primeiros-socorros?node-id=0%3A1 | 
-|Wireframes                  | Figma             | https://www.figma.com/file/KxY5qxhoxyo6xGYenlH0Rg/Wireframe-Primeiros-Socorros?node-id=8%3A372| 
+|Wireframes                  | Figma             | https://www.figma.com/file/KxY5qxhoxyo6xGYenlH0Rg/Wireframe-Primeiros-Socorros?node-id=8%3A372|
+|Apresentação                | Canva             | https://www.canva.com/design/DAE-EYoqQd0/Q5qoWJlzMyKO4IEzne_oDg/view?utm_content=DAE-EYoqQd0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink|
 |Protótipo Interativo        | Figma             | https://figma.com/XXXXXXX                                                                     | 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
+
+As ferramentas empregadas no projeto são:
+
+- Processo de Design Thinkgin: Miro
+O site é um quadro branco onlide e foi escolhido, pois possibilita, em equipe, um compartilhamento de ideias instantâneo e interativo. Além disso, ele apresenta algumas funcionalidades, como uso de post-it, checklists e fluxogramas.
+
+- Repositório de código: GitHub
+Embora o principal motivo de utilização tenha sido a disponibilização pela PUC, é uma ferramenta incrível, pois permite a criação de pastas e de documentos, bem como a utilização por toda a equipe.
+
+-User Flow e Wireframes: Figma
+O software Figma é uma ferramenta excelente para a criação de protótipos relacionados à criação dos sites, pois tem um layout fácil e prático e, também, permite que o grupo trabalhe junto.
+
+- Apresentação: Canva
+
+
+- Editor de código: Visual Studio Code*
+Após experiências nas matérias de Algoritmos e Estruturas de Dados e de Desenvolvimento de Interfaces Web, acredita-se que o aplicativo seja a melhor ferramenta para a edição dos códigos do software
+
+* Ainda não foi utilizado
+
 > - Ferramentas de comunicação
 > - Ferramentas de diagramação
 > - Plataforma de hospedagem
