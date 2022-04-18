@@ -232,7 +232,7 @@ Figura 9 - Página de Comentários
 
 | Ambiente                   | Plataforma        |Link de Acesso                                                                                 |
 |----------------------------|-------------------|-----------------------------------------------------------------------------------------------|
-|Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB68uOY=/                                                      | 
+|Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB68uOY=/                                                      |
 |Repositório de código       | GitHub            | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t3-g2-primeiros-socorros-3     | 
 |User Flow                   | Figma             | https://www.figma.com/file/gfqgNdxjHh7YSI8eMX13BK/User-flow--Primeiros-socorros?node-id=0%3A1 | 
 |Wireframes                  | Figma             | https://www.figma.com/file/KxY5qxhoxyo6xGYenlH0Rg/Wireframe-Primeiros-Socorros?node-id=8%3A372|
