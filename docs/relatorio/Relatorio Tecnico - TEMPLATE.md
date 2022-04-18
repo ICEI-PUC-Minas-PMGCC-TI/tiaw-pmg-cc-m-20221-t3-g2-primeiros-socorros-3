@@ -69,10 +69,10 @@ Os membros do grupo são:
 
 - Exemplificar e identificar as formas de acidentes mais presentes;
 - Minimizar as possíveis vítimas de acidentes em casa;
-- Colaborar com a área da saúde e da medicida, no que tange ao atendimento de urgência;
+- Colaborar com a área da saúde e da medicina, no que tange ao atendimento de urgência;
 - Disponibilizar, no site, o conhecimento, utilizando videoaulas e tutoriais;
 - Sanar dúvidas sobre a prática do rápido salvamento em casos de acidentes;
-- Divulgar sites, videos e textos relacionados a Primeiros Socorros;
+- Divulgar sites, vídeos e textos relacionados a Primeiros Socorros;
 - Maximizar o conhecimento sobre Primeiros Socorros;
 - Combinar praticidade, rapidez e simplicidade durante a criação do software;
 - Planejar e solucionar a falta de divulgação acerca dos Primeiros Socorros;
