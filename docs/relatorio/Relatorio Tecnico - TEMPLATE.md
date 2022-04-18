@@ -231,14 +231,7 @@ Explicação:
 
   O trabalho precisou, sem dúvidas, ser dividido entre os quatro integrantes para que fosse completado com sucesso.
   
-  
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
+  Foi utilizado, então, o Miro para ser feito um controle de entrada das tarefas do trabalho. Cada um dos elementos do Sprint 1 foi separado entre a equipe, de modo que, ao mesmo tempo que todos tenham conhecimento sobre as partes do projeto, não há uma sobrecarga a um único integrante apenas.
 
 ## Ferramentas
 
@@ -275,7 +268,7 @@ Explicação:
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Não ocorreu, ainda, o início da criação do software para, assim, poder ocorrer a adoção dos mecanismos e das ferramentas de controle de versão. 
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
