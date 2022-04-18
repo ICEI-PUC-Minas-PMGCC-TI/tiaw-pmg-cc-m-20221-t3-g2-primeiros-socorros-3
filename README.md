@@ -12,7 +12,7 @@ O desconhecimento sobre primeiros socorros é inegável na sociedade, pois, embo
 ## Professores responsáveis
 
 * Calor Alberto Marques Pietrobon
-* Daniel de Oliveira Capanema (? - conferir!)
+* Daniel de Oliveira Capanema
 * Rommel Vieira Carneiro
 
 ## Instruções de utilização
