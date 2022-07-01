@@ -42,8 +42,7 @@ Os membros do grupo são:
 - [4.Gerenciamento de Projeto](#gerenciamento-de-projeto)
   - [4.1.Divisão de Papéis](#divisão-de-papéis)
   - [4.2.Metodologia](#metodologia)
-  - [4.3.Ferramentas](#ferramentas)
-  - [4.4.Controle de Versão](#controle-de-versão)
+  - [4.3.Controle de Versão](#controle-de-versão)
 - [5.Arquitetura da Solução](#arquitetura-da-solução)
   - [5.1.Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [5.2.Diagrama de Componentes](#diagrama-de-componentes)
@@ -254,34 +253,6 @@ Figura 9 - Página de Comentários
   A metodologia utilizada compreende os mecanismos utilizados para que o projeto fosse concluído de uma maneira prática e suave. Em especial, tomou-se como base o Design Thinking. Para tanto, inicialmente, realizou-se um brainstore no Miro, visando à obtenção de ideias e de pensamentos, de forma a startar o trabalho. Em seguida, foi feito um Google Forms com as perguntas direcionadoras de ideias e, em seguida, uma análise completa dos resultados. Dessa forma, foi possível perceber as demandas dos futuros usuários do software e compreender profundamente os tipos de perfis e as possíveis personas. 
   Assim, foi possível aprimorar e lapidar as ideias tidas no início do trabalho e, com elas, iniciar a parte de requisitos funcionais e não funcionais. Logo, foram realizados o User Flow e o Wireframe, com o Figma, tendo sempre em vista as determinações dos usuários do serviço.
 
-## Ferramentas
-
-| Ambiente                   | Plataforma        |Link de Acesso                                                                                 |
-|----------------------------|-------------------|-----------------------------------------------------------------------------------------------|
-|Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB68uOY=/                                                      |
-|Repositório de código       | GitHub            | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t3-g2-primeiros-socorros-3     | 
-|User Flow                   | Figma             | https://www.figma.com/file/gfqgNdxjHh7YSI8eMX13BK/User-flow--Primeiros-socorros?node-id=0%3A1 | 
-|Wireframes                  | Figma             | https://www.figma.com/file/KxY5qxhoxyo6xGYenlH0Rg/Wireframe-Primeiros-Socorros?node-id=8%3A372|
-|Apresentação I              | Canva             | https://www.canva.com/design/DAE-EYoqQd0/Q5qoWJlzMyKO4IEzne_oDg/view?utm_content=DAE-EYoqQd0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink|
-|Apresentação II             | Canva             | link |
-
-As ferramentas empregadas no projeto são:
-
-- Processo de Design Thinkgin: Miro
-O site é um quadro branco onlide e foi escolhido, pois possibilita, em equipe, um compartilhamento de ideias instantâneo e interativo. Além disso, ele apresenta algumas funcionalidades, como uso de post-it, checklists e fluxogramas.
-
-- Repositório de código: GitHub
-Embora o principal motivo de utilização tenha sido a disponibilização pela PUC, é uma ferramenta incrível, pois permite a criação de pastas e de documentos, bem como a utilização por toda a equipe.
-
-- User Flow e Wireframes: Figma
-O software Figma é uma ferramenta excelente para a criação de protótipos relacionados à criação dos sites, pois tem um layout fácil e prático e, também, permite que o grupo trabalhe junto.
-
-- Apresentação: Canva
-A ferramenta online permite, dentre muitas funcionalidades, a criação de apresentação de slides simplificados e bem estruturados, de modo a tornar a apresentação mais clara e atrativa.
-
-- Editor de código: Visual Studio Code
-Este editor foi utilizado para a criação dos códigos em html, css e java scritp, bem como para a criação do json.
-
 ## Controle de Versão
 
   Não ocorreu, ainda, o início da criação do software para, assim, poder ocorrer a adoção dos mecanismos e das ferramentas de controle de versão. 
@@ -308,6 +279,40 @@ Este editor foi utilizado para a criação dos códigos em html, css e java scri
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 ## Tecnologias Utilizadas
+
+|`NOME/PLATAFOTMA`           | `FUNCIONALIDADE`         |`LINK DE ACESSO`                                                                               |
+|----------------------------|--------------------------|-----------------------------------------------------------------------------------------------|
+|Processo de Design Thinkgin | Miro                     | https://miro.com/app/board/uXjVOB68uOY=/                                                      |
+|Repositório de código       | GitHub                   | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t3-g2-primeiros-socorros-3     | 
+|User Flow                   | Figma                    | https://www.figma.com/file/gfqgNdxjHh7YSI8eMX13BK/User-flow--Primeiros-socorros?node-id=0%3A1 | 
+|Wireframes                  | Figma                    | https://www.figma.com/file/KxY5qxhoxyo6xGYenlH0Rg/Wireframe-Primeiros-Socorros?node-id=8%3A372|
+|HTML                        | Linguagem de marcação    | --                                                                                            |
+|CSS                         | Linguagem de estilo      | --                                                                                            |
+|Javacript                   | Linguagem de programação | --                                                                                            |
+|Bootstrap                   | Framework                | https://getbootstrap.com/           
+|Visual Studio Code          | Editor de texto          | https://code.visualstudio.com/
+|Replit                      | Hospedagem do site       | link site
+|Canva                       | Apresentação slide I     | https://www.canva.com/design/DAE-EYoqQd0/Q5qoWJlzMyKO4IEzne_oDg/view?utm_content=DAE-EYoqQd0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink                                                                            |
+|Canva                       | Apresentação slide II    | link slide 2                                                                                  |
+
+
+As ferramentas empregadas no projeto são:
+
+ * Processo de Design Thinkgin: Miro
+O site é um quadro branco onlide e foi escolhido, pois possibilita, em equipe, um compartilhamento de ideias instantâneo e interativo. Além disso, ele apresenta algumas funcionalidades, como uso de post-it, checklists e fluxogramas.
+
+* Repositório de código: GitHub
+Embora o principal motivo de utilização tenha sido a disponibilização pela PUC, é uma ferramenta incrível, pois permite a criação de pastas e de documentos, bem como a utilização por toda a equipe.
+
+* User Flow e Wireframes: Figma
+O software Figma é uma ferramenta excelente para a criação de protótipos relacionados à criação dos sites, pois tem um layout fácil e prático e, também, permite que o grupo trabalhe junto.
+
+- Apresentação: Canva
+A ferramenta online permite, dentre muitas funcionalidades, a criação de apresentação de slides simplificados e bem estruturados, de modo a tornar a apresentação mais clara e atrativa.
+
+- Editor de código: Visual Studio Code
+Este editor foi utilizado para a criação dos códigos em html, css e java scritp, bem como para a criação do json.
+
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
