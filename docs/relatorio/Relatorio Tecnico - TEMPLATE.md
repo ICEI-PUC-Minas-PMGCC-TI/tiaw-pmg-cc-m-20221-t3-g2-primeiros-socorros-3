@@ -313,10 +313,15 @@ Este editor foi utilizado para a criação dos códigos em html, css e java scri
 Os componentes que fazem parte da solução implementada estão divididos em dois principais módulos, contendo, cada um, suas subdivisões:
 
 **Navegador**: Interface principal do sistema.
+
    ***Página Web***: Conjunto de arquivos do tipo HTML, CSS, JavaScript, incluindo JSON, e algumas imagens, por exemplo, a logo do site.
+   
    ***Local Storage***: Armazenamento local no Navegador, no qual os dados são obetidos dados do JSON, porém, ao cadastrar novas informações localmente, o JSON perde a utilizade, e o Local Storage mantém as informações.
+   
       ****Publicações****: Parte composta pelas publicações principais do site, contendo videoaulas do YouTube, links de sites, informações e descrições sobre os procedimentos de Primeiros Socorros.
+      
       ****Notícias****: Nesta seção, são apresentadas notícias sobre Primeiros Socorros, a partir de um JSON.
+      
  **Hospedagem**: Local da web, no qual se encontram as páginas implementadas.
 
 ### Hospedagem
