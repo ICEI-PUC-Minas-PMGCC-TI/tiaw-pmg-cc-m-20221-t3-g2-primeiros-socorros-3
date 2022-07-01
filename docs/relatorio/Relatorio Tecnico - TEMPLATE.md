@@ -21,17 +21,17 @@ Os membros do grupo são:
 - [Informações do Projeto](#informações-do-projeto)
   - [Participantes](#participantes)
 - [Estrutura do Documento](#estrutura-do-documento)
-- [1.Introdução](#1.introdução)
-  - [1.1.Problema](#1.1.problema)
-  - [1.2.Objetivos](#1.2.objetivos)
-    - [1.2.1.Objetivo Geral](#1.2.1.objetivo-geral)
-    - [1.2.2.Objetivos Específicos](#1.2.2.objetivos-especificos)
-  - [1.3.Justificativa](#1.3.justificativa)
-  - [1.4.Público-Alvo](#1.4.público-alvo)
-- [2.Especificações do Projeto](#2.especificações-do-projeto)
-  - [2.1.Personas e Mapas de Empatia](#2.1.personas-e-mapas-de-empatia)
-  - [2.2.Histórias de Usuários](#2.2.histórias-de-usuários)
-  - [2.3.Requisitos](#2.3.requisitos)
+- [1.Introdução](#introdução)
+  - [1.1.Problema](#problema)
+  - [1.2.Objetivos](#objetivos)
+    - [1.2.1.Objetivo Geral](#objetivo-geral)
+    - [1.2.2.Objetivos Específicos](#objetivos-especificos)
+  - [1.3.Justificativa](#justificativa)
+  - [1.4.Público-Alvo](#público-alvo)
+- [2.Especificações do Projeto](#especificações-do-projeto)
+  - [2.1.Personas e Mapas de Empatia](#personas-e-mapas-de-empatia)
+  - [2.2.Histórias de Usuários](#histórias-de-usuários)
+  - [2.3.Requisitos](#requisitos)
     - [Requisitos Funcionais](#requisitos-funcionais)
     - [Requisitos não Funcionais](#requisitos-não-funcionais)
   - [Restrições](#restrições)
@@ -54,19 +54,19 @@ Os membros do grupo são:
 - [Referências](#referências)
 
 
-# 1.Introdução
+# Introdução
 
-## 1.1.Problema
+## Problema
 
   Pode-se definir primeiros socorros como sendo os cuidados imediatos que devem ser prestados rapidamente a uma pessoa, a vítima de acidentes ou de mal súbito, com o fim de manter as funções vitais e de evitar o agravamento de suas condições, aplicando medidas e procedimentos até a chegada de assistência qualificada. Entretanto, é notório que a maioria da população brasileira não apresenta os conhecimentos básicos para prestar tal ajuda, o que pode agravar o estado clínico do paciente. Esse desconhecimento tem como causa a falta e a dificuldade de acesso à informação, a negligência e o medo populacional. Logo, é um problema evidente que necessita de soluções práticas e inovadoras.
 
-## 1.2.Objetivos
+## Objetivos
 
-### 1.2.1.Objetivo Geral
+### Objetivo Geral
 
   Tem-se o objetivo de desenvolver um software capaz de ampliar o conhecimento e a divulgação sobre os cuidados e as práticas relacionados aos Primeiros Socorros.
 
-### 1.2.2.Objetivos especificos
+### Objetivos especificos
 
 - Exemplificar e identificar as formas de acidentes mais presentes;
 - Minimizar as possíveis vítimas de acidentes em casa;
@@ -83,23 +83,23 @@ Os membros do grupo são:
 - Mediar o conhecimento entre o atendimento médico de urgência e as vítimas;
 - Capacitar uma maior parte da população para saber lidar com acidentes domésticos.
 
-## 1.3.Justificativa
+## Justificativa
 
   O que impulsionou a realização deste trabalho foi o entendimento de que desinformação, em grande escala, acerca dos primeiros socorros é extremamente perceptível, inclusive, no cotidiano. Assim, tendo como base a necessidade de uma ampliação dos meios de divulgação, a escolha de um recorte temático para o tema acidentes com idosos foi feita, visando a acidentes recorrentes e que, em muitos casos, não há uma atitude correta de auxílio e de socorro.
   ***RETIRAR CRIANÇAS??
 
 
-## 1.4.Público-Alvo
+## Público-Alvo
 
   O público alvo do projeto compreende tanto empresas que, em parceria com o site, seriam beneficiadas de um material interativo com os usuários do serviço, facilitando na aprendizagem de manobras e de procedimentos corretos a serem realizados em situações emergenciais. Quanto quem convive com a parcela populacional idosa, podendo adquirir conhecimentos prévios e seres capacitados a lidar com situações de urgência, no que se tange à área da saúde. 
   ***RETIRAR CRIANÇAS??
 
  
-# 2.Especificações do Projeto
+# Especificações do Projeto
 
   Durante o processo de entendimento e de consolidação das ideias, foram criadas três personas, com seus respectivos mapas de empatia, representado um válido mecanismo de compreensão do problema, bem como uma forma de tornar a ideia mais palpável. Os aspectos mais relevantes, favoráveis ou não à resolução do desafio levantado, foram articulados na parte de histórias de usuários e, em seguida, elucidados na área de requisitos e de restrições.
 
-## 2.1.Personas e Mapas de Empatia
+## Personas e Mapas de Empatia
 
 **Fabiana**
 
@@ -123,7 +123,7 @@ Figura 3 - Persona Helena
 Ela é uma jovem de 18 anos de idade e estuda psicologia. Amante de livros de romance e de estudos sobre a mente humana, Helena mora com a avó, já idosa, e com seus pais. Embora, com muita dificuldade, procure saber sobre Primeiros Socorros para a sua avó, sente-se extremamente despreparada para prestar o socorro necessário em caso de acidente, o que a deixa com muito medo. Ela vê que o seu ciclo familiar apresenta o mesmo sentimento, mas que adoraria estar mais apta para prestar ajuda de emergência. Acredita, então, que um software será de grande valor para ganhar confiança e, também, segurança para realizar o tratamento.
 
 
-## 2.2. Histórias de Usuários
+## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
@@ -147,7 +147,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Helena             |demonstração de cada tipo de acidente| se sentir preparada em variadas situações        |
 | Helena             | poder abrir no celular              |ser prática, pois computador pode demorar         |
 
-## 2.3. Requisitos
+## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
@@ -165,7 +165,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| O site deve ter área exclusiva para discussão no esporte                       | BAIXA      |
 |RF-009| O site deve exibir comentários de médicos sobre as aulas                       | BAIXA      |
 
-### 2.3.2. Requisitos não Funcionais
+### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito                                                         | Prioridade |
 |-------|--------------------------------------------------------------------------------|------------|
@@ -174,7 +174,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O site deve possuir compatibilidade com maior parte dos navegadores            | ALTA       |
 |RNF-004| O site deve apresentar um layout clean e intuitivo                             | ALTA       | 
 
-## 2.4. Restrições
+## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
@@ -184,11 +184,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend                          |
 |03| O site deve ser feito exclusivamente pelos estudantes do curso          |
 
-# 3. Projeto de Interface
+# Projeto de Interface
 
   Após um maior entendimento e esclarecimento sobre a ideia, utilizando as personas, as histórias de usuários e os requisitos, percebe-se que o ponto diferencial do projeto deverá ser um site que proporcione fluidez e agilidade durante o uso, uma vez que, por se tratar de Primeiros Socorros, o tempo é, sem dúvida, um elemento de extremo valor. Ademais, um layout clean é importante para não confundir o usuário durante a utilização. Tendo isso em vista, desenhou-se a seguinte interface:
 
-## 3.1. User Flow
+## User Flow
 
   O User Flow, representado pela Figura 4, mostra, de forma simplificada, a interação que será proporcionada entre o usuário e o software. Cada processo de telas está devidamente legendado.
 
@@ -196,7 +196,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Figura 4 - Fluxo de telas do Usuário
 
-## 3.2. Wireframes
+## Wireframes
 
 Os Wireframes, baseados no User Flow e retratados nas figuras 5 a 9, apresentam sistemas de telas com interações simples, rápidas e práticas, visando, sempre, a um acesso facilitado pelo usuário, de modo a plataforma servir como um facilitador, e não um dificultador no processo dos Primeiros Socorros.
 
@@ -220,11 +220,11 @@ Figura 8 - Página Principal
 
 Figura 9 - Página de Comentários
 
-## 3.3. Wireframes
+## Protótipo Funcional
 
-# 4. Gerenciamento de Projeto
+# Gerenciamento de Projeto
 
-## 4.1. Divisão de Papéis
+## Divisão de Papéis
 
   O trabalho precisou, sem dúvidas, ser dividido entre os quatro integrantes para que fosse completado com sucesso.
   
@@ -235,12 +235,12 @@ Figura 9 - Página de Comentários
 - Gabriela Colem -> responsabilizou-se pela parte das apresentações; criou todo o layout padrão do site das principais tela; adicionou a funcionalidade para apresentação de notícias pelo json.
 - Stefani da Silva -> organizou a parte de User Flow e de Wireframe na documentação; criou a área de cadastro.
 
-## 4.2. Metodologia
+## Metodologia
 
   A metodologia utilizada compreende os mecanismos utilizados para que o projeto fosse concluído de uma maneira prática e suave. Em especial, tomou-se como base o Design Thinking. Para tanto, inicialmente, realizou-se um brainstore no Miro, visando à obtenção de ideias e de pensamentos, de forma a startar o trabalho. Em seguida, foi feito um Google Forms com as perguntas direcionadoras de ideias e, em seguida, uma análise completa dos resultados. Dessa forma, foi possível perceber as demandas dos futuros usuários do software e compreender profundamente os tipos de perfis e as possíveis personas. 
   Assim, foi possível aprimorar e lapidar as ideias tidas no início do trabalho e, com elas, iniciar a parte de requisitos funcionais e não funcionais. Logo, foram realizados o User Flow e o Wireframe, com o Figma, tendo sempre em vista as determinações dos usuários do serviço.
 
-## 4.3. Ferramentas
+## Ferramentas
 
 | Ambiente                   | Plataforma        |Link de Acesso                                                                                 |
 |----------------------------|-------------------|-----------------------------------------------------------------------------------------------|
@@ -334,6 +334,18 @@ Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Es
 > **Exemplo do diagrama de Arquitetura**:
 > 
 > ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+
+### Template do Site
+
+#### Tela inicial
+
+#### Página de Cadastro de Usuário
+
+#### Página de Login
+
+#### Página de Cadastro de Informação
+
+#### Página de Apresentação das Informações
 
 
 # Avaliação da Aplicação
