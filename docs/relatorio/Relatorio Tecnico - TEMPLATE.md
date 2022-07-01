@@ -312,6 +312,11 @@ Este editor foi utilizado para a criação dos códigos em html, css e java scri
 ### Diagrama de Componentes
 Os componentes que fazem parte da solução implementada estão divididos em dois principais módulos, contendo, cada um, suas subdivisões:
 
+
+* df
+** fbf 
+
+
 1.**Navegador**: Interface principal do sistema.
 
  1.1***Página Web***: Conjunto de arquivos do tipo HTML, CSS, JavaScript, incluindo JSON, e algumas imagens, por exemplo, a logo do site.
