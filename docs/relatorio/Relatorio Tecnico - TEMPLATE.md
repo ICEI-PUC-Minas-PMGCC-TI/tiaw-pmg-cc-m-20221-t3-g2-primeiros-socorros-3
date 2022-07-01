@@ -230,7 +230,7 @@ Figura 7 - Página de Pesquisa
 
 Figura 8 - Página Principal
 
-![image](image/wireframe5.png)
+![image](images/wireframe5.png)
 
 Figura 9 - Página de Comentários
 
