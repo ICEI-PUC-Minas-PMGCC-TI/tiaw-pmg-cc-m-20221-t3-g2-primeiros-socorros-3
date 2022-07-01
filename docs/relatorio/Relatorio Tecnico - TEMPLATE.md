@@ -206,7 +206,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
   O User Flow, representado pela Figura 4, mostra, de forma simplificada, a interação que será proporcionada entre o usuário e o software. Cada processo de telas está devidamente legendado.
 
-![image](https://user-images.githubusercontent.com/103389529/163689900-6276575f-4e65-476a-802a-38c64a66715c.png)
+![image](imagens/userflow.png)
 
 Figura 4 - Fluxo de telas do Usuário
 
@@ -214,23 +214,23 @@ Figura 4 - Fluxo de telas do Usuário
 
 Os Wireframes, baseados no User Flow e retratados nas figuras 5 a 9, apresentam sistemas de telas com interações simples, rápidas e práticas, visando, sempre, a um acesso facilitado pelo usuário, de modo a plataforma servir como um facilitador, e não um dificultador no processo dos Primeiros Socorros.
 
-![image](https://user-images.githubusercontent.com/103389529/163690252-46ea4453-285e-497e-8bbd-2deed2e219ee.png)
+![image](images/wireframe1.png)
 
 Figura 5 - Página Inicial
 
-![image](https://user-images.githubusercontent.com/103389529/163690528-8fbb7ef9-44a6-41e7-8b1a-78795f5a372a.png)
+![image](images/wireframe2.png)
 
 Figura 6 - Página Inicial (alternativa)
 
-![image](https://user-images.githubusercontent.com/103389529/163690267-f3f104bc-22af-4631-b525-c82b782d532d.png)
+![image](images/wireframe3.png)
 
 Figura 7 - Página de Pesquisa
 
-![image](https://user-images.githubusercontent.com/103389529/163690475-dcd426d6-f784-4558-91d2-f63a211f3d26.png)
+![image](images/wireframe4.png)
 
 Figura 8 - Página Principal
 
-![image](https://user-images.githubusercontent.com/103389529/163690465-4e08ba60-dc68-4ca0-b9aa-fb5919c3078a.png)
+![image](image/wireframe5.png)
 
 Figura 9 - Página de Comentários
 
