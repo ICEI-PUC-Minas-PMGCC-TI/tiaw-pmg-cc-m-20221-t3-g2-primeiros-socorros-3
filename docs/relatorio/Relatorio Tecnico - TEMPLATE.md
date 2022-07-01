@@ -54,19 +54,19 @@ Os membros do grupo são:
 - [Referências](#referências)
 
 
-# 1. Introdução
+# 1.Introdução
 
-## 1.1. Problema
+## 1.1.Problema
 
   Pode-se definir primeiros socorros como sendo os cuidados imediatos que devem ser prestados rapidamente a uma pessoa, a vítima de acidentes ou de mal súbito, com o fim de manter as funções vitais e de evitar o agravamento de suas condições, aplicando medidas e procedimentos até a chegada de assistência qualificada. Entretanto, é notório que a maioria da população brasileira não apresenta os conhecimentos básicos para prestar tal ajuda, o que pode agravar o estado clínico do paciente. Esse desconhecimento tem como causa a falta e a dificuldade de acesso à informação, a negligência e o medo populacional. Logo, é um problema evidente que necessita de soluções práticas e inovadoras.
 
-## 1.2. Objetivos
+## 1.2.Objetivos
 
-### 1.2.1. Objetivo Geral
+### 1.2.1.Objetivo Geral
 
   Tem-se o objetivo de desenvolver um software capaz de ampliar o conhecimento e a divulgação sobre os cuidados e as práticas relacionados aos Primeiros Socorros.
 
-### 1.2.2. Objetivos especificos
+### 1.2.2.Objetivos especificos
 
 - Exemplificar e identificar as formas de acidentes mais presentes;
 - Minimizar as possíveis vítimas de acidentes em casa;
@@ -83,23 +83,23 @@ Os membros do grupo são:
 - Mediar o conhecimento entre o atendimento médico de urgência e as vítimas;
 - Capacitar uma maior parte da população para saber lidar com acidentes domésticos.
 
-## 1.3. Justificativa
+## 1.3.Justificativa
 
   O que impulsionou a realização deste trabalho foi o entendimento de que desinformação, em grande escala, acerca dos primeiros socorros é extremamente perceptível, inclusive, no cotidiano. Assim, tendo como base a necessidade de uma ampliação dos meios de divulgação, a escolha de um recorte temático para o tema acidentes com idosos foi feita, visando a acidentes recorrentes e que, em muitos casos, não há uma atitude correta de auxílio e de socorro.
   ***RETIRAR CRIANÇAS??
 
 
-## 1.4. Público-Alvo
+## 1.4.Público-Alvo
 
   O público alvo do projeto compreende tanto empresas que, em parceria com o site, seriam beneficiadas de um material interativo com os usuários do serviço, facilitando na aprendizagem de manobras e de procedimentos corretos a serem realizados em situações emergenciais. Quanto quem convive com a parcela populacional idosa, podendo adquirir conhecimentos prévios e seres capacitados a lidar com situações de urgência, no que se tange à área da saúde. 
   ***RETIRAR CRIANÇAS??
 
  
-# 2. Especificações do Projeto
+# 2.Especificações do Projeto
 
   Durante o processo de entendimento e de consolidação das ideias, foram criadas três personas, com seus respectivos mapas de empatia, representado um válido mecanismo de compreensão do problema, bem como uma forma de tornar a ideia mais palpável. Os aspectos mais relevantes, favoráveis ou não à resolução do desafio levantado, foram articulados na parte de histórias de usuários e, em seguida, elucidados na área de requisitos e de restrições.
 
-## 2.1 Personas e Mapas de Empatia
+## 2.1.Personas e Mapas de Empatia
 
 **Fabiana**
 
