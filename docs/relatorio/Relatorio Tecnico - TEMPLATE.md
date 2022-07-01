@@ -117,21 +117,21 @@ Os membros do grupo são:
 
 **Fabiana**
 
-![image](https://user-images.githubusercontent.com/103389529/163735359-86c1d960-c8c6-4b8a-ae42-da08f6e04b61.png)          
+![image](images/persona1.png)
 Figura 1 - Persona Fabiana
 
 Ela tem 38 anos e trabalha como médica em uma Casa de Idosos, pois gosta de mudar o mundo e de fazer diferença na vida das pessoas. Pretende, sempre que possível, disponibilizar um maior conhecimento aos colegas de profissão e aos parentes de seus pacientes. Entretanto, ela se sente triste por não conseguir divulgar o suficiente sobre Primeiros Socorros para além dos muros de seu trabalho, o que dificulta o salvamento de vidas. Embora tenha perdido conhecidos devido à falta de tratamento correto, é motivada, diariamente, pela felicidade de quem ela trata com o devido suporte. Acreditando, então, que um site possa facilitar em todo esse processo.
 
 **Lucas:**
 
-![image](https://user-images.githubusercontent.com/103389529/163735762-dcccfee9-9916-481f-8f0f-04b071a0625c.png)
+![image](images/persona2.png)
 Figura 2 - Persona Lucas
 
 Ele é um jovem de 18 anos, que, mesmo ainda na faculdade, sonha em trabalhar ensinando futebol às crianças. Durante o tempo livre, adora ir à academia para relaxar e para desestresar. Faz trabalhos voluntários quando pode e sente enorme prazer e realização nessa atividade, pois, durante a infância, sentiu falta desse carinho. Ele pensa que, além de ele aprender os primeiros socorros para utilizar em sua futura profissão, uma vez que é um ambiente propicio a situações de emergência, ele vai utilizar o site caso aconteça algum acidente enquanto ele faz trabalho voluntário em asilos ou em creches. Sendo, assim, um excelente mecanismo de divulgação de conhecimento.
 
 **Helena:** 
 
-![image](https://user-images.githubusercontent.com/103389529/163735867-064435c9-5b21-43b4-800a-d2884ef5c6de.png)
+![image](images/persona3.png)
 Figura 3 - Persona Helena
 
 Ela é uma jovem de 18 anos de idade e estuda psicologia. Amante de livros de romance e de estudos sobre a mente humana, Helena mora com a avó, já idosa, e com seus pais. Embora, com muita dificuldade, procure saber sobre Primeiros Socorros para a sua avó, sente-se extremamente despreparada para prestar o socorro necessário em caso de acidente, o que a deixa com muito medo. Ela vê que o seu ciclo familiar apresenta o mesmo sentimento, mas que adoraria estar mais apta para prestar ajuda de emergência. Acredita, então, que um software será de grande valor para ganhar confiança e, também, segurança para realizar o tratamento.
