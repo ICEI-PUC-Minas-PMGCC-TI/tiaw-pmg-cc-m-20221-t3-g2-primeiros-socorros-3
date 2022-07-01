@@ -315,14 +315,14 @@ Os componentes que fazem parte da solução implementada estão divididos em doi
 
 * **Navegador**: Interface principal do sistema.
 
-   * ***Página Web***: Conjunto de arquivos do tipo HTML, CSS, JavaScript, incluindo JSON, e algumas imagens, por exemplo, a logo do site.
-   * ***Local Storage***: Armazenamento local no Navegador, no qual os dados são obetidos dados do JSON, porém, ao cadastrar novas informações localmente, o JSON perde a utilizade, e o Local Storage mantém as informações.
+   * **Página Web**: Conjunto de arquivos do tipo HTML, CSS, JavaScript, incluindo JSON, e algumas imagens, por exemplo, a logo do site.
+   * **Local Storage**: Armazenamento local no Navegador, no qual os dados são obetidos dados do JSON, porém, ao cadastrar novas informações localmente, o JSON perde a utilizade, e o Local Storage mantém as informações.
   
-   1.2.1***Publicações***: Parte composta pelas publicações principais do site, contendo videoaulas do YouTube, links de sites, informações e descrições sobre os procedimentos de Primeiros Socorros.
+      * **Publicações**: Parte composta pelas publicações principais do site, contendo videoaulas do YouTube, links de sites, informações e descrições sobre os procedimentos de Primeiros Socorros.
+      
+      * **Notícias**: Nesta seção, são apresentadas notícias sobre Primeiros Socorros, a partir de um JSON.
     
-   1.2.2***Notícias***: Nesta seção, são apresentadas notícias sobre Primeiros Socorros, a partir de um JSON.
-    
- 2.**Hospedagem**: Local da web, no qual se encontram as páginas implementadas.
+ * **Hospedagem**: Local da web, no qual se encontram as páginas implementadas.
 
 ### Hospedagem
 Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Este se encontra no seguinte link: 
