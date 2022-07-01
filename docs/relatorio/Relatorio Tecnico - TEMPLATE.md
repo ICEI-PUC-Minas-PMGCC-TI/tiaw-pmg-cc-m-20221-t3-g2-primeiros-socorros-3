@@ -45,6 +45,8 @@ Os membros do grupo são:
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
+     - [Diagrama de Componentes](#diagrama-de-componentes)
+     - [Hospedagems](#hospedagem)
 - [Avaliação da Aplicação](#avaliação-da-aplicação)
   - [Plano de Testes](#plano-de-testes)
   - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
@@ -306,6 +308,19 @@ Este editor foi utilizado para a criação dos códigos em html, css e java scri
 > nas imagens.
 
 ## Arquitetura da solução
+
+### Diagrama de Componentes
+Os componentes que fazem parte da solução implementada estão divididos em dois principais módulos, contendo, cada um, suas subdivisões:
+
+**Navegador**: Interface principal do sistema.
+   ***Página Web***: Conjunto de arquivos do tipo HTML, CSS, JavaScript, incluindo JSON, e algumas imagens, por exemplo, a logo do site.
+   ***Local Storage***: Armazenamento local no Navegador, no qual os dados são obetidos dados do JSON, porém, ao cadastrar novas informações localmente, o JSON perde a utilizade, e o Local Storage mantém as informações.
+      ****Publicações****: Parte composta pelas publicações principais do site, contendo videoaulas do YouTube, links de sites, informações e descrições sobre os procedimentos de Primeiros Socorros.
+      ****Notícias****: Nesta seção, são apresentadas notícias sobre Primeiros Socorros, a partir de um JSON.
+ **Hospedagem**: Local da web, no qual se encontram as páginas implementadas.
+
+### Hospedagem
+Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Este se encontra no seguinte link: 
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
 
