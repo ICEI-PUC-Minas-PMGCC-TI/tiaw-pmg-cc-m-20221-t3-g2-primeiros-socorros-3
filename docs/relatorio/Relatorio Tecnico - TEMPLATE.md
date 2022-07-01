@@ -32,26 +32,40 @@ Os membros do grupo são:
   - [2.1.Personas e Mapas de Empatia](#personas-e-mapas-de-empatia)
   - [2.2.Histórias de Usuários](#histórias-de-usuários)
   - [2.3.Requisitos](#requisitos)
-    - [Requisitos Funcionais](#requisitos-funcionais)
-    - [Requisitos não Funcionais](#requisitos-não-funcionais)
-  - [Restrições](#restrições)
-- [Projeto de Interface](#projeto-de-interface)
-  - [User Flow](#user-flow)
-  - [Wireframes](#wireframes)
-- [Metodologia](#metodologia)
-  - [Divisão de Papéis](#divisão-de-papéis)
-  - [Ferramentas](#ferramentas)
-  - [Controle de Versão](#controle-de-versão)
-- [Projeto da Solução](#projeto-da-solução)
-  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-  - [Arquitetura da solução](#arquitetura-da-solução)
-     - [Diagrama de Componentes](#diagrama-de-componentes)
-     - [Hospedagems](#hospedagem)
-- [Avaliação da Aplicação](#avaliação-da-aplicação)
-  - [Plano de Testes](#plano-de-testes)
-  - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
-  - [Registros de Testes](#registros-de-testes)
-- [Referências](#referências)
+    - [2.3.1.Requisitos Funcionais](#requisitos-funcionais)
+    - [2.3.2.Requisitos não Funcionais](#requisitos-não-funcionais)
+  - [2.4.Restrições](#restrições)
+- [3.Projeto de Interface](#projeto-de-interface)
+  - [3.1.User Flow](#user-flow)
+  - [3.2.Wireframes](#wireframes)
+  - [3.3.Protótipo Funcional](#protótipo-funcional)
+- [4.Gerenciamento de Projeto](#gerenciamento-de-projeto)
+  - [4.1.Divisão de Papéis](#divisão-de-papéis)
+  - [4.2.Metodologia](#metodologia)
+  - [4.3.Ferramentas](#ferramentas)
+  - [4.4.Controle de Versão](#controle-de-versão)
+- [5.Arquitetura da Solução](#arquitetura-da-solução)
+  - [5.1.Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [5.2.Diagrama de Componentes](#diagrama-de-componentes)
+  - [5.3.Hospedagem](#hospedagem)
+  - [5.4.Template do Site](#template-do-site)
+     - [5.4.1.Tela Inicial](#tela-inicial)
+     - [5.4.2.Página de Cadastro](#página-de-cadastro)
+     - [5.4.3.Tela Inicial](#tela-inicial)
+     - [5.4.4.Tela Inicial](#tela-inicial)
+     - [5.4.5.Tela Inicial](#tela-inicial)
+  - [5.5.Funcionalidades dos Sistemas](#funcionalidades-dos-sistemas)
+     - [5.5.1.Tela Inicial](#tela-inicial)
+     - [5.5.2.Página de Cadastro](#página-de-cadastro)
+     - [5.5.3.Tela Inicial](#tela-inicial)
+     - [5.5.4.Tela Inicial](#tela-inicial)
+     - [5.5.5.Tela Inicial](#tela-inicial)
+- [6.Avaliação da Aplicação](#avaliação-da-aplicação)
+  - [6.1.Plano de Testes de Sofware](#plano-de-testes-de-software)
+  - [6.2.Registro de Testes de Software](#registro-de-testes-de-software)
+  - [6.3.Plano de Testes de Usuabilidade](#plano-de-testes-de-usuabilidade)
+  - [6.4.Registro de Testes de Usuabilidade](#registro-de-testes-de-usuabilidade)
+- [7.Referências](#referências)
 
 
 # Introdução
@@ -289,7 +303,7 @@ Este editor foi utilizado para a criação dos códigos em html, css e java scri
 - `enhancement`: uma funcionalidade precisa ser melhorada;
 - `feature`: uma nova funcionalidade precisa ser introduzida.
 
-# Projeto da Solução
+# Arquitetura da Solução
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
@@ -310,9 +324,7 @@ Este editor foi utilizado para a criação dos códigos em html, css e java scri
 > item textualmente comentando e complementando o que está apresentado
 > nas imagens.
 
-## Arquitetura da solução
-
-### Diagrama de Componentes
+## Diagrama de Componentes
 Os componentes que fazem parte da solução implementada estão divididos em dois principais módulos, contendo, cada um, suas subdivisões:
 
 
@@ -323,7 +335,7 @@ Os componentes que fazem parte da solução implementada estão divididos em doi
        * **Notícias**: Nesta seção, são apresentadas notícias sobre Primeiros Socorros, a partir de um JSON.
   * **Hospedagem**: Local da web, no qual se encontram as páginas implementadas.
 
-### Hospedagem
+## Hospedagem
 Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Este se encontra no seguinte link: 
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
@@ -335,17 +347,31 @@ Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Es
 > 
 > ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
 
-### Template do Site
+## Template do Site
 
-#### Tela inicial
+### Tela inicial
 
-#### Página de Cadastro de Usuário
+### Página de Cadastro de Usuário
 
-#### Página de Login
+### Página de Login
 
-#### Página de Cadastro de Informação
+### Página de Cadastro de Informação
 
-#### Página de Apresentação das Informações
+### Página de Apresentação das Informações
+
+
+
+## Funcionalidade do Sistema
+
+### Tela inicial
+
+### Página de Cadastro de Usuário
+
+### Página de Login
+
+### Página de Cadastro de Informação
+
+### Página de Apresentação das Informações
 
 
 # Avaliação da Aplicação
@@ -356,7 +382,7 @@ Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Es
 > sua aplicação. Escolha cenários de testes que demonstrem os requisitos
 > sendo satisfeitos.
 
-## Plano de Testes
+## Plano de Testes de Software
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
@@ -380,7 +406,7 @@ Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Es
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
-## Registros de Testes
+## Registros de Testes de Software
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
