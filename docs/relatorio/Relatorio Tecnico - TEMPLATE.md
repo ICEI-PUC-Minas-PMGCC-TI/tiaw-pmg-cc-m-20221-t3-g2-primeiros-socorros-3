@@ -6,7 +6,7 @@ Desconhecimento Sobre Primeiros Socorros
 
 `Curso`
 
-Primeiro Período - Ciência da Computação PUC Minas
+Primeiro Período - Ciência da Computação PUC Minas Coração Eucarístico
 
 ## Participantes
 
@@ -42,7 +42,6 @@ Os membros do grupo são:
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
@@ -84,12 +83,14 @@ Os membros do grupo são:
 
 ## Justificativa
 
-  O que impulsionou a realização deste trabalho foi a percepção de que desinformação, em grande escala, acerca dos primeiros socorros, sendo perceptível, inclusive, no cotidiano. Assim, tendo como base a necessidade de uma ampliação dos meios de divulgação, a escolha de um recorte temático para o tema acidentes com idosos e com crianças foi feita, visando a acidentes recorrentes e que, em muitos casos, não há uma atitude correta de auxílio e de socorro.
+  O que impulsionou a realização deste trabalho foi o entendimento de que desinformação, em grande escala, acerca dos primeiros socorros é extremamente perceptível, inclusive, no cotidiano. Assim, tendo como base a necessidade de uma ampliação dos meios de divulgação, a escolha de um recorte temático para o tema acidentes com idosos foi feita, visando a acidentes recorrentes e que, em muitos casos, não há uma atitude correta de auxílio e de socorro.
+  ***RETIRAR CRIANÇAS??
 
 
 ## Público-Alvo
 
-  O público alvo do projeto compreende tanto empresas que, em parceria com o site, seriam beneficiadas de um material interativo com os usuários do serviço, facilitando na aprendizagem de manobras e de procedimentos corretos a serem realizados em situações emergenciais. Quanto quem convive com a parcela populacional idosa e infantil, podendo adquirir conhecimentos prévios e seres capacitados a lidar com situações de urgência, no que se tange à área da saúde. 
+  O público alvo do projeto compreende tanto empresas que, em parceria com o site, seriam beneficiadas de um material interativo com os usuários do serviço, facilitando na aprendizagem de manobras e de procedimentos corretos a serem realizados em situações emergenciais. Quanto quem convive com a parcela populacional idosa, podendo adquirir conhecimentos prévios e seres capacitados a lidar com situações de urgência, no que se tange à área da saúde. 
+  ***RETIRAR CRIANÇAS??
 
  
 # Especificações do Projeto
@@ -139,7 +140,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Lucas              | falas de especialistas              | conseguir passar segurança aos colegas           |
 | Lucas              | parceria com uma empresa de esporte | possibilitar um engajamento dos jogadores        |
 | Helena             | acesso rápido e simplificado        | saber cuidar da sua avó                          |
-| Helena             | site simples e acessível            | que parentes e familiares possam usar           |
+| Helena             | site simples e acessível            | que parentes e familiares possam usar            |
 | Helena             | explicação simples e eficaz         | sua avó poder abrir caso precise                 |
 | Helena             |demonstração de cada tipo de acidente| se sentir preparada em variadas situações        |
 | Helena             | poder abrir no celular              |ser prática, pois computador pode demorar         |
@@ -153,7 +154,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito                                                         | Prioridade |
 |------|--------------------------------------------------------------------------------|------------|
 |RF-001| O site deve possibilitar o compartilhamento de links para divulgação           | ALTA       | 
-|RF-002| O site deve possibilitar canal de comunicação direta com canais de emergência  | ALTA       |
+|RF-002| O site deve possibilitar canal de comunicação direta com canais de emergência  | ALTA       | **FALTOU ISSO AQUI
 |RF-003| O site deve exemplificar os tipos de acidentes mais comuns                     | ALTA       |
 |RF-004| O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção | ALTA       |
 |RF-005| O site deve disponibilizar o tipo de socorro preciso às situações comuns       | ALTA       |
@@ -226,11 +227,13 @@ Figura 9 - Página de Comentários
 
   O trabalho precisou, sem dúvidas, ser dividido entre os quatro integrantes para que fosse completado com sucesso.
   
-  Foi utilizado, então, o Miro para ser feito um controle de entrada das tarefas do trabalho. Cada um dos elementos do Sprint 1 foi separado entre a equipe, de modo que, ao mesmo tempo que todos tenham conhecimento sobre as partes do projeto, não há uma sobrecarga a um único integrante apenas. Subdividiu-se as partes, e cada um liderou uma parte do trabalho específica, contribuindo para a organização dos outros. 
-  
-- Gabriel -> dirigiu o documento;
-- Stephanie e André -> organizaram a parte de User Flow e Wireframe;
-- Gabriela -> responsabilizou-se pela apresentação.
+  Foi utilizado, então, o Miro para ser feito um controle de entrada das tarefas do trabalho. Cada um dos elementos do Sprint 1 foi separado entre a equipe, de modo que, ao mesmo tempo que em todos tivessem conhecimento sobre as partes do projeto, não haveria uma sobrecarga a um único integrante apenas. Subdividiu-se as partes, e cada um liderou uma delas do trabalho, contribuindo para a organização dos outros. Durante as Sprints 2 e 3, o grupo foi, de certa forma, separado para cumprir todas as demandas que seriam implementadas no site. Para tanto, a ideia foi de que, em discussões semanais durantes as aulas da disciplina, o grupo se reunisse, discutindo o que já estava pronto e o que ainda seria concretizado. Vale ressaltar, porém, que, para manter o desing harmÔnico de toda a plataforma, as deciões principais — como layout, cor, tamanho, imagens — foram tomadas em conjunto. Além disso, um grupo no WhatsApp foi impressindível para que fossem debatidas novas ideias para o projeto. Por fim, para a Sprint 4, o grupo esteve mais unido, pois compilou-se os projetos realizados anteriormente e finalizou-se as demanadas restantes.
+ 
+- André Feraz -> organizou a parte de User Flow e de Wireframe na documentação; criou a área de login.
+- Gabriel Vargas -> dirigiu a parte da documentação; implementou a parte de cadastro, remoção e alteração das videoaulas, utilizando json; proporcionou a apresentação dessas informações no site.
+- Gabriela Colem -> responsabilizou-se pela parte das apresentações; criou todo o layout padrão do site das principais tela; adicionou a funcionalidade para apresentação de notícias pelo json.
+- Stefani da Silva -> organizou a parte de User Flow e de Wireframe na documentação; criou a área de cadastro.
+
 
 ## Ferramentas
 
@@ -240,7 +243,8 @@ Figura 9 - Página de Comentários
 |Repositório de código       | GitHub            | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t3-g2-primeiros-socorros-3     | 
 |User Flow                   | Figma             | https://www.figma.com/file/gfqgNdxjHh7YSI8eMX13BK/User-flow--Primeiros-socorros?node-id=0%3A1 | 
 |Wireframes                  | Figma             | https://www.figma.com/file/KxY5qxhoxyo6xGYenlH0Rg/Wireframe-Primeiros-Socorros?node-id=8%3A372|
-|Apresentação                | Canva             | https://www.canva.com/design/DAE-EYoqQd0/Q5qoWJlzMyKO4IEzne_oDg/view?utm_content=DAE-EYoqQd0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink|
+|Apresentação I              | Canva             | https://www.canva.com/design/DAE-EYoqQd0/Q5qoWJlzMyKO4IEzne_oDg/view?utm_content=DAE-EYoqQd0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink|
+|Apresentação II             | Canva             | link |
 
 As ferramentas empregadas no projeto são:
 
@@ -256,10 +260,8 @@ O software Figma é uma ferramenta excelente para a criação de protótipos rel
 - Apresentação: Canva
 A ferramenta online permite, dentre muitas funcionalidades, a criação de apresentação de slides simplificados e bem estruturados, de modo a tornar a apresentação mais clara e atrativa.
 
-- Editor de código: Visual Studio Code"
-Após experiências nas matérias de Algoritmos e Estruturas de Dados e de Desenvolvimento de Interfaces Web, acredita-se que o aplicativo seja a melhor ferramenta para a edição dos códigos do software
-
-"Ainda não foi utilizado
+- Editor de código: Visual Studio Code
+Este editor foi utilizado para a criação dos códigos em html, css e java scritp, bem como para a criação do json.
 
 ## Controle de Versão
 
@@ -281,9 +283,6 @@ Após experiências nas matérias de Algoritmos e Estruturas de Dados e de Desen
 - `bugfix`: uma funcionalidade encontra-se com problemas;
 - `enhancement`: uma funcionalidade precisa ser melhorada;
 - `feature`: uma nova funcionalidade precisa ser introduzida.
-
-# **############## SPRINT 1 ACABA AQUI #############**
-
 
 # Projeto da Solução
 
