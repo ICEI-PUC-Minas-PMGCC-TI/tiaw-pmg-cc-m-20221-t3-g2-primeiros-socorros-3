@@ -455,26 +455,41 @@ Requisitos para realização do teste:
 
 Os testes funcionais do software a serem realizados estão descritos a seguir.
 
-|Caso de Teste        | CT-01-Cadastrar usuário                             |
+|Caso de Teste        | CT-01-Cadastrar usuário OK                          |
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
 |Objetivo do teste    | Verificar se usuário consegue se cadastrar no site  |
-|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, não necessariamente reais, porém deve manter o formato correto. </br> 5. No campo "Tipo de cadastro", selecionar usuário </br> 6. Clicar em "Cadastrar" </br> |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, não necessariamente reais, porém deve manter o formato correto </br> 5. No campo "Tipo de cadastro", selecionar usuário </br> 6. Clicar em "Cadastrar" </br> |
 |Critérios de Êxito   | Ao clicar em "Cadastrar", caso todas as informações tenham sido preenchidas, deve aparecer mensagem de cadastro concluído, e nenhum erro pode ser apresentado.                                                            |
 
-|Caso de Teste        | CT-02-Cadastrar médico                              |
+|Caso de Teste        | CT-02-Cadastrar usuário NÃO OK                      |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
+|Objetivo do teste    | Verificar se usuário é impedido de se cadastrar no site caso preencha algum campo incorretamente |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, porém erroneamente. Por exemplo, nome com dígitos, CPF e número de celular com letras, e-mail sem o @, senhas diferentes </br> 5. No campo "Tipo de cadastro", selecionar usuário </br> 6. Clicar em "Cadastrar" </br> |
+|Critérios de Êxito   | Ao clicar em "Cadastrar", deve aparecer mensagem de erro nos campos preenchidos incorretamente, e o cadastro NÃO pode ser criado |                                                      |
+
+|Caso de Teste        | CT-03-Cadastrar médico OK                           |
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-007: O site deve permitir o cadastro de médicos  |
 |Objetivo do teste    | Verificar se médico consegue se cadastrar no site   |
-|Passos               |                                                     |
-|Critérios de Êxito   |                                                     |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, não necessariamente reais, porém deve manter o formato correto </br> 5. No campo "Tipo de cadastro", selecionar médico </br> 6. Clicar em "Cadastrar" </br> |
+|Critérios de Êxito   | Ao clicar em "Cadastrar", caso todas as informações tenham sido preenchidas, deve aparecer mensagem de cadastro concluído, e nenhum erro pode ser apresentado.                                                            |
 
-|Caso de Teste        | CT-03-Relizar login                                 |
+|Caso de Teste        | CT-04-Cadastrar médico NÃO OK                       |
 |---------------------|-----------------------------------------------------|
-|Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários </br> RF-007: O site deve permitir o cadastro de médicos |
-|Objetivo do teste    | Verificar se usuários e médicos conseguem realizar login com dados cadastrados anteriormente |
-|Passos               | 1. |
-|Critérios de Êxito   |                                                     |
+|Requisitos Associados| RF-007: O site deve permitir o cadastro de médicos  |
+|Objetivo do teste    | Verificar se usuário é impedido de se cadastrar no site caso preencha algum campo incorretamente |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, porém erroneamente. Por exemplo, nome com dígitos, CPF e número de celular com letras, e-mail sem o @, senhas diferentes </br> 5. No campo "Tipo de cadastro", selecionar médico </br> 6. Clicar em "Cadastrar" </br> |
+|Critérios de Êxito   | Ao clicar em "Cadastrar", deve aparecer mensagem de erro nos campos preenchidos incorretamente, e o cadastro NÃO pode ser criado |  
+
+
+|Caso de Teste        | CT-05-Relizar login usuário                         |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
+|Objetivo do teste    | Verificar se usuários conseguem realizar login com dados cadastrados |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha previamente definidos no JSON (exemplo abaixo) </br> 5. Clicar em "Entrar" |
+|Critérios de Êxito   | * O usuário deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada </br> * Deve aparecer o nome do usuário no canto superior da tela                                                     |
 
 
 
