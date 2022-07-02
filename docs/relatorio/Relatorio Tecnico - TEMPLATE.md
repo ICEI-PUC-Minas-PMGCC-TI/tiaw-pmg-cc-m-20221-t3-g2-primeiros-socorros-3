@@ -489,7 +489,14 @@ Os testes funcionais do software a serem realizados estão descritos a seguir.
 |Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
 |Objetivo do teste    | Verificar se usuários conseguem realizar login com dados cadastrados |
 |Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha previamente definidos no JSON (exemplo abaixo) </br> 5. Clicar em "Entrar" |
-|Critérios de Êxito   | * O usuário deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada </br> * Deve aparecer o nome do usuário no canto superior da tela                                                     |
+|Critérios de Êxito   | * O usuário deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer o nome do usuário no canto superior da tela </br> * NÃO deve exibir um botão para cadastrar conteúdo |
+
+|Caso de Teste        | CT-0-Relizar login médico                          |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
+|Objetivo do teste    | Verificar se usuários conseguem realizar login com dados cadastrados |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha previamente definidos no JSON (exemplo abaixo) </br> 5. Clicar em "Entrar" |
+|Critérios de Êxito   | * O usuário deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer o nome do usuário no canto superior da tela                                                     |
 
 
 
