@@ -166,17 +166,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### 2.3.1. Requisitos Funcionais
 
-|ID    | Descrição do Requisito                                                         | Prioridade |
-|------|--------------------------------------------------------------------------------|------------|
-|RF-001| O site deve possibilitar o compartilhamento de links para divulgação           | ALTA       | 
-|RF-002| O site deve possibilitar canal de comunicação direta com canais de emergência  | ALTA       | **FALTOU ISSO AQUI
-|RF-003| O site deve exemplificar os tipos de acidentes mais comuns                     | ALTA       |
-|RF-004| O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção | ALTA       |
-|RF-005| O site deve disponibilizar o tipo de socorro preciso às situações comuns       | ALTA       |
-|RF-006| O site deve permitir o cadastro de usuário                                     | MÉDIA      |
-|RF-007| O site deve permitir o cadastro de médicos                                     | MÉDIA      |
-|RF-008| O site deve ter área exclusiva para discussão no esporte                       | BAIXA      |
-|RF-009| O site deve exibir comentários de médicos sobre as aulas                       | BAIXA      |
+|ID    | Descrição do Requisito                                                            | Prioridade |
+|------|-----------------------------------------------------------------------------------|------------|
+|RF-001| O site deve possibilitar o cadastro de links de sites e de vídeos para divulgação | ALTA       | 
+|RF-002| O site deve possibilitar canal de comunicação direta com canais de emergência     | ALTA       | **FALTOU ISSO AQUI**
+|RF-003| O site deve exemplificar os tipos de acidentes mais comuns                        | ALTA       |
+|RF-004| O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção    | ALTA       |
+|RF-005| O site deve disponibilizar o tipo de socorro preciso às situações comuns          | ALTA       |
+|RF-006| O site deve permitir o cadastro de usuário                                        | MÉDIA      |
+|RF-007| O site deve permitir o cadastro de médicos                                        | MÉDIA      |
+|RF-008| O site deve ter área exclusiva para discussão no esporte                          | BAIXA      |
+|RF-009| O site deve exibir comentários de médicos sobre as aulas                          | BAIXA      |
 
 ### Requisitos não Funcionais
 
@@ -366,6 +366,8 @@ Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Es
 
 ## Funcionalidade do Sistema
 
+  Nesta seção, são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema:
+
 ### Tela inicial
 
 ### Página de Cadastro de Usuário
@@ -374,8 +376,30 @@ Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Es
 
 ### Página de Cadastro de Informação
 
+**Entrega Sprint1 - Cadastro das videoaulas e das informações complementares sobre Primeiros Socorros:**
+
+Aluno responsável: Gabriel Vargas Bento de Souza
+Link do código:
+
+Nesta tela, há a parte de cadastro dos conteúdos por parte dos médicos. Existe um JSON inicial com alguns pré-cadastros, mas são armazenados no LocalStorage em seguida.
+
+**Requisitos Atendidos:**
+RF-001: O site deve possibilitar o cadastro de links de sites e de vídeos para divulgação
+
+
 ### Página de Apresentação das Informações
 
+**Entrega Sprint2 - Apresentação das videoaulas e das informações complementares sobre Primeiros Socorros:**
+
+Aluno responsável: Gabriel Vargas Bento de Souza
+Link do código:
+
+Nesta tela, há a parte de apresentação dos conteúdos cadastrados pelos médicos.
+
+**Requisitos Atendidos:**
+RF-003: O site deve exemplificar os tipos de acidentes mais comuns                     
+RF-004: O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção
+RF-005: O site deve disponibilizar o tipo de socorro preciso às situações comuns
 
 # Avaliação da Aplicação
 
