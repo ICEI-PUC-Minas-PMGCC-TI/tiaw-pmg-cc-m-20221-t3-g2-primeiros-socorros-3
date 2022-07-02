@@ -384,7 +384,13 @@ Link do código:
 Nesta tela, há a parte de cadastro dos conteúdos por parte dos médicos. Existe um JSON inicial com alguns pré-cadastros, mas são armazenados no LocalStorage em seguida.
 
 **Requisitos Atendidos:**
-RF-001: O site deve possibilitar o cadastro de links de sites e de vídeos para divulgação
+* RF-001: O site deve possibilitar o cadastro de links de sites e de vídeos para divulgação
+
+**Artefatos da Funcionalidade:**
+* index-informacoes-cadastro.html
+* index-informacoes.html
+* style-informacoes.css
+* script-informacoes.js
 
 
 ### Página de Apresentação das Informações
@@ -397,9 +403,12 @@ Link do código:
 Nesta tela, há a parte de apresentação dos conteúdos cadastrados pelos médicos.
 
 **Requisitos Atendidos:**
-RF-003: O site deve exemplificar os tipos de acidentes mais comuns                     
-RF-004: O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção
-RF-005: O site deve disponibilizar o tipo de socorro preciso às situações comuns
+* RF-003: O site deve exemplificar os tipos de acidentes mais comuns                     
+* RF-004: O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção
+* RF-005: O site deve disponibilizar o tipo de socorro preciso às situações comuns
+
+**Artefatos da Funcionalidade:**
+
 
 # Avaliação da Aplicação
 
