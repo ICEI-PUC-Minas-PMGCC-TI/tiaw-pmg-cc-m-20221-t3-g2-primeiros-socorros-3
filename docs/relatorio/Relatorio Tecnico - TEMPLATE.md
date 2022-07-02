@@ -378,7 +378,10 @@ Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Es
 
 **Entrega Sprint1 - Cadastro das videoaulas e das informações complementares sobre Primeiros Socorros:**
 
+PRINT PAGINA
+
 Aluno responsável: Gabriel Vargas Bento de Souza
+
 Link do código:
 
 Nesta tela, há a parte de cadastro dos conteúdos por parte dos médicos. Existe um JSON inicial com alguns pré-cadastros, mas são armazenados no LocalStorage em seguida.
@@ -392,12 +395,19 @@ Nesta tela, há a parte de cadastro dos conteúdos por parte dos médicos. Exist
 * style-informacoes.css
 * script-informacoes.js
 
+**Estrutura de Dados:**
+
+PRINT JSON
+
 
 ### Página de Apresentação das Informações
 
 **Entrega Sprint2 - Apresentação das videoaulas e das informações complementares sobre Primeiros Socorros:**
 
+PRINT PAGINA
+
 Aluno responsável: Gabriel Vargas Bento de Souza
+
 Link do código:
 
 Nesta tela, há a parte de apresentação dos conteúdos cadastrados pelos médicos.
@@ -420,6 +430,19 @@ Nesta tela, há a parte de apresentação dos conteúdos cadastrados pelos médi
 
 ## Plano de Testes de Software
 
+Requisitos para realização do teste:
+* Site publicado na Internet
+* Navegador da Internet - Chrome, Firefox ou Edge
+
+Os testes funcionais do software a serem realizados estão descritos a seguir.
+
+|Caso de Teste        | CT-01-Cadastrar usuário                             |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-006: O site deve permitir o cadastro de usuário  |
+|Objetivo do teste    | Verificar se usuário consegue cadastrar no site     |
+|Passos               |                                                     |
+|Critérios de Êxito   |
+
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
@@ -430,7 +453,7 @@ Nesta tela, há a parte de apresentação dos conteúdos cadastrados pelos médi
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
 ## Ferramentas de Testes (Opcional)
 
