@@ -99,13 +99,14 @@ Os membros do grupo são:
 ## Justificativa
 
   O que impulsionou a realização deste trabalho foi o entendimento de que desinformação, em grande escala, acerca dos primeiros socorros é extremamente perceptível, inclusive, no cotidiano. Assim, tendo como base a necessidade de uma ampliação dos meios de divulgação, a escolha de um recorte temático para o tema acidentes com idosos foi feita, visando a acidentes recorrentes e que, em muitos casos, não há uma atitude correta de auxílio e de socorro.
-  ***RETIRAR CRIANÇAS??
-
+  
+  Justificativa com apresentação de dados comprobatórios ou questionários realizados pelo grupo.
 
 ## Público-Alvo
 
   O público alvo do projeto compreende tanto empresas que, em parceria com o site, seriam beneficiadas de um material interativo com os usuários do serviço, facilitando na aprendizagem de manobras e de procedimentos corretos a serem realizados em situações emergenciais. Quanto quem convive com a parcela populacional idosa, podendo adquirir conhecimentos prévios e seres capacitados a lidar com situações de urgência, no que se tange à área da saúde. 
-  ***RETIRAR CRIANÇAS??
+  
+  Definição clara de público contemplando ao menos dois itens (faixa etária, nível de escolaridade, segmento de atuação, localização geográfica) 
 
  
 # Especificações do Projeto
@@ -164,7 +165,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
-### 2.3.1. Requisitos Funcionais
+### Requisitos Funcionais
 
 |ID    | Descrição do Requisito                                                            | Prioridade |
 |------|-----------------------------------------------------------------------------------|------------|
@@ -173,10 +174,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| O site deve exemplificar os tipos de acidentes mais comuns                        | ALTA       |
 |RF-004| O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção    | ALTA       |
 |RF-005| O site deve disponibilizar o tipo de socorro preciso às situações comuns          | ALTA       |
-|RF-006| O site deve permitir o cadastro de usuário                                        | MÉDIA      |
+|RF-006| O site deve permitir o cadastro de usuários                                       | MÉDIA      |
 |RF-007| O site deve permitir o cadastro de médicos                                        | MÉDIA      |
 |RF-008| O site deve ter área exclusiva para discussão no esporte                          | BAIXA      |
 |RF-009| O site deve exibir comentários de médicos sobre as aulas                          | BAIXA      |
+|RF-010|                                                                                   |            |
 
 ### Requisitos não Funcionais
 
@@ -438,10 +440,24 @@ Os testes funcionais do software a serem realizados estão descritos a seguir.
 
 |Caso de Teste        | CT-01-Cadastrar usuário                             |
 |---------------------|-----------------------------------------------------|
-|Requisitos Associados| RF-006: O site deve permitir o cadastro de usuário  |
-|Objetivo do teste    | Verificar se usuário consegue cadastrar no site     |
+|Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
+|Objetivo do teste    | Verificar se usuário consegue se cadastrar no site  |
 |Passos               |                                                     |
-|Critérios de Êxito   |
+|Critérios de Êxito   |                                                     |
+
+|Caso de Teste        | CT-02-Cadastrar médico                              |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-007: O site deve permitir o cadastro de médicos  |
+|Objetivo do teste    | Verificar se médico consegue se cadastrar no site   |
+|Passos               |                                                     |
+|Critérios de Êxito   |                                                     |
+
+|Caso de Teste        | CT-03-Relizar login                                 |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários; RF-007: O site deve permitir o cadastro de médicos |
+|Objetivo do teste    | Verificar se usuários e médicos conseguem realizar login com dados cadastrados anteriormente |
+|Passos               | 1. |
+|Critérios de Êxito   |                                                     |
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
