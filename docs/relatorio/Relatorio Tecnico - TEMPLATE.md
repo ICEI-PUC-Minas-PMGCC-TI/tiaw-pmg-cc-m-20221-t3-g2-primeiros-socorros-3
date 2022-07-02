@@ -354,6 +354,13 @@ Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Es
 
 ## Template do Site
 
+Documentação da estrutura do layout(s) proposto(s)  pelo template (mín. 3 layouts)
+Artefatos de código (HTML e CSS)
+Ambiente funcional publicado na Internet (Ex: Repl.it, Heroku, GitHub Pages)
+Exemplo das telas com conteúdo fictício para exemplificação 
+Responsividade totalmente funcional em ambiente desktop e mobile
+
+
 ### Tela inicial
 
 ### Página de Cadastro de Usuário
@@ -367,6 +374,14 @@ Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Es
 
 
 ## Funcionalidade do Sistema
+
+Print das telas implementadas com descrição breve sobre os recursos providos na aplicação.
+Funcionalidade dinâmica a partir de artefatos de código em JavaScript para UMA das soluções: 
+Manipulação de dados em JSON com persistência no browser (localStorage) ou em servidor.
+Interação via AJAX com API disponível na Internet ou do próprio sistema.
+Animação de elementos da página com propósito de atender funcionalidade documentada na especificação. Ex: jogos, calculadoras.
+Ambiente funcional publicado na Internet (Ex: Repl.it, Heroku, GitHub Pages)
+
 
   Nesta seção, são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema:
 
@@ -444,8 +459,8 @@ Os testes funcionais do software a serem realizados estão descritos a seguir.
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
 |Objetivo do teste    | Verificar se usuário consegue se cadastrar no site  |
-|Passos               |                                                     |
-|Critérios de Êxito   |                                                     |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, não necessariamente reais, porém deve manter o formato correto. </br> 5. No campo "Tipo de cadastro", selecionar usuário </br> 6. Clicar em "Cadastrar" </br> |
+|Critérios de Êxito   | Ao clicar em "Cadastrar", caso todas as informações tenham sido preenchidas, deve aparecer mensagem de cadastro concluído, e nenhum erro pode ser apresentado.                                                            |
 
 |Caso de Teste        | CT-02-Cadastrar médico                              |
 |---------------------|-----------------------------------------------------|
@@ -456,7 +471,7 @@ Os testes funcionais do software a serem realizados estão descritos a seguir.
 
 |Caso de Teste        | CT-03-Relizar login                                 |
 |---------------------|-----------------------------------------------------|
-|Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários; RF-007: O site deve permitir o cadastro de médicos |
+|Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários </br> RF-007: O site deve permitir o cadastro de médicos |
 |Objetivo do teste    | Verificar se usuários e médicos conseguem realizar login com dados cadastrados anteriormente |
 |Passos               | 1. |
 |Critérios de Êxito   |                                                     |
