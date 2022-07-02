@@ -432,6 +432,8 @@ Nesta tela, há a parte de apresentação dos conteúdos cadastrados pelos médi
 
 ## Plano de Testes de Software
 
+Plano de testes identificando os objetivos do teste, os passos para o teste e os resultados esperados com referência aos requisitos associados (min. 8 casos de testes funcionais e 2 não funcionais)
+
 Requisitos para realização do teste:
 * Site publicado na Internet
 * Navegador da Internet - Chrome, Firefox ou Edge
@@ -459,6 +461,8 @@ Os testes funcionais do software a serem realizados estão descritos a seguir.
 |Passos               | 1. |
 |Critérios de Êxito   |                                                     |
 
+
+
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
@@ -471,17 +475,11 @@ Os testes funcionais do software a serem realizados estão descritos a seguir.
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
 > - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
 ## Registros de Testes de Software
+
+Relatório dos testes realizados com print das telas geradas nos testes (mín. de 8 testes)
+Relatório de problemas identificados nos testes e propostas de correções/ajustes
+
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
@@ -489,6 +487,14 @@ Os testes funcionais do software a serem realizados estão descritos a seguir.
 > fracos identificados na solução. Comente como o grupo pretende atacar
 > esses pontos nas próximas iterações. Apresente as falhas detectadas e
 > as melhorias geradas a partir dos resultados obtidos nos testes.
+
+## Plano de Testes de Usuabilidade
+Planejamento dos testes de usabilidade a serem feitos com (1) identificação de objetivos a serem validados, (2) detalhes dos público a ser envolvido e  (3) roteiro detalhado das tarefas a serem desempenhadas pelos usuários (mínimo de 10 passos)
+
+## Registros de Testes de Usuabilidade
+Relatório com detalhamento das pessoas envolvidas no teste
+Relatório de alterações decorrentes dos testes (min. de 8 testes com usuários)
+Relatório de problemas identificados nos testes e propostas de correções/ajustes
 
 
 # Referências
