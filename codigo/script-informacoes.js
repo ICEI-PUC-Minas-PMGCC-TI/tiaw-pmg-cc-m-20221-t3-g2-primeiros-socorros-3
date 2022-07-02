@@ -174,6 +174,68 @@ var db_informacoes_iniciais = {
     ]
 }
 
+
+
+// declara um conjunto de informacoes inicias sobre o conteudo
+var db_conteudo_inicial = {
+    dados: [
+       {
+            id    : 1,
+            nome  : "avc",
+            nomec : "AVC",
+            texto : "O acidente vascular cerebral (AVC) é a doença que mais mata no Brasil; entretanto, a maioria da população desconhece o assunto e tem dúvidas sobre as principais causas, os sintomas e como prevenir.",
+        },
+        {
+            id     : 2,
+            nome   : "choque",
+            nomec  : "Choque",
+            texto  : "A passagem de uma alta corrente elétrica pelo corpo de uma pessoa pode provocar consequências irreversíveis para a vítima, podendo causar problemas neurológicos, cardíacos, queimaduras e, até mesmo, a morte."
+        },
+        {
+            id    : 3,
+            nome  : "convulsao",
+            nomec : "Convulsão",
+            texto : "A convulsão pode ser gerada por AVC, problemas no metabolismo, algum trauma forte na cabeça. Dentre essas princiapis causas, o que se destaca é a possibilidade de prevenção e de tratamento imediato, minimizando os possíveis impactos.",
+        },
+        {
+            id    : 4,
+            nome  : "desmaio",
+            nomec : "Desmaio",
+            texto : "Idosos são mais suscetíveis a desmaios, uma vez que, ao envelhecer, o fluxo sanguínio diminui, mas esses acontecimentos podem ser sinais para doenças mais graves. Aprenda a como lidar caso um idoso desmaie perto de você.",
+        },
+        {
+            id    : 5,
+            nome  : "engasgo",
+            nomec : "Engasgo",
+            texto : "Com o processo de envelhecimento, a pessoa fica mais propensa a perder força na musculatura responsável pela deglutição, o que pode levar à obstrução das vias aéreas com maior frequência.",
+        },
+        {
+            id    : 6,
+            nome  : "fratura",
+            nomec : "Fratura",
+            texto : "As fraturas em idosos, muitas vezes relacionadas à queda, são resultados de uma cadeia de acontecimentos no corpo humano dessa pessoa. Por exemplo, a osteoporose que causa o enfraquecimento dos ossos, reduzindo a sua resistência.",
+        },
+        {
+            id    : 7,
+            nome  : "infarto",
+            nomec : "Infarto",
+            texto : "O infarto é grandemente comum em pessoas de idade mais avançada e ocorre devido à redução do fluxo sanguíneo no coração. Alguns fatores de risco, como hipertensão, diabetes, sedentarismo e obesidade devem ser levados em conta na prevenção.",
+        },
+        {
+            id    : 8,
+            nome  : "queda",
+            nomec : "Queda",
+            texto : "Queda é um evento bastante comum com idosos e pode gerar grandes lesões. Entretanto, há maneiras de prevenir, bem como estratégias para o que realizar caso aconteça problemas como este, visando a minimizar a quantidade de danos.",
+        },
+        {
+            id    : 9,
+            nome  : "queimadura",
+            nomec : "Queimadura",
+            texto : "A pele menos elástica e naturalmente desitratada faz com que as queimaduras sejam mais sérias para idosos do que para o restante da população, fazendo com que a cicatrização seja mais dolorosa, demorada e díficil.",
+        }
+    ]
+}
+
 // Caso os dados já estejam no Local Storage; caso contrário, carrega os dados iniciais
 var db = JSON.parse(localStorage.getItem('db_informacao'));
 if (!db) {
@@ -185,12 +247,7 @@ function displayMessage(msg) {
     $('#msg').html('<div class="alert alert-warning">' + msg + '</div>');
 }
 
-function insertInformacao(informacao) {
-    // Calcula novo Id
-    let novoId = 1;
-    if (db.data.length != 0) 
-      novoId = db.data[db.data.length - 1].id + 1;
-
+function obterNovoTipo (informacao) {
 
     // Obtem numero do tipo de acordo com o acidente
     // Tentar montar em switch ao inves de if / else
@@ -206,11 +263,21 @@ function insertInformacao(informacao) {
     else if ( informacao.acidente == "Queda"       ) novoTipo = 8;
     else if ( informacao.acidente == "Queimadura"  ) novoTipo = 9;
 
+    return (novoTipo);
+
+}
+
+function insertInformacao(informacao) {
+    // Calcula novo Id
+    let novoId = 1;
+    if (db.data.length != 0) 
+      novoId = db.data[db.data.length - 1].id + 1;
+
     // obtem as informacoes 
     let novoInformacao = {
         id        : novoId,
         acidente  : informacao.acidente,
-        tipo      : novoTipo,
+        tipo      : obterNovoTipo(informacao),
         medico    : informacao.medico,
         email     : informacao.email,
         site      : informacao.site,
@@ -232,7 +299,7 @@ function updateInformacao(id, informacao) {
 
     // Altera os dados do objeto no array
     db.data[index].acidente  = informacao.acidente,
-    db.data[index].tipo      = novoTipo,
+    db.data[index].tipo      = obterNovoTipo(informacao),
     db.data[index].medico    = informacao.medico,
     db.data[index].email     = informacao.email,
     db.data[index].site      = informacao.site,
