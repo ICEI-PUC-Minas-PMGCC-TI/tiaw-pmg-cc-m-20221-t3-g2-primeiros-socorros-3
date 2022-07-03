@@ -468,9 +468,108 @@ Link:
 
 ### Página de Apresentação das Informações
 
+  Esta página é carregada apenas após o login efetuado corretamente. Após a página dos conteúdos iniciais, em cada um dos 9 cards, ao clicar em "Acessar aula", são exibidos outros n cards sobre o tipo de acidente selecionado. Essa quantidade deve corresponder à indicada na página anterior. Nos novos cards específicos, é possível localizar um vídeo do YouTube e uma descrição, contendo: resumo, nome e e-mail do médico que cadastrou e um botão para acessar um "Site de Apoio".
+
+Página de conteúdo:
+
+![image](images/conteudo-principal.png) **AINDA NAO EXISTE**
+
+**Artefatos de código**
+conteudo-principal.html
+style-conteudo.css
+script.informacoes.js
+
+**Requisitos Atendidos:**
+* RF-004: O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção
+* RF-005: O site deve disponibilizar o tipo de socorro preciso às situações comuns
+
+**Estrutura de Dados:**
+
+JSON das informações iniciais cadastradas:
+![image](images/json-conteudo-principal.png)
+
+**Intruções de acesso:**
+1. Abra um navegador de Internet e informe o seguinte URL: link site
+2. A página home é exibida automaticamente
+3. Clique em "Conteúdo" no menu
+4. Visualize a página de conteúdo vazia
+5. Clique em Login
+6. Faça o login
+7. Slecione "Acessar aula" em um dos cards existentes
+8. Verifique a nova página com os cards, contendo vídeo e descrição
+
+**Link ambiente funcional**
+
+Link:
+
 ### Página de Cadastro das Informação
 
+  Esta página é carregada se e somente se a pessoa estiver logada como médico. A forma de acessá-la é mediante um botão "Cadastre novas publicações" disponível no fim da página de Conteúdo Iniciais. Nesta área, é possível que os médicos cadastrem as informações apenas em seu perfil. São solicitados: tipo de acidente, site, link da videoaula - que deve ser o de incorporar às páginas HTML, e não o de assistit -, uma pequena descrição da publicação. Existem os botões funcionando perfeitamente para voltar, inserir, alterar, excluir, limpar e pesquisar informações. Na tabela, são exibidas apenas as publicações do usuário; então, caso seja um usuário novo sem nenhuma, não haverá nada na tabela.
 
+Página de conteúdo:
+
+![image](images/informacoes-cadastro.png)
+
+**Artefatos de código**
+informacoes-cadastro.html
+style-informacoes.css
+script.informacoes.js
+
+**Requisitos Atendidos:**
+* RF-001: O site deve possibilitar o cadastro de links de sites e de vídeos para divulgação
+
+**Estrutura de Dados:**
+
+JSON das informações iniciais cadastradas:
+![image](images/json-conteudo-principal.png)
+
+**Intruções de acesso:**
+1. Abra um navegador de Internet e informe o seguinte URL: link site
+2. A página home é exibida automaticamente
+3. Clique em "Conteúdo" no menu
+4. Visualize a página de conteúdo vazia
+5. Clique em Login
+6. Faça o login como um MÉDICO
+7. Selecione "Cadastre novas publicações"
+8. Verifique a página como descrita anteriormente
+
+### Página de Visualização de todas as Informação
+
+  Esta página é carregada se e somente se a pessoa estiver logada como médico. A forma de acessá-la é mediante um botão "Cadastre novas publicações" disponível no fim da página de Conteúdo Iniciais. Nesta área, é possível que os médicos cadastrem as informações apenas em seu perfil. Depois, é necessário clicar no botão "Pesquisar Informações" para visualizar todas cadastradas, incluindo as que não saõ do médico que fez login. Também, há o filtro de médico e de tipo de acidente (retirados do JSON e do LocalStorage) para filtrar a categoria desejada. Todavia, não é possível editar por ali. 
+
+Página de conteúdo:
+
+![image](images/informacoes-cadastro.png)
+
+**Artefatos de código**
+informacoes.html
+style-informacoes.css
+script.informacoes.js
+
+**Requisitos Atendidos:**
+
+* RF-009: O site deve exibir comentários de médicos sobre as aulas*
+* * A ideia da página seria para os médicos poderem dar sugestões e comentar nas outras publicações, mas não foi implementada
+
+**Estrutura de Dados:**
+
+JSON das informações iniciais cadastradas:
+![image](images/json-conteudo-principal.png)
+
+**Intruções de acesso:**
+1. Abra um navegador de Internet e informe o seguinte URL: link site
+2. A página home é exibida automaticamente
+3. Clique em "Conteúdo" no menu
+4. Visualize a página de conteúdo vazia
+5. Clique em Login
+6. Faça o login como um MÉDICO
+7. Selecione "Cadastre novas publicações"
+8. Clicar em "Pesquisar Informações"
+9. Verificar os filtros e a tabela
+
+**Link ambiente funcional**
+
+Link:
 
 # Avaliação da Aplicação
 
