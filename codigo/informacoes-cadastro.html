@@ -8,6 +8,8 @@
     <title>Cadastro de Informações</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style-informacoes.css">
+    <script src="script-informacoes.js"></script>
+    <script src="script-login.js"></script>
 </head>
 
 <body onload="init()">
@@ -39,25 +41,7 @@
                     </select>
                 </div>
             </div>
-            <div class="form-group row">
-                <div class="col-sm-6">
-                    <label for="inputMedico">Selecione o seu nome (*)</label> 
-                    <select class="form-control" id="inputMedico">
-                        <option value="Ana da Silva"     >Ana da Silva     </option>
-                        <option value="Carla Almeida"    >Carla Almeida    </option>
-                        <option value="Joana Fontes"     >Joana Fontes     </option>
-                        <option value="Joaquim Pereira"  >Joaquim Pereira  </option>
-                        <option value="Giovanne Castro"  >Giovanne Castro  </option>
-                        <option value="Pedro Marques"    >Pedro Marques    </option>
-                        <option value="Sandra Rodriques" >Sandra Rodriques </option>
-                        <option value="Tulio Alves"      >Tulio Alves      </option>
-                    </select>
-                </div>
-                <div class="col-sm-6">
-                    <label for="inputEmail">E-mail (*)</label>
-                    <input type="email" class="form-control" id="inputEmail" required placeholder="Informe o e-mail para entrarem em contato">
-                </div>
-            </div>
+  
             <div class="form-group row">
                 <div class="col-sm-6">
                     <label for="inputSite">Site (*)</label>
@@ -98,8 +82,6 @@
                         <tr>
                             <th scope="col">#        </th>
                             <th scope="col">Acidente </th>
-                            <th scope="col">Médico(a)</th>
-                            <th scope="col">E-mail   </th>
                             <th scope="col">Site     </th>
                             <th scope="col">Videoaula</th>
                             <th scope="col">Descrição</th>
@@ -124,21 +106,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="script-informacoes.js"></script>
     <script>
+
         function exibeInformacoes() {
             // Remove todas as linhas do corpo da tabela
             $("#table-informacoes").html("");
 
             // Popula a tabela com os registros do banco de dados
+            // Mostrando apenas o do medico
             for (i = 0; i < db.data.length; i++) {
-                let informacao = db.data[i];    
+                let informacao = db.data[i];  
+                if ( usuarioCorrente.nome == informacao.medico )
+                {  
                 $("#table-informacoes").append(`<tr><td scope="row">${informacao.id}</td>
                                                 <td>${informacao.acidente }</td>
-                                                <td>${informacao.medico   }</td>
-                                                <td>${informacao.email    }</td>
                                                 <td>${informacao.site     }</td>
                                                 <td>${informacao.videoaula}</td>
                                                 <td>${informacao.descricao}</td>
                                             </tr>`);
+                }
             }
         }
 
@@ -153,8 +138,8 @@
 
                 // Obtem os valores dos campos do formulário
                 let campoAcidente  = $( "#inputAcidente"  ).val();
-                let campoMedico    = $( "#inputMedico"    ).val();
-                let campoEmail     = $( "#inputEmail"     ).val();
+                let campoMedico    = usuarioCorrente.nome;
+                let campoEmail     = usuarioCorrente.email;
                 let campoSite      = $( "#inputSite"      ).val();
                 let campoVideoaula = $( "#inputVideoaula" ).val();
                 let campoDescricao = $( "#inputDescricao" ).val();
@@ -184,13 +169,13 @@
                     displayMessage("Selecione uma informação para ser alterada.");
                     return;
                 }
-                let campoAcidente  = $("#inputAcidente"  ).val();
-                let campoMedico    = $("#inputMedico"    ).val();
-                let campoEmail     = $("#inputEmail"     ).val();
-                let campoSite      = $("#inputSite"      ).val();
-                let campoVideoaula = $("#inputVideoaula" ).val();
-                let campoDescricao = $('#inputDescricao' ).val();
-                let informacao     = { 
+                let campoAcidente  = $( "#inputAcidente"  ).val();
+                let campoMedico    = usuarioCorrente.nome;
+                let campoEmail     = usuarioCorrente.email;
+                let campoSite      = $( "#inputSite"      ).val();
+                let campoVideoaula = $( "#inputVideoaula" ).val();
+                let campoDescricao = $( "#inputDescricao" ).val();
+                let informacao = { 
                     acidente : campoAcidente, 
                     medico   : campoMedico, 
                     email    : campoEmail, 
@@ -247,8 +232,6 @@
 
                 $("#inputId"       ).val(colunas[0].innerText);
                 $("#inputAcidente" ).val(colunas[1].innerText);
-                $("#inputMedico"   ).val(colunas[2].innerText);
-                $("#inputEmail"    ).val(colunas[3].innerText);
                 $("#inputSite"     ).val(colunas[4].innerText);
                 $("#inputVideoaula").val(colunas[5].innerText);
                 $("#inputDescricao").val(colunas[6].innerText);

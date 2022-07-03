@@ -8,6 +8,8 @@
     <title>Lista de Publicações</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style-informacoes.css">    
+    <script src="script-informacoes.js"></script>
+    <script src="script-login.js"></script>
 </head>
 
 <body onload="ListaInformacoes()">
@@ -24,15 +26,7 @@
             <div class="form-group row">
                 <div class="col-sm-6">
                     <select title="busca1" name="filtro_medico" id="filtro_medico" onchange="ListaInformacoes()" class="form-control">
-                        <option value=""               >Selecione o Médico  </option>
-                        <option value="Ana da Silva"   >Ana da Silva        </option>
-                        <option value="Carla Almeida"  >Carla Almeida       </option>
-                        <option value="Joana Fontes"   >Joana Fontes        </option>
-                        <option value="Joaquim Pereira">Joaquim Pereira     </option>
-                        <option value="Giovanne Castro">Giovanne Castro     </option>
-                        <option value="Pedro Marques"  >Pedro Marques       </option>
-                        <option value="Pedro Marques"  >Sandra Rodruigues   </option>
-                        <option value="Tulio Alves"    >Tulio Alves         </option>
+                        <div id="medicosCadastrados"> </div>
                     </select>                    
                 </div>
                 <div class="col-sm-6">
@@ -77,6 +71,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="script-informacoes.js"></script>
     <script>
+
+ 
+
+        
+
+
         // função para listar na tabela os informacoes que estão associados aos filtros 
         function ListaInformacoes() {
             

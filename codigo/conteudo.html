@@ -9,6 +9,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="style-conteudo.css">
   <script src="script-informacoes.js"></script>
+  <script src="script-login.js"></script>
 </head>
 
 <body>
@@ -43,6 +44,7 @@
           <p>
             <a href="cadastro.html" class="btn btn-primary   my-2">Fazer Cadastro</a>
             <a href="login.html" class="btn btn-secondary my-2">Fazer Login </a>
+            <div id="botao_logout"> </div>
           </p>
         </div>
       </div>
@@ -58,53 +60,48 @@
       </div>
     </div>
 
-    <div class="btn-group">
-      <a href="informacoes-cadastro.html" id="cadastro_info" type="button" class="btn btn-primary   my-2"" >Cadastre novas publicações</a>
-            </div>
-
-          </div>
-        </div>
-      
-      </main>
-
-      <footer>
-        <div class=" row">
-        <div class="col-12 footer_area">
-          Portal Primeiros Socorros - Todos os direitos reservados - 2022
-        </div>
+    <div class="btn-group" id="botao_cadastro">
     </div>
-    </footer>
 
-    <script>
-      // variaveis para calcular numero de publicacoes de cada tipo de acidente
-      var avc = 0;
-      let choque = 0;
-      let convulsao = 0;
-      let desmaio = 0;
-      let engasgo = 0;
-      let fratura = 0;
-      let infarto = 0;
-      let queda = 0;
-      let queimadura = 0;
+    </div>
+    </div>
 
-      // passar por todas as informacoes cadastradas
-      for (i = 0; i < db.data.length; i++) {
-        let tipo = db.data[i].tipo;
+  </main>
 
-        // contar publicacoes 
-        // alterar para switch ( ? )
-        if (tipo == 1) avc = avc + 1;
-        else if (tipo == 2) choque = choque + 1;
-        else if (tipo == 3) convulsao = convulsao + 1;
-        else if (tipo == 4) desmaio = desmaio + 1;
-        else if (tipo == 5) engasgo = engasgo + 1;
-        else if (tipo == 6) fratura = fratura + 1;
-        else if (tipo == 7) infarto = infarto + 1;
-        else if (tipo == 8) queda = queda + 1;
-        else if (tipo == 9) queimadura = queimadura + 1;
-      }
+  <footer>
+    <div class=" row">
+      <div class="col-12 footer_area">
+        Portal Primeiros Socorros - Todos os direitos reservados - 2022
+      </div>
+    </div>
+  </footer>
 
-      let texto = '';
+  <script>
+    // variaveis para calcular numero de publicacoes de cada tipo de acidente
+    let tiposArray = new Array(9);
+    for (x = 0; x < tiposArray.length; x++) {
+      tiposArray[x] = 0;
+    }
+
+    // passar por todas as informacoes cadastradas
+    for (i = 0; i < db.data.length; i++) {
+      let tipo = db.data[i].tipo;
+
+      // contar publicacoes 
+      if (tipo == 1) tiposArray[0] += 1;
+      else if (tipo == 2) tiposArray[1] += 1;
+      else if (tipo == 3) tiposArray[2] += 1;
+      else if (tipo == 4) tiposArray[3] += 1;
+      else if (tipo == 5) tiposArray[4] += 1;
+      else if (tipo == 6) tiposArray[5] += 1;
+      else if (tipo == 7) tiposArray[6] += 1;
+      else if (tipo == 8) tiposArray[7] += 1;
+      else if (tipo == 9) tiposArray[8] += 1;
+
+    }
+
+    let texto = '';
+    if (usuarioCorrente.nome != undefined) {
       for (i = 0; i < db_conteudo_inicial.data.length; i++) {
         conteudo = db_conteudo_inicial.data[i];
 
@@ -120,7 +117,7 @@
                  <a href = "conteudo-principal.html?id=${conteudo.id}" type="button" class="btn btn-sm btn-outline-secondary" >Acessar aula</a>
                </div>
                <div class= "text-muted">
-                <small> ${conteudo.nome} publicações </small>
+                <small> ${tiposArray[i]} publicações </small>
                 </div>
                </div>
                </div>
@@ -128,8 +125,31 @@
              </div>
             </div>`;
       }
-      document.getElementById('infoInicial').innerHTML = texto;
-    </script>
+    }
+    document.getElementById('infoInicial').innerHTML = texto;
+    
+    // Adiciona botao para cadastrar apenas para medicos
+    let botaoCadastro = "";
+    if (usuarioCorrente.tipo === 2) {
+      botaoCadastro += ` <div class="botao_cadastro" > <a href="informacoes-cadastro.html" id="cadastro_info" type="button" class="btn btn-primary my-2"" >Cadastre novas publicações</a> </div>`
+    }
+    document.getElementById('botao_cadastro').innerHTML = botaoCadastro;
+
+    // Apaga os dados do usuário corrente no sessionStorage
+    function logoutUser() {
+      usuarioCorrente = usuario_Corrente;
+      sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
+      window.location.assign('index.html');
+    }
+
+    // Adiciona botão logout apenas se usuarios estiver logado
+    let botaoLogout = "";
+    if (usuarioCorrente.id != undefined ) {
+      botaoLogout += ` <div class="botao_logout" > <a href="javascript:logoutUser()" class="btn btn-danger my-2">Logout </a> </div>`
+    }
+    document.getElementById('botao_logout').innerHTML = botaoLogout;    
+
+  </script>
 
 </body>
 

@@ -323,3 +323,6 @@ function deleteInformacao(id) {
     // Atualiza os dados no Local Storage
     localStorage.setItem('db_informacoes_iniciais', JSON.stringify(db));
 }
+
+
+

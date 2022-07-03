@@ -114,6 +114,20 @@ var db_cadastros_iniciais = {
     ]
 }
 
+var usuario_Corrente = {
+    data: [
+        {
+            id: undefined,
+            nome: undefined,
+            email: undefined,
+            tipo: undefined,
+            cpf: undefined,
+            celular: undefined,
+            senha: undefined
+        }
+    ]
+};
+
 // Caso os dados já estejam no Local Storage; caso contrário, carrega os dados iniciais
 var cadastro = JSON.parse(localStorage.getItem('db_cadastros_iniciais'));
 if (!cadastro) {
@@ -259,20 +273,44 @@ function checkEmail(email) {
     );
 }
 
+// usuario corrente
+var usuarioCorrente = {};
+usuarioCorrenteJSON = sessionStorage.getItem('usuarioCorrente');
+if (usuarioCorrenteJSON != undefined ) {
+    usuarioCorrente = JSON.parse (usuarioCorrenteJSON);
+}
+
+// verificar login
 function enviar() {
     const usernameLogin = document.getElementById('username-input').value;
     const passwordLogin = document.getElementById('password-input').value;
 
     for (let i = 0; i < cadastro.data.length; i++) {
-        if (cadastro.data[i].email == usernameLogin) {
-            if (cadastro.data[i].senha == passwordLogin) {
+        let usuarioOk = cadastro.data[i];
+        if (usuarioOk.email == usernameLogin) {
+            if (usuarioOk.senha == passwordLogin) {
+                usuarioCorrente.id = usuarioOk.id;
+                usuarioCorrente.nome = usuarioOk.nome;
+                usuarioCorrente.email = usuarioOk.email;
+                usuarioCorrente.tipo = usuarioOk.tipo;
+                usuarioCorrente.cpf = usuarioOk.cpf;
+                usuarioCorrente.celular = usuarioOk.celular;
+                usuarioCorrente.senha = usuarioOk.senha;
+
+                // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
+                sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
+
                 window.location.assign('conteudo.html');
-                return;
+                return true;
+
             } else {
                 alert('Senha incorreta! Tente novamente.');
-                return;
+                return false;
             }
         }
     }
     alert('Usuário não foi encontrado! Crie uma conta.');
+    return false;
 }
+
+
