@@ -249,32 +249,31 @@ Figura 9 - Página de Comentários
 ## Metodologia
 
   A metodologia utilizada compreende os mecanismos utilizados para que o projeto fosse concluído de uma maneira prática e suave. Em especial, tomou-se como base o Design Thinking. Para tanto, inicialmente, realizou-se um brainstore no Miro, visando à obtenção de ideias e de pensamentos, de forma a startar o trabalho. Em seguida, foi feito um Google Forms com as perguntas direcionadoras de ideias e, em seguida, uma análise completa dos resultados. Dessa forma, foi possível perceber as demandas dos futuros usuários do software e compreender profundamente os tipos de perfis e as possíveis personas. 
+  
   Assim, foi possível aprimorar e lapidar as ideias tidas no início do trabalho e, com elas, iniciar a parte de requisitos funcionais e não funcionais. Logo, foram realizados o User Flow e o Wireframe, com o Figma, tendo sempre em vista as determinações dos usuários do serviço.
+  
+  Em seguida, dividiu-se
 
 ## Controle de Versão
 
-  Não ocorreu, ainda, o início da criação do software para, assim, poder ocorrer a adoção dos mecanismos e das ferramentas de controle de versão. 
-
-  Entretando, espera-se o uso da ferramenta de controle de versão como sendo o [Git](https://git-scm.com/) e, também, o [Github](https://github.com) para hospedagem do repositório `upstream`.
-
-  Para facilitar, a utilização dos seguintes mecanismos pode ser útil:
+  O controle de versão não esteve grandemente presente no trabalho. Era de se esperar utilizar a ferramenta de controle de versão como sendo o [Git](https://git-scm.com/) e, também, o [Github](https://github.com) para hospedagem do repositório `upstream`.
   
-  O projeto seguir a seguinte convenção para o nome de branchs:
+  Além disso, sabe-se da existência dos mecanismos como:
  
 - `master`: versão estável já testada do software;
 - `unstable`: versão já testada do software, porém instável;
 - `testing`: versão em testes do software;
 - `dev`: versão de desenvolvimento do software.
 
-  Quanto à gerência de issues, o projeto adotar a seguinte convenção para etiquetas:
+  E, qQuanto à gerência de issues, a seguinte convenção para etiquetas:
 
 - `bugfix`: uma funcionalidade encontra-se com problemas;
 - `enhancement`: uma funcionalidade precisa ser melhorada;
 - `feature`: uma nova funcionalidade precisa ser introduzida.
 
-# Arquitetura da Solução
+  Infelizmente, não foram seguidas estas denominações. Entretanto, o versionamento dos nossos códigos foram feitos no github pessoal de cada integrante. Por meio dele, cada um postava as alterações no projeto e avisava no grupo de WhatsApp sobre a mudança. Além disso, existiam cópias dos documentos e das versões anteriores para evitar que algum arquivo fosse perdido.
 
-......  COLOQUE AQUI O SEU TEXTO ......
+# Arquitetura da Solução
 
 ## Tecnologias Utilizadas
 
@@ -286,7 +285,7 @@ Figura 9 - Página de Comentários
 |Wireframes                  | Figma                    | https://www.figma.com/file/KxY5qxhoxyo6xGYenlH0Rg/Wireframe-Primeiros-Socorros?node-id=8%3A372|
 |HTML                        | Linguagem de marcação    | --                                                                                            |
 |CSS                         | Linguagem de estilo      | --                                                                                            |
-|JavaScript                   | Linguagem de programação | --                                                                                            |
+|JavaScript                  | Linguagem de programação | --                                                                                            |
 |Bootstrap                   | Framework                | https://getbootstrap.com/           
 |Visual Studio Code          | Editor de texto          | https://code.visualstudio.com/
 |Replit                      | Hospedagem do site       | link site
@@ -581,13 +580,11 @@ Link:
 
 ## Plano de Testes de Software
 
-Plano de testes identificando os objetivos do teste, os passos para o teste e os resultados esperados com referência aos requisitos associados (min. 8 casos de testes funcionais e 2 não funcionais)
-
-Requisitos para realização do teste:
+Requisitos para realização dos testes a seguir:
 * Site publicado na Internet
 * Navegador da Internet - Chrome, Firefox ou Edge
 
-Os testes funcionais do software a serem realizados estão descritos a seguir.
+Os testes funcionais e não funcionais do software a serem realizados estão descritos a seguir.
 
 |Caso de Teste        | CT-01-Cadastrar usuário OK                          |
 |---------------------|-----------------------------------------------------|
