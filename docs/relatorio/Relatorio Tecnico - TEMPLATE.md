@@ -178,7 +178,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| O site deve permitir o cadastro de médicos                                        | MÉDIA      |
 |RF-008| O site deve ter área exclusiva para discussão no esporte                          | BAIXA      |
 |RF-009| O site deve exibir comentários de médicos sobre as aulas                          | BAIXA      |
-|RF-010|                                                                                   |            |
+|RF-010| O site deve exibir notícias relacionadas aos Primeiros Socorros                   | BAIXA      |
 
 ### Requisitos não Funcionais
 
@@ -484,20 +484,70 @@ Os testes funcionais do software a serem realizados estão descritos a seguir.
 |Critérios de Êxito   | Ao clicar em "Cadastrar", deve aparecer mensagem de erro nos campos preenchidos incorretamente, e o cadastro NÃO pode ser criado |  
 
 
-|Caso de Teste        | CT-05-Relizar login usuário                         |
+|Caso de Teste        | CT-05-Relizar login usuário OK                      |
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
 |Objetivo do teste    | Verificar se usuários conseguem realizar login com dados cadastrados |
 |Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha previamente definidos no JSON (exemplo abaixo) </br> 5. Clicar em "Entrar" |
 |Critérios de Êxito   | * O usuário deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer o nome do usuário no canto superior da tela </br> * NÃO deve exibir um botão para cadastrar conteúdo |
 
-|Caso de Teste        | CT-0-Relizar login médico                          |
+| Login (e-mail)          | Senha       |
+|gustavomaia@email.com    | Gustavo1234 |
+|ivanpereira@email.com    | Ivan1234    |
+|rodrigosantana@email.com | Rodrigo1234 |
+|amandalima@email.com     | Amanda1234  |
+
+|Caso de Teste        | CT-06-Relizar login usuário NÃO OK                  |
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
+|Objetivo do teste    | Verificar se usuários não cadastrados conseguem realizar login|
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha SEM seguir os dados previamente definidos no JSON (exemplo acima) ou no cadastro feito localmente </br> 5. Clicar em "Entrar" |
+|Critérios de Êxito   | * O usuário não deve conseguir logar na página </br> * A página de conteúdos deve estar bloqueada, ou seja, não mostrar as videoaulas |
+
+|Caso de Teste        | CT-07-Relizar login médico OK                       |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-007: O site deve permitir o cadastro de médicos  |
 |Objetivo do teste    | Verificar se usuários conseguem realizar login com dados cadastrados |
 |Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha previamente definidos no JSON (exemplo abaixo) </br> 5. Clicar em "Entrar" |
-|Critérios de Êxito   | * O usuário deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer o nome do usuário no canto superior da tela                                                     |
+|Critérios de Êxito   | * O médico deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer o nome do médico no canto superior da tela </br> * Deve aparecer um botão para cadastrar conteúdo "Cadastre novas publicações" |
 
+| Login (e-mail)          | Senha       |
+|anadasilva@email.com     | Ana1234     |
+|joanafontes@email.com    | Joana1234   |
+|carlaalmeida@email.com   | Carla1234   |
+|tulioalves@email.com     | Tulio1234   |
+|joaquimpereira@email.com | Joaquim1234 |
+|giovannecastro@email.com | Giovanne1234|
+|pedromarques@email.com   | Pedro1234   |
+|sandrarodrigues@email.com| Sandra1234  |
+
+|Caso de Teste        | CT-08-Relizar login médico NÃO OK                   |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-007: O site deve permitir o cadastro de médicos  |
+|Objetivo do teste    | Verificar se médicos não cadastrados conseguem realizar login|
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha SEM seguir os dados previamente definidos no JSON (exemplo acima) ou no cadastro feito localmente </br> 5. Clicar em "Entrar" |
+|Critérios de Êxito   | * O médico não deve conseguir logar na página </br> * A página de conteúdos deve estar bloqueada, ou seja, não mostrar as videoaulas |
+
+|Caso de Teste        | CT-09-Visualizar conteúdo inicial                   |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-003: O site deve exemplificar os tipos de acidentes mais comuns |
+|Objetivo do teste    | Verificar se conteúdo está sendo exibido corretamente|
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Realizar login corretamente </br> 4. Acessar página de conteúdo inicial |
+|Critérios de Êxito   | * Deve haver 9 cards com detalhes sobre cada tipo de acidente </br> * Cada um deles deve conter uma pequna descrição retirada de um JSON </br> * Na parte inferior, haverá um botão para "Acessar aula" </br> * Será mostrado um contador da quantidade de publicações disponíveis em cada aula |
+
+|Caso de Teste        | CT-10-Visualizar conteúdo principal                 |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-004: O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção </br> RF-005: O site deve disponibilizar o tipo de socorro preciso às situações comuns |
+|Objetivo do teste    | Verificar se conteúdo principal está sendo exibido corretamente|
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Realizar login corretamente </br> 4. Acessar página de conteúdo inicial </br> 5. Escolher um dos nove cards presentes </br> 6. Clicar em "Acessar aula" |
+|Critérios de Êxito   | * Deve haver n cards com detalhes sobre cada tipo de acidente </br> * Cada um deles deve conter uma pequna descrição retirada de um JSON, contendo vídeo explicativo do YouTube, detalhamento, médico que postou, e-mail para contato </br> * Na parte inferior, haverá um botão para "Acessar site de Apoio" </br> * Este site deve levar a uma outra página da web sobre o tipo de acidente selecionado |
+
+|Caso de Teste        | CT-11-Visualizar área de notícias                   |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-010: O site deve exibir notícias relacionadas aos Primeiros Socorros |
+|Objetivo do teste    | Verificar se, na página home, são exibidas notícias retiradas do JSON   |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Selecionar, no menu, "Home" </br> 4. Descer um pouco na página |
+|Critérios de Êxito   | * Deve haver uma área de notícias retiradas de um JSON </br> * Em cada uma delas, há título, referência, um trecho inicial e data </br> * Em baixo do texto, há um botão "Leia Mais" que deverá levar ao site do qual a notícia foi retirada |
 
 
 ......  COLOQUE AQUI O SEU TEXTO ......
