@@ -47,12 +47,14 @@ Os membros do grupo são:
   - [5.1.Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [5.2.Diagrama de Componentes](#diagrama-de-componentes)
   - [5.3.Hospedagem](#hospedagem)
-  - [5.4.Template do Site](#template-do-site)
-     - [5.4.1.Tela Inicial](#tela-inicial)
-     - [5.4.2.Página de Cadastro](#página-de-cadastro)
-     - [5.4.3.Tela Inicial](#tela-inicial)
-     - [5.4.4.Tela Inicial](#tela-inicial)
-     - [5.4.5.Tela Inicial](#tela-inicial)
+  - [5.4.Template do Site e Funcionalidades](#template-do-site-e-funcionalidades)
+     - [5.4.1.Tela Inicial da Home](#tela-inicial-da-home)
+     - [5.4.2.Página de Cadastro de Usuário e de Médico](#página-de-cadastro-de-usuário-e-de-médico)
+     - [5.4.3.Página de Login](#página-de-login)
+     - [5.4.4.Página Introdução das Informações](#página-introdução-das-informações)
+     - [5.4.5.Página de Apresentação das Informações](#página-de-apresentação-das-informações)
+     - [5.4.6.Página de Cadastro das Informações](#página-de-cadastro-das-informações)
+     - [5.4.7.Página de Visualização de Todas as Informações](#página-de-visualização-de-todas-as-informações)
 - [6.Avaliação da Aplicação](#avaliação-da-aplicação)
   - [6.1.Plano de Testes de Sofware](#plano-de-testes-de-software)
   - [6.2.Registro de Testes de Software](#registro-de-testes-de-software)
@@ -504,7 +506,7 @@ JSON das informações iniciais cadastradas:
 
 Link:
 
-### Página de Cadastro das Informação
+### Página de Cadastro das Informações
 
   Esta página é carregada se e somente se a pessoa estiver logada como médico. A forma de acessá-la é mediante um botão "Cadastre novas publicações" disponível no fim da página de Conteúdo Iniciais. Nesta área, é possível que os médicos cadastrem as informações apenas em seu perfil. São solicitados: tipo de acidente, site, link da videoaula - que deve ser o de incorporar às páginas HTML, e não o de assistit -, uma pequena descrição da publicação. Existem os botões funcionando perfeitamente para voltar, inserir, alterar, excluir, limpar e pesquisar informações. Na tabela, são exibidas apenas as publicações do usuário; então, caso seja um usuário novo sem nenhuma, não haverá nada na tabela.
 
@@ -536,7 +538,7 @@ JSON das informações iniciais cadastradas:
 7. Selecione "Cadastre novas publicações"
 8. Verifique a página como descrita anteriormente
 
-### Página de Visualização de todas as Informação
+### Página de Visualização de Todas as Informações
 
   Esta página é carregada se e somente se a pessoa estiver logada como médico. A forma de acessá-la é mediante um botão "Cadastre novas publicações" disponível no fim da página de Conteúdo Iniciais. Nesta área, é possível que os médicos cadastrem as informações apenas em seu perfil. Depois, é necessário clicar no botão "Pesquisar Informações" para visualizar todas cadastradas, incluindo as que não saõ do médico que fez login. Também, há o filtro de médico e de tipo de acidente (retirados do JSON e do LocalStorage) para filtrar a categoria desejada. Todavia, não é possível editar por ali. 
 
