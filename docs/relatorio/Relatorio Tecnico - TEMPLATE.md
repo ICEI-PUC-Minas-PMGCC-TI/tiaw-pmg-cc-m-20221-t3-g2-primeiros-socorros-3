@@ -349,12 +349,12 @@ Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Es
 ![image](images/home.png)
 
 **Artefatos de código**
-index.html
-style-home.css
-script-noticias.js
+* index.html
+* style-home.css
+* script-noticias.js
 
 **Requisitos Atendidos:**
-RF-010: O site deve exibir notícias relacionadas aos Primeiros Socorros  
+* RF-010: O site deve exibir notícias relacionadas aos Primeiros Socorros  
 
 **Estrutura de Dados:**
 
@@ -363,24 +363,74 @@ JSON das notícias exibidas:
 ![image](images/json-noticias.png)
 
 **Intruções de acesso:**
-
+1. Abra um navegador de Internet e informe o seguinte URL: link site
+2. A página home é exibida automaticamente
+3. Descendo a página, terá a parte com as notícias retiradas do JSON
 
 **Link ambiente funcional**
 Link:
 
-### Página de Cadastro de Usuário
+### Página de Cadastro de Usuário e de Médico
+
+Descrição
 
 ![image](images/cadastro.png)
 
 **Artefatos de código**
-cadastro.html
-style-login.css
+* cadastro.html
+* style-login.css
+* script-login.js
+
+**Requisitos Atendidos:**
+* RF-006: O site deve permitir o cadastro de usuários
+* RF-007: O site deve permitir o cadastro de médicos
+
+**Estrutura de Dados:**
+
+JSON dos usuários cadastrados inicialmente:
+
+![image](images/json-cadastro.png)
+
+**Intruções de acesso:**
+1. Abra um navegador de Internet e informe o seguinte URL: link site
+2. A página home é exibida automaticamente
+3. Clique em "Cadastre-se" no menu
+4. Visualize a página de cadastro
 
 **Link ambiente funcional**
 Link:
 
 
 ### Página de Login
+
+Descrição
+
+![image](images/login.png)
+
+**Artefatos de código**
+* login.html
+* style-login.css
+* script-login.js
+
+**Requisitos Atendidos:**
+* RF-006: O site deve permitir o cadastro de usuários
+* RF-007: O site deve permitir o cadastro de médicos
+
+**Estrutura de Dados:**
+
+JSON dos usuários cadastrados inicialmente:
+
+![image](images/json-cadastro.png)
+
+**Intruções de acesso:**
+1. Abra um navegador de Internet e informe o seguinte URL: link site
+2. A página home é exibida automaticamente
+3. Clique em "Login" no menu
+4. Visualize a página de login
+
+**Link ambiente funcional**
+Link:
+
 
 ### Página de Cadastro de Informação
 
