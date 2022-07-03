@@ -207,7 +207,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
   O User Flow, representado pela Figura 4, mostra, de forma simplificada, a interação que será proporcionada entre o usuário e o software. Cada processo de telas está devidamente legendado.
 
-![image](imagens/userflow.png)
+![image](images/userflow.jpg)
 
 Figura 4 - Fluxo de telas do Usuário
 
@@ -333,8 +333,7 @@ Este editor foi utilizado para a criação dos códigos em html, css e java scri
 
 ## Diagrama de Componentes
 Os componentes que fazem parte da solução implementada estão divididos em dois principais módulos, contendo, cada um, suas subdivisões:
-
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+> ![image](images/diagramaComponentes.jpg)
 
 * **Navegador**: Interface principal do sistema.
    * **Página Web**: Conjunto de arquivos do tipo HTML, CSS, JavaScript, incluindo JSON, e algumas imagens, por exemplo, a logo do site.
