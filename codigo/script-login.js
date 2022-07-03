@@ -299,6 +299,7 @@ function enviar() {
 
                 // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
                 sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
+                console.log (usuarioCorrente.tipo);
 
                 window.location.assign('conteudo.html');
                 return true;
@@ -312,5 +313,3 @@ function enviar() {
     alert('Usuário não foi encontrado! Crie uma conta.');
     return false;
 }
-
-
