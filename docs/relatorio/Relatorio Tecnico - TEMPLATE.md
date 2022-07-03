@@ -191,7 +191,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                                               |
 |--|-------------------------------------------------------------------------|
-|01| O projeto final deverá ser entregue até o final do semestre (03 / 07)   |
+|01| O projeto final deverá ser entregue até o final do semestre (03/07)     |
 |02| Não pode ser desenvolvido um módulo de backend                          |
 |03| O site deve ser feito exclusivamente pelos estudantes do curso          |
 
