@@ -1,32 +1,4 @@
-/* MENU */
-.header{
-    background: rgb(0, 0, 0);
-    margin-bottom: 30px;
-}
-.logo{
-    width: 70px;
-    margin-left: 10px;
-}
-.menu_area{
-    margin-top: 20px;
-}
-.menu_area nav a{
-    background-color: rgba(97, 85, 85, 0.466);
-    color: white;
-}
-.menu_area nav a:hover{
-    background-color: rgb(54, 110, 230);
-}
-.active > header{
-    background-color: rgba(73, 39, 95, 0.664) !important;
-}
-.header_area{
-    padding: 20px;
-}
-
-
-
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;

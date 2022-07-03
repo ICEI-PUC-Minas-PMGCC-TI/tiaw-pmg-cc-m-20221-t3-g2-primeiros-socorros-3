@@ -158,7 +158,7 @@ var db_informacoes_iniciais = {
             medico   : "Sandra Rodrigues",
             email    : "sandrarodriguess@email.com",
             site     : "https://bit.ly/engasgo_site2",
-            videoaula: "",
+            videoaula: "https://www.youtube.com/embed/wOM9tgiYPZs",
             descricao: "Aprenda procedimentos para realizar em caso de engasgo."
         },
         {
@@ -178,7 +178,7 @@ var db_informacoes_iniciais = {
 
 // declara um conjunto de informacoes inicias sobre o conteudo
 var db_conteudo_inicial = {
-    dados: [
+    data: [
        {
             id    : 1,
             nome  : "avc",
@@ -237,9 +237,9 @@ var db_conteudo_inicial = {
 }
 
 // Caso os dados já estejam no Local Storage; caso contrário, carrega os dados iniciais
-var db = JSON.parse(localStorage.getItem('db_informacao'));
+var db = JSON.parse(localStorage.getItem('db_informacoes_iniciais'));
 if (!db) {
-    db = db_informacoes_iniciais
+    db = db_informacoes_iniciais;
 };
 
 // Exibe mensagem em um elemento de ID msg
@@ -290,7 +290,7 @@ function insertInformacao(informacao) {
     displayMessage("Informação inserida com sucesso.");
 
     // Atualiza os dados no Local Storage
-    localStorage.setItem('db_informacao', JSON.stringify(db));
+    localStorage.setItem('db_informacoes_iniciais', JSON.stringify(db));
 }
 
 function updateInformacao(id, informacao) {
@@ -309,7 +309,7 @@ function updateInformacao(id, informacao) {
     displayMessage("Informação alterada com sucesso.");
 
     // Atualiza os dados no Local Storage
-    localStorage.setItem('db_informacao', JSON.stringify(db));
+    localStorage.setItem('db_informacoes_iniciais', JSON.stringify(db));
 }
 
 function deleteInformacao(id) {    
@@ -321,5 +321,5 @@ function deleteInformacao(id) {
     displayMessage("Informação removida com sucesso.");
 
     // Atualiza os dados no Local Storage
-    localStorage.setItem('db_informacao', JSON.stringify(db));
+    localStorage.setItem('db_informacoes_iniciais', JSON.stringify(db));
 }

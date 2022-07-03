@@ -1,8 +1,133 @@
+// declara um conjunto inicial de cadastros
+// tipo 1 = usuário
+// tipo 2 = médico
+var db_cadastros_iniciais = {
+    data: [
+        {
+            id: 1,
+            nome: "Ana da Silva",
+            email: "anadasilva@email.com",
+            tipo: 2,
+            cpf: 90433404051,
+            celular: 31987654321,
+            senha: "Ana1234"
+        },
+        {
+            id: 2,
+            nome: "Joana Fontes",
+            email: "joanafontes@email.com",
+            tipo: 2,
+            cpf: 84872372077,
+            celular: 11959929989,
+            senha: "Joana1234"
+        },
+        {
+            id: 3,
+            nome: "Carla Almeida",
+            email: "carlaalmeida@email.com",
+            tipo: 2,
+            cpf: 20871132036,
+            celular: 21987532545,
+            senha: "Carla1234"
+        },
+        {
+            id: 4,
+            nome: "Tulio Alves",
+            email: "tulioalves@email.com",
+            tipo: 2,
+            cpf: 11590442016,
+            celular: 11961892922,
+            senha: "Tulio1234"
+        },
+        {
+            id: 5,
+            nome: "Joaquim Pereira",
+            email: "joaquimpereira@email.com",
+            tipo: 2,
+            cpf: 33975352043,
+            celular: 31985822999,
+            senha: "Joaquim1234"
+        },
+        {
+            id: 6,
+            nome: "Giovanne Castro",
+            email: "giovannecastro@email.com",
+            tipo: 2,
+            cpf: 50315422092,
+            celular: 31961892922,
+            senha: "Giovanne1234"
+        },
+        {
+            id: 7,
+            nome: "Pedro Marques",
+            email: "pedromarques@email.com",
+            tipo: 2,
+            cpf: 90811018032,
+            celular: 11985268777,
+            senha: "Pedro1234"
+        },
+        {
+            id: 8,
+            nome: "Sandra Rodrigues",
+            email: "sandrarodrigues@email.com",
+            tipo: 2,
+            cpf: 61690976047,
+            celular: 21933665466,
+            senha: "Sandra1234"
+        },
+        {
+            id: 9,
+            nome: "Gustavo Maia",
+            email: "gustavomaia@email.com",
+            tipo: 1,
+            cpf: 94940169049,
+            celular: 31986322348,
+            senha: "Gustavo1234"
+        },
+        {
+            id: 10,
+            nome: "Ivan Pereira",
+            email: "ivanpereira@email.com",
+            tipo: 1,
+            cpf: 61690976047,
+            celular: 21933665466,
+            senha: "Ivan1234"
+        },
+        {
+            id: 11,
+            nome: "Rodrigo Santana",
+            email: "rodrigosantana@email.com",
+            tipo: 1,
+            cpf: 69937751071,
+            celular: 11932549622,
+            senha: "Rodrigo1234"
+        },
+        {
+            id: 12,
+            nome: "Amanda Lima",
+            email: "amandalima@email.com",
+            tipo: 1,
+            cpf: 69937751071,
+            celular: 11932549622,
+            senha: "Amanda1234"
+        }
+    ]
+}
+
+// Caso os dados já estejam no Local Storage; caso contrário, carrega os dados iniciais
+var cadastro = JSON.parse(localStorage.getItem('db_cadastros_iniciais'));
+if (!cadastro) {
+    cadastro = db_cadastros_iniciais
+};
+
 const form = document.getElementById('form');
-const username = document.getElementById('username');
+const nome = document.getElementById('nome');
 const email = document.getElementById('email');
-const password = document.getElementById('password');
-const passwordConfirmation = document.getElementById('password-confirmation');
+//const tipo = document.querySelector('input[name="Cadastro"]:checked');
+const cpf = document.getElementById('cpf');
+const celular = document.getElementById('celular');
+const senha = document.getElementById('senha');
+const senhaConfirmacao = document.getElementById('senha-confirmacao');
 const loginButton = document.getElementById('login-button');
 
 if (loginButton) {
@@ -17,62 +142,97 @@ if (form) {
     });
 }
 
-let users = localStorage.getItem('users') ? JSON.parse(localStorage.getItem('users')) : [];
-
 function checkInputs() {
-    const usernameValue = username.value;
-    const emailValue = email.value;
-    const passwordValue = password.value;
-    const passwordConfirmationValue = passwordConfirmation.value;
+    const nomeCadastrado = nome.value;
+    const emailCadastrado = email.value;
+    const tipoCadastrado = document.querySelector('input[name="Cadastro"]:checked').value;
+    const cpfCadastrado = cpf.value;
+    const celularCadastrado = celular.value;
+    const senhaCadastrada = senha.value;
+    const senhaConfirmacaoCadastrada = senhaConfirmacao.value;
 
-    if (usernameValue === '') {
-        setErrorFor(username, 'O nome de usuário é obrigatório.');
+    if (nomeCadastrado === '') {
+        setErrorFor(nome, 'O nome é obrigatório.');
     } else {
-        setSuccessFor(username);
+        setSuccessFor(nome);
     }
 
-    if (emailValue === '') {
+    if (emailCadastrado === '') {
         setErrorFor(email, 'O email é obrigatório.');
-    } else if (!checkEmail(emailValue)) {
+    } else if (!checkEmail(emailCadastrado)) {
         setErrorFor(email, 'Por favor, insira um email válido.');
     } else {
         setSuccessFor(email);
     }
 
-    if (passwordValue === '') {
-        setErrorFor(password, 'A senha é obrigatória.');
-    } else if (passwordValue.length < 7) {
-        setErrorFor(password, 'A senha precisa ter no mínimo 7 caracteres.');
+    if (cpfCadastrado == '') {
+        setErrorFor(cpf, 'O CPF é obrigatório.');
+    } else if (cpfCadastrado.length !== 11) {
+        setErrorFor(cpf, 'Entre com o CPF de 11 dígitos.');
     } else {
-        setSuccessFor(password);
+        setSuccessFor(cpf);
     }
 
-    if (passwordConfirmationValue === '') {
-        setErrorFor(passwordConfirmation, 'A confirmação de senha é obrigatória.');
-    } else if (passwordConfirmationValue !== passwordValue) {
-        setErrorFor(passwordConfirmation, 'As senhas não conferem.');
+    if (celularCadastrado == '') {
+        setErrorFor(celular, 'O número de celular é obrigatório.');
+    } else if (celularCadastrado.length !== 11) {
+        setErrorFor(celular, 'Entre os dois dígitos do DDD sucedidos do número de celular');
     } else {
-        setSuccessFor(passwordConfirmation);
+        setSuccessFor(celular);
+    }
+
+    if (senhaCadastrada === '') {
+        setErrorFor(senha, 'A senha é obrigatória.');
+    } else if (senhaCadastrada.length < 7) {
+        setErrorFor(senha, 'A senha precisa ter, no mínimo 7, caracteres.');
+    } else {
+        setSuccessFor(senha);
+    }
+
+    if (senhaConfirmacaoCadastrada === '') {
+        setErrorFor(senhaConfirmacao, 'A confirmação de senha é obrigatória.');
+    } else if (senhaCadastrada !== senhaConfirmacaoCadastrada) {
+        setErrorFor(senhaConfirmacao, 'As senhas não conferem.');
+    } else {
+        setSuccessFor(senhaConfirmacao);
     }
 
     const formControls = form.querySelectorAll('.form-control');
+    const cadastro = db_cadastros_iniciais;
 
     const formIsValid = [...formControls].every((formControl) => {
         return formControl.className === 'form-control success';
     });
     if (formIsValid) {
-        let user = {
-            username: usernameValue,
-            email: emailValue,
-            password: passwordValue,
+        // Calcula novo Id
+        let novoId = 1;
+        if (cadastro.data.length != 0)
+            novoId = cadastro.data[cadastro.data.length - 1].id + 1;
+
+        // obtem as informacoes 
+        let novoCadastro = {
+            id: novoId,
+            nome: nomeCadastrado,
+            email: emailCadastrado,
+            tipo: tipoCadastrado,
+            cpf: cpfCadastrado,
+            celular: celularCadastrado,
+            senha: senhaCadastrada,
         };
 
-        users.push(user);
-        localStorage.setItem('users', JSON.stringify(users))
-        console.log('Usuário criado!');
-        window.location.assign('./index.html');
-        
-    }
+        // Insere o novo objeto no array
+        cadastro.data.push(novoCadastro);
+        alert("Usuário criado com sucesso!");
+
+        // Atualiza os dados no Local Storage
+        localStorage.setItem('db_cadastros_iniciais', JSON.stringify(cadastro));
+
+        // Abre pagina de login
+        window.location.assign('login.html');
+
+    };
+
+
 }
 
 function setErrorFor(input, message) {
@@ -103,10 +263,10 @@ function enviar() {
     const usernameLogin = document.getElementById('username-input').value;
     const passwordLogin = document.getElementById('password-input').value;
 
-    for (let i = 0; i < users.length; i++) {
-        if (users[i].username == usernameLogin) {
-            if (users[i].password == passwordLogin) {
-                window.location.assign('./conteudo.html');
+    for (let i = 0; i < cadastro.data.length; i++) {
+        if (cadastro.data[i].email == usernameLogin) {
+            if (cadastro.data[i].senha == passwordLogin) {
+                window.location.assign('conteudo.html');
                 return;
             } else {
                 alert('Senha incorreta! Tente novamente.');
