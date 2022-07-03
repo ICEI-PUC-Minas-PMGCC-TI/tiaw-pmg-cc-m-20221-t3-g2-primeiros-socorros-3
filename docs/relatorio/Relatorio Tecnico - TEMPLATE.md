@@ -170,7 +170,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito                                                            | Prioridade |
 |------|-----------------------------------------------------------------------------------|------------|
 |RF-001| O site deve possibilitar o cadastro de links de sites e de vídeos para divulgação | ALTA       | 
-|RF-002| O site deve possibilitar canal de comunicação direta com canais de emergência     | ALTA       | **FALTOU ISSO AQUI**
+|RF-002| O site deve possibilitar canal de comunicação direta com canais de emergência     | ALTA       |
 |RF-003| O site deve exemplificar os tipos de acidentes mais comuns                        | ALTA       |
 |RF-004| O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção    | ALTA       |
 |RF-005| O site deve disponibilizar o tipo de socorro preciso às situações comuns          | ALTA       |
@@ -337,27 +337,60 @@ Os componentes que fazem parte da solução implementada estão divididos em doi
 Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Este se encontra no seguinte link: 
 
 
-## Template do Site
+## Template do Site e Funcionalidades
 
-Documentação da estrutura do layout(s) proposto(s)  pelo template (mín. 3 layouts)
-Artefatos de código (HTML e CSS)
-Ambiente funcional publicado na Internet (Ex: Repl.it, Heroku, GitHub Pages)
-Exemplo das telas com conteúdo fictício para exemplificação 
-Responsividade totalmente funcional em ambiente desktop e mobile
+  Nesta seção, são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema:
 
-### Tela inicial
 
-print
-artefatos
-ambiente funcional
-exemplo conteudo
-responsividade
+### Tela Inicial da Home
+
+  Esta é a home do site. Nela, há conteúdos estáticos, como pequenos textos explicativos sobre Primeiros Socorros e sobre conteúdos e tipos de planos. Vale ressaltar que a parte dos planos não está como desejada, visto que era a ideia fazer a página de cadastro com as informações sobre pagamento para contratação dos planos desejados. Além disso, há uma parte com notícias sobre acontecimentos relacionados às técnicas de primeiros socorros, as quais são retiradas de um json.
+
+![image](images/home.png)
+
+**Artefatos de código**
+index.html
+style-home.css
+script-noticias.js
+
+**Requisitos Atendidos:**
+RF-010: O site deve exibir notícias relacionadas aos Primeiros Socorros  
+
+**Estrutura de Dados:**
+JSON das notícias exibidas:
+
+**Intruções de acesso:**
+
+
+**Link ambiente funcional**
+Link:
 
 ### Página de Cadastro de Usuário
+
+![image](images/cadastro.png)
+
+**Artefatos de código**
+cadastro.html
+style-login.css
+
+**Link ambiente funcional**
+Link:
+
 
 ### Página de Login
 
 ### Página de Cadastro de Informação
+
+### Página Introdução das Informações
+
+![image](images/home.png)
+
+**Artefatos de código**
+index.html
+style-home.css
+
+**Link ambiente funcional**
+Link:
 
 ### Página de Apresentação das Informações
 
@@ -373,7 +406,6 @@ Animação de elementos da página com propósito de atender funcionalidade docu
 Ambiente funcional publicado na Internet (Ex: Repl.it, Heroku, GitHub Pages)
 
 
-  Nesta seção, são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema:
 
 ### Tela inicial
 
@@ -383,13 +415,6 @@ Ambiente funcional publicado na Internet (Ex: Repl.it, Heroku, GitHub Pages)
 
 ### Página de Cadastro de Informação
 
-**Entrega Sprint1 - Cadastro das videoaulas e das informações complementares sobre Primeiros Socorros:**
-
-PRINT PAGINA
-
-Aluno responsável: Gabriel Vargas Bento de Souza
-
-Link do código:
 
 Nesta tela, há a parte de cadastro dos conteúdos por parte dos médicos. Existe um JSON inicial com alguns pré-cadastros, mas são armazenados no LocalStorage em seguida.
 
