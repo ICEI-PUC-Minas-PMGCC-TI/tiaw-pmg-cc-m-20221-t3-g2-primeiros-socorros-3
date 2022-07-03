@@ -36,6 +36,12 @@ background: linear-gradient(#000000, #9f8888);
 p{
     color:#000000;
 }
+
+#cadastro_info {
+    justify-content: center;
+    display:none;
+}
+
 /*footer*/
 .footer{
     margin-top:20px;
