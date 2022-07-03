@@ -492,6 +492,7 @@ Os testes funcionais do software a serem realizados estão descritos a seguir.
 |Critérios de Êxito   | * O usuário deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer o nome do usuário no canto superior da tela </br> * NÃO deve exibir um botão para cadastrar conteúdo |
 
 | Login (e-mail)          | Senha       |
+|-------------------------|-------------|
 |gustavomaia@email.com    | Gustavo1234 |
 |ivanpereira@email.com    | Ivan1234    |
 |rodrigosantana@email.com | Rodrigo1234 |
@@ -512,6 +513,7 @@ Os testes funcionais do software a serem realizados estão descritos a seguir.
 |Critérios de Êxito   | * O médico deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer o nome do médico no canto superior da tela </br> * Deve aparecer um botão para cadastrar conteúdo "Cadastre novas publicações" |
 
 | Login (e-mail)          | Senha       |
+|-------------------------|-------------|
 |anadasilva@email.com     | Ana1234     |
 |joanafontes@email.com    | Joana1234   |
 |carlaalmeida@email.com   | Carla1234   |
