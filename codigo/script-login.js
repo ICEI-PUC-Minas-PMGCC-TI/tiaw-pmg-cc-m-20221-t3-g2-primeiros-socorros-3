@@ -134,6 +134,7 @@ if (!cadastro) {
     cadastro = db_cadastros_iniciais
 };
 
+
 const form = document.getElementById('form');
 const nome = document.getElementById('nome');
 const email = document.getElementById('email');
@@ -212,7 +213,6 @@ function checkInputs() {
     }
 
     const formControls = form.querySelectorAll('.form-control');
-    const cadastro = db_cadastros_iniciais;
 
     const formIsValid = [...formControls].every((formControl) => {
         return formControl.className === 'form-control success';
@@ -299,7 +299,6 @@ function enviar() {
 
                 // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
                 sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
-                console.log (usuarioCorrente.tipo);
 
                 window.location.assign('conteudo.html');
                 return true;
