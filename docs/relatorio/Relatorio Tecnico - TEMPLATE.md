@@ -53,12 +53,6 @@ Os membros do grupo são:
      - [5.4.3.Tela Inicial](#tela-inicial)
      - [5.4.4.Tela Inicial](#tela-inicial)
      - [5.4.5.Tela Inicial](#tela-inicial)
-  - [5.5.Funcionalidades dos Sistemas](#funcionalidades-dos-sistemas)
-     - [5.5.1.Tela Inicial](#tela-inicial)
-     - [5.5.2.Página de Cadastro](#página-de-cadastro)
-     - [5.5.3.Tela Inicial](#tela-inicial)
-     - [5.5.4.Tela Inicial](#tela-inicial)
-     - [5.5.5.Tela Inicial](#tela-inicial)
 - [6.Avaliação da Aplicação](#avaliação-da-aplicação)
   - [6.1.Plano de Testes de Sofware](#plano-de-testes-de-software)
   - [6.2.Registro de Testes de Software](#registro-de-testes-de-software)
@@ -368,11 +362,12 @@ JSON das notícias exibidas:
 3. Descendo a página, terá a parte com as notícias retiradas do JSON
 
 **Link ambiente funcional**
+
 Link:
 
 ### Página de Cadastro de Usuário e de Médico
 
-Descrição
+  Na página de cadastro, são solicitadas algumas informações pessoais, como nome, e-mail, CPF, telefone e senha. Além disso, é pedido a seleção do tipo de cadastro: usuário do site OU médico colaborador para postar os conteúdos. Para possuir os dois tipos de cadastro, é necessario haver duas contas diferentes. Em cada um dos campos solicitados, há restrições como CPF é com 11 dígitos e a senha deve ser igual à confirmação da senha.
 
 ![image](images/cadastro.png)
 
@@ -389,7 +384,7 @@ Descrição
 
 JSON dos usuários cadastrados inicialmente:
 
-![image](images/json-cadastro.png)
+![image](images/json-usuarios.png)
 
 **Intruções de acesso:**
 1. Abra um navegador de Internet e informe o seguinte URL: link site
@@ -398,12 +393,13 @@ JSON dos usuários cadastrados inicialmente:
 4. Visualize a página de cadastro
 
 **Link ambiente funcional**
+
 Link:
 
 
 ### Página de Login
 
-Descrição
+  Na parte de login do site, é necessário entrar com o e-mail e com a senha cadastrados. Caso haja erro, a entrada no site é negada; caso os dados estejam corretos, há o redirecionamento para a página de conteúdos liberada.
 
 ![image](images/login.png)
 
@@ -429,17 +425,20 @@ JSON dos usuários cadastrados inicialmente:
 4. Visualize a página de login
 
 **Link ambiente funcional**
+
 Link:
 
 ### Página Introdução das Informações
   
-  Esta página é carregada apenas após o login efetuado corretamente. Antes, é exibido apenas o cabeçalho e os botões de login e de cadastro. Nesta parte, há 9 cards, cujas informações são exibidas mediante o uso de um JSON, mas sem utilizar o LocalStorage. Em cada card, há uma imagem ilustrativa para o tipo de acidente, uma pequena descrição sobre ele, um botao para "Acessar aula" e um contador indicativo da quantidade de publicações existentes.
+  Esta página é carregada apenas após o login efetuado corretamente. Antes, é exibido apenas o cabeçalho e os botões de login e de cadastro. E, após, é adicionado o botão de logout para deslogar do site e ser redirecionado à página home. Nesta parte, há 9 cards, cujas informações são exibidas mediante o uso de um JSON, mas sem utilizar o LocalStorage. Em cada card, há uma imagem ilustrativa para o tipo de acidente, uma pequena descrição sobre ele, um botao para "Acessar aula" e um contador indicativo da quantidade de publicações existentes.
 
 Página antes do login:
-![image](images/conteudosemlogin.png)
+
+![image](images/conteudo-semlogin.png)
 
 Página depois do login:
-![image](images/conteudocomlogin.png)
+
+![image](images/conteudo-comlogin.png)
 
 **Artefatos de código**
 conteudo.html
@@ -464,6 +463,7 @@ JSON das informações iniciais cadastradas:
 7. Verifique a página de conteudo populada
 
 **Link ambiente funcional**
+
 Link:
 
 ### Página de Apresentação das Informações
