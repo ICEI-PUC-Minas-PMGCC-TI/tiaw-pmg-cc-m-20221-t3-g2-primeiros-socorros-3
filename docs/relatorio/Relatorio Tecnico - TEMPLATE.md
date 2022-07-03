@@ -290,7 +290,7 @@ Figura 9 - Página de Comentários
 |Wireframes                  | Figma                    | https://www.figma.com/file/KxY5qxhoxyo6xGYenlH0Rg/Wireframe-Primeiros-Socorros?node-id=8%3A372|
 |HTML                        | Linguagem de marcação    | --                                                                                            |
 |CSS                         | Linguagem de estilo      | --                                                                                            |
-|Javacript                   | Linguagem de programação | --                                                                                            |
+|JavaScript                   | Linguagem de programação | --                                                                                            |
 |Bootstrap                   | Framework                | https://getbootstrap.com/           
 |Visual Studio Code          | Editor de texto          | https://code.visualstudio.com/
 |Replit                      | Hospedagem do site       | link site
@@ -298,10 +298,10 @@ Figura 9 - Página de Comentários
 |Canva                       | Apresentação slide II    | link slide 2                                                                                  |
 
 
-As ferramentas empregadas no projeto são:
+As ferramentas empregadas neste projeto foram:
 
  * Processo de Design Thinkgin: Miro
-O site é um quadro branco onlide e foi escolhido, pois possibilita, em equipe, um compartilhamento de ideias instantâneo e interativo. Além disso, ele apresenta algumas funcionalidades, como uso de post-it, checklists e fluxogramas.
+O site é um quadro branco onlide, e ele foi escolhido, pois possibilita, em equipe, um compartilhamento de ideias instantâneo e interativo. Além disso, apresenta algumas funcionalidades, como uso de post-it, checklists e fluxogramas.
 
 * Repositório de código: GitHub
 Embora o principal motivo de utilização tenha sido a disponibilização pela PUC, é uma ferramenta incrível, pois permite a criação de pastas e de documentos, bem como a utilização por toda a equipe.
@@ -309,27 +309,17 @@ Embora o principal motivo de utilização tenha sido a disponibilização pela P
 * User Flow e Wireframes: Figma
 O software Figma é uma ferramenta excelente para a criação de protótipos relacionados à criação dos sites, pois tem um layout fácil e prático e, também, permite que o grupo trabalhe junto.
 
-- Apresentação: Canva
+* HTML. CSS e JavaScript
+Linguagens presentes no ambiente de sevenvolvimneto da web, sendo utilizadas para a criação do site e para a adição de recursos interativos.
+
+* Editor de texto: Visual Studio Code
+Devido ao grupo já estar ambientado com esta ferramente, escolheu-se para a edição dos códigos antes de serem adicionados ao Github. Vale ressaltar a extensão "Live Server" que permitiu a visualização em tempo real das alterações no código.
+
+* Hospedagem do site: Replit
+A ferramenta foi essencial para que se publicar o site criado e, assim, torná-lo público e acessível na web.
+
+* Apresentações: Canva
 A ferramenta online permite, dentre muitas funcionalidades, a criação de apresentação de slides simplificados e bem estruturados, de modo a tornar a apresentação mais clara e atrativa.
-
-- Editor de código: Visual Studio Code
-Este editor foi utilizado para a criação dos códigos em html, css e java scritp, bem como para a criação do json.
-
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
 
 ## Diagrama de Componentes
 Os componentes que fazem parte da solução implementada estão divididos em dois principais módulos, contendo, cada um, suas subdivisões:
@@ -338,17 +328,13 @@ Os componentes que fazem parte da solução implementada estão divididos em doi
 * **Navegador**: Interface principal do sistema.
    * **Página Web**: Conjunto de arquivos do tipo HTML, CSS, JavaScript, incluindo JSON, e algumas imagens, por exemplo, a logo do site.
    * **Local Storage**: Armazenamento local no Navegador, no qual os dados são obetidos dados do JSON, porém, ao cadastrar novas informações localmente, o JSON perde a utilizade, e o Local Storage mantém as informações.
-      * **Publicações**: Parte composta pelas publicações principais do site, contendo videoaulas do YouTube, links de sites, informações e descrições sobre os procedimentos de Primeiros Socorros.
-       * **Notícias**: Nesta seção, são apresentadas notícias sobre Primeiros Socorros, a partir de um JSON.
+      * **Notícias**: Nesta seção, são apresentadas notícias sobre Primeiros Socorros, a partir de um JSON.
+      * **Vídeos**: Parte composta pelas publicações principais do site, contendo videoaulas do YouTube, links de sites, informações e descrições sobre os procedimentos de Primeiros Socorros.
+      * **Cadastros**: Foi adicionado, também, cadastros inicias para o software, contemplando os usuários e os médicos.
 * **Hospedagem**: Local da web, no qual se encontram as páginas implementadas.
 
 ## Hospedagem
 Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Este se encontra no seguinte link: 
-
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
 
 
 ## Template do Site
@@ -359,8 +345,13 @@ Ambiente funcional publicado na Internet (Ex: Repl.it, Heroku, GitHub Pages)
 Exemplo das telas com conteúdo fictício para exemplificação 
 Responsividade totalmente funcional em ambiente desktop e mobile
 
-
 ### Tela inicial
+
+print
+artefatos
+ambiente funcional
+exemplo conteudo
+responsividade
 
 ### Página de Cadastro de Usuário
 
