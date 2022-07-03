@@ -451,6 +451,7 @@ script.informacoes.js
 **Estrutura de Dados:**
 
 JSON das informações iniciais cadastradas:
+
 ![image](images/json-conteudo.png)
 
 **Intruções de acesso:**
@@ -486,6 +487,7 @@ script.informacoes.js
 **Estrutura de Dados:**
 
 JSON das informações iniciais cadastradas:
+
 ![image](images/json-conteudo-principal.png)
 
 **Intruções de acesso:**
@@ -521,6 +523,7 @@ script.informacoes.js
 **Estrutura de Dados:**
 
 JSON das informações iniciais cadastradas:
+
 ![image](images/json-conteudo-principal.png)
 
 **Intruções de acesso:**
@@ -554,6 +557,7 @@ script.informacoes.js
 **Estrutura de Dados:**
 
 JSON das informações iniciais cadastradas:
+
 ![image](images/json-conteudo-principal.png)
 
 **Intruções de acesso:**
