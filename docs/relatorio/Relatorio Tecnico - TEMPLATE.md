@@ -357,7 +357,10 @@ script-noticias.js
 RF-010: O site deve exibir notícias relacionadas aos Primeiros Socorros  
 
 **Estrutura de Dados:**
+
 JSON das notícias exibidas:
+
+![image](images/json-noticias.png)
 
 **Intruções de acesso:**
 
