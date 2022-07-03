@@ -420,7 +420,7 @@ Descrição
 
 JSON dos usuários cadastrados inicialmente:
 
-![image](images/json-cadastro.png)
+![image](images/json-usuarios.png)
 
 **Intruções de acesso:**
 1. Abra um navegador de Internet e informe o seguinte URL: link site
@@ -431,87 +431,48 @@ JSON dos usuários cadastrados inicialmente:
 **Link ambiente funcional**
 Link:
 
-
-### Página de Cadastro de Informação
-
 ### Página Introdução das Informações
+  
+  Esta página é carregada apenas após o login efetuado corretamente. Antes, é exibido apenas o cabeçalho e os botões de login e de cadastro. Nesta parte, há 9 cards, cujas informações são exibidas mediante o uso de um JSON, mas sem utilizar o LocalStorage. Em cada card, há uma imagem ilustrativa para o tipo de acidente, uma pequena descrição sobre ele, um botao para "Acessar aula" e um contador indicativo da quantidade de publicações existentes.
 
-![image](images/home.png)
+Página antes do login:
+![image](images/conteudosemlogin.png)
+
+Página depois do login:
+![image](images/conteudocomlogin.png)
 
 **Artefatos de código**
-index.html
-style-home.css
+conteudo.html
+style-conteudo.css
+script.informacoes.js
+
+**Requisitos Atendidos:**
+* RF-003: O site deve exemplificar os tipos de acidentes mais comuns
+
+**Estrutura de Dados:**
+
+JSON das informações iniciais cadastradas:
+![image](images/json-conteudo.png)
+
+**Intruções de acesso:**
+1. Abra um navegador de Internet e informe o seguinte URL: link site
+2. A página home é exibida automaticamente
+3. Clique em "Conteúdo" no menu
+4. Visualize a página de conteúdo vazia
+5. Clique em Login
+6. Faça o login
+7. Verifique a página de conteudo populada
 
 **Link ambiente funcional**
 Link:
 
 ### Página de Apresentação das Informações
 
+### Página de Cadastro das Informação
 
-
-## Funcionalidade do Sistema
-
-Print das telas implementadas com descrição breve sobre os recursos providos na aplicação.
-Funcionalidade dinâmica a partir de artefatos de código em JavaScript para UMA das soluções: 
-Manipulação de dados em JSON com persistência no browser (localStorage) ou em servidor.
-Interação via AJAX com API disponível na Internet ou do próprio sistema.
-Animação de elementos da página com propósito de atender funcionalidade documentada na especificação. Ex: jogos, calculadoras.
-Ambiente funcional publicado na Internet (Ex: Repl.it, Heroku, GitHub Pages)
-
-
-
-### Tela inicial
-
-### Página de Cadastro de Usuário
-
-### Página de Login
-
-### Página de Cadastro de Informação
-
-
-Nesta tela, há a parte de cadastro dos conteúdos por parte dos médicos. Existe um JSON inicial com alguns pré-cadastros, mas são armazenados no LocalStorage em seguida.
-
-**Requisitos Atendidos:**
-* RF-001: O site deve possibilitar o cadastro de links de sites e de vídeos para divulgação
-
-**Artefatos da Funcionalidade:**
-* index-informacoes-cadastro.html
-* index-informacoes.html
-* style-informacoes.css
-* script-informacoes.js
-
-**Estrutura de Dados:**
-
-PRINT JSON
-
-
-### Página de Apresentação das Informações
-
-**Entrega Sprint2 - Apresentação das videoaulas e das informações complementares sobre Primeiros Socorros:**
-
-PRINT PAGINA
-
-Aluno responsável: Gabriel Vargas Bento de Souza
-
-Link do código:
-
-Nesta tela, há a parte de apresentação dos conteúdos cadastrados pelos médicos.
-
-**Requisitos Atendidos:**
-* RF-003: O site deve exemplificar os tipos de acidentes mais comuns                     
-* RF-004: O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção
-* RF-005: O site deve disponibilizar o tipo de socorro preciso às situações comuns
-
-**Artefatos da Funcionalidade:**
 
 
 # Avaliação da Aplicação
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
 
 ## Plano de Testes de Software
 
