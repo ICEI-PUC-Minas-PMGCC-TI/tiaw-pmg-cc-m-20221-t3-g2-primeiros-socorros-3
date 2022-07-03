@@ -509,7 +509,7 @@ Link:
 
   Esta página é carregada se e somente se a pessoa estiver logada como médico. A forma de acessá-la é mediante um botão "Cadastre novas publicações" disponível no fim da página de Conteúdo Iniciais. Nesta área, é possível que os médicos cadastrem as informações apenas em seu perfil. São solicitados: tipo de acidente, site, link da videoaula - que deve ser o de incorporar às páginas HTML, e não o de assistit -, uma pequena descrição da publicação. Existem os botões funcionando perfeitamente para voltar, inserir, alterar, excluir, limpar e pesquisar informações. Na tabela, são exibidas apenas as publicações do usuário; então, caso seja um usuário novo sem nenhuma, não haverá nada na tabela.
 
-Página de conteúdo:
+Página de cadastro:
 
 ![image](images/informacoes-cadastro.png)
 
@@ -541,7 +541,7 @@ JSON das informações iniciais cadastradas:
 
   Esta página é carregada se e somente se a pessoa estiver logada como médico. A forma de acessá-la é mediante um botão "Cadastre novas publicações" disponível no fim da página de Conteúdo Iniciais. Nesta área, é possível que os médicos cadastrem as informações apenas em seu perfil. Depois, é necessário clicar no botão "Pesquisar Informações" para visualizar todas cadastradas, incluindo as que não saõ do médico que fez login. Também, há o filtro de médico e de tipo de acidente (retirados do JSON e do LocalStorage) para filtrar a categoria desejada. Todavia, não é possível editar por ali. 
 
-Página de conteúdo:
+Página de visualização:
 
 ![image](images/informacoes.png)
 
