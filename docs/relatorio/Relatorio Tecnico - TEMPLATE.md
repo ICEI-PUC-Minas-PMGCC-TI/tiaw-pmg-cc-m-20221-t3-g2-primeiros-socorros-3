@@ -543,7 +543,7 @@ JSON das informações iniciais cadastradas:
 
 Página de conteúdo:
 
-![image](images/informacoes-cadastro.png)
+![image](images/informacoes.png)
 
 **Artefatos de código**
 informacoes.html
