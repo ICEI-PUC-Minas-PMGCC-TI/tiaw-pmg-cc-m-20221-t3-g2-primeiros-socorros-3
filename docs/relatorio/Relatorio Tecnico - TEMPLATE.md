@@ -290,7 +290,7 @@ Figura 9 - Página de Comentários
 |Visual Studio Code          | Editor de texto          | https://code.visualstudio.com/                                                                |
 |Replit                      | Hospedagem do site       | https://catuana.portal-primeiros-socorros.repl.co/                                            |
 |Canva                       | Apresentação slide I     | https://www.canva.com/design/DAE-EYoqQd0/Q5qoWJlzMyKO4IEzne_oDg/view?utm_content=DAE-EYoqQd0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink                                                                            |
-|Canva                       | Apresentação slide II    | https://www.canva.com/design/DAFE7KUzweU/5oRj4Q4ZQqNr0pJ4rzJ00w/edit?utm_content=DAFE7KUzweU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton |
+|Canva                       | Apresentação slide II    | https://www.canva.com/design/DAFE7KUzweU/5oRj4Q4ZQqNr0pJ4rzJ00w/edit?utm_content=DAFE7KUzweU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton                                                                |
 
 
 As ferramentas empregadas neste projeto foram:
