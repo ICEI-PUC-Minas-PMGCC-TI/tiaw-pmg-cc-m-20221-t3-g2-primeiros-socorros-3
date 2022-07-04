@@ -128,7 +128,7 @@ var db_informacoes_iniciais = {
             medico   : "Giovanne Castro",
             email    : "giovannecastro@email.com",
             site     : "https://bit.ly/engasgo_site1",
-            videoaula: "https://www.youtube.com/embed/wlRIoesIiv8",
+            videoaula: "https://www.youtube.com/embed/bL9PROpCv9s",
             descricao: "Aprenda procedimentos para realizar em caso de convulsão."
         },
         {
@@ -148,7 +148,7 @@ var db_informacoes_iniciais = {
             medico   : "Tulio Alves",
             email    : "tulioalves@email.com",
             site     : "https://bit.ly/engasgo_site3",
-            videoaula: "https://www.youtube.com/embed/FUEXLFbvAjY",
+            videoaula: "https://www.youtube.com/embed/5kyyABzEy_k",
             descricao: "Aprenda procedimentos para realizar em caso de engasgo."
         },
         {
@@ -158,7 +158,7 @@ var db_informacoes_iniciais = {
             medico   : "Sandra Rodrigues",
             email    : "sandrarodriguess@email.com",
             site     : "https://bit.ly/engasgo_site2",
-            videoaula: "https://www.youtube.com/embed/wOM9tgiYPZs",
+            videoaula: "https://www.youtube.com/embed/tC-OiNlHpcI",
             descricao: "Aprenda procedimentos para realizar em caso de engasgo."
         },
         {
