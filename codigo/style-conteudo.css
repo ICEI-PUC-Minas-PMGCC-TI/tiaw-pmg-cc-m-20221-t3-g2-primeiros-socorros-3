@@ -38,8 +38,7 @@ p{
 }
 
 #cadastro_info {
-    justify-content: center;
-    display:none;
+    ;
 }
 
 /*footer*/
@@ -57,7 +56,7 @@ p{
 
 @media screen and (max-width:700px){
 .card-body{
-    margin-left: 0px;
+    min-width: 300px;
 }
 .header{
     margin-bottom: 10px;

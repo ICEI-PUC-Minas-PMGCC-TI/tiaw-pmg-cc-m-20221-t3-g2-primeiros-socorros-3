@@ -82,7 +82,7 @@
         conteudoInicial = db_conteudo_inicial;
         for (i = 0; i < conteudoInicial.data.length; i++) {
             conteudoOk = conteudoInicial.data[i];
-                acidentesCadastrados += `<option value="${conteudoOk.nomec}">${conteudoOk.nomec}   </option>`
+            acidentesCadastrados += `<option value="${conteudoOk.nomec}">${conteudoOk.nomec}   </option>`
 
         }
         selectAcidente = `<select title="busca2" name="filtro_acidente" id="filtro_acidente" onchange="ListaInformacoes()" class="form-control">
@@ -91,7 +91,6 @@
             </select> 
         </div> `
         document.getElementById('acidentesCadastrados').innerHTML = selectAcidente;
-
 
         // função para listar na tabela os informacoes que estão associados aos filtros 
         function ListaInformacoes() {

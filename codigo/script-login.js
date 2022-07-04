@@ -236,7 +236,7 @@ function checkInputs() {
 
         // Insere o novo objeto no array
         cadastro.data.push(novoCadastro);
-        alert("Usuário criado com sucesso!");
+        alert("Cadastro criado com sucesso!");
 
         // Atualiza os dados no Local Storage
         localStorage.setItem('db_cadastros_iniciais', JSON.stringify(cadastro));
@@ -309,6 +309,6 @@ function enviar() {
             }
         }
     }
-    alert('Usuário não foi encontrado! Crie uma conta.');
+    alert('Cadastro não foi encontrado! Crie uma conta.');
     return false;
 }
