@@ -706,17 +706,6 @@ Os testes funcionais e não funcionais do software a serem realizados estão des
 
 ## Registros de Testes de Software
 
-Relatório dos testes realizados com print das telas geradas nos testes (mín. de 8 testes)
-Relatório de problemas identificados nos testes e propostas de correções/ajustes
-
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
 ## Plano de Testes de Usuabilidade
 
   O planejamento dos testes de usabilidade a serem realizados com usuários são descritos na Tabela a seguir.
@@ -731,18 +720,7 @@ Relatório de problemas identificados nos testes e propostas de correções/ajus
 
 
 ## Registros de Testes de Usuabilidade
-Relatório com detalhamento das pessoas envolvidas no teste
-Relatório de alterações decorrentes dos testes (min. de 8 testes com usuários)
-Relatório de problemas identificados nos testes e propostas de correções/ajustes
 
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
