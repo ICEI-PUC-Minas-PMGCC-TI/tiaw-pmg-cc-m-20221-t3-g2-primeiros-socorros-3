@@ -591,36 +591,36 @@ Os testes funcionais e não funcionais do software a serem realizados estão des
 |Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
 |Objetivo do teste    | Verificar se usuário consegue se cadastrar no site  |
 |Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, não necessariamente reais, porém deve manter o formato correto </br> 5. No campo "Tipo de cadastro", selecionar usuário </br> 6. Clicar em "Cadastrar" </br> |
-|Critérios de Êxito   | Ao clicar em "Cadastrar", caso todas as informações tenham sido preenchidas, deve aparecer mensagem de cadastro concluído, e nenhum erro pode ser apresentado.                                                            |
+|Critérios de Êxito   | * Ao clicar em "Cadastrar", caso todas as informações tenham sido preenchidas, deve aparecer mensagem de cadastro concluído, e nenhum erro pode ser apresentado.                                                            |
 
 |Caso de Teste        | CT-02-Cadastrar usuário NÃO OK                      |
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
 |Objetivo do teste    | Verificar se usuário é impedido de se cadastrar no site caso preencha algum campo incorretamente |
-|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, porém erroneamente. Por exemplo, nome com dígitos, CPF e número de celular com letras, e-mail sem o @, senhas diferentes </br> 5. No campo "Tipo de cadastro", selecionar usuário </br> 6. Clicar em "Cadastrar" </br> |
-|Critérios de Êxito   | Ao clicar em "Cadastrar", deve aparecer mensagem de erro nos campos preenchidos incorretamente, e o cadastro NÃO pode ser criado |                                                      |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, porém erroneamente. Por exemplo, CPF e número de celular com letras, e-mail sem o @, senhas diferentes </br> 5. No campo "Tipo de cadastro", selecionar usuário </br> 6. Clicar em "Cadastrar" </br> |
+|Critérios de Êxito   | * Ao clicar em "Cadastrar", deve aparecer mensagem de erro nos campos preenchidos incorretamente, e o cadastro NÃO pode ser criado |                                                      |
 
 |Caso de Teste        | CT-03-Cadastrar médico OK                           |
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-007: O site deve permitir o cadastro de médicos  |
 |Objetivo do teste    | Verificar se médico consegue se cadastrar no site   |
 |Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, não necessariamente reais, porém deve manter o formato correto </br> 5. No campo "Tipo de cadastro", selecionar médico </br> 6. Clicar em "Cadastrar" </br> |
-|Critérios de Êxito   | Ao clicar em "Cadastrar", caso todas as informações tenham sido preenchidas, deve aparecer mensagem de cadastro concluído, e nenhum erro pode ser apresentado.                                                            |
+|Critérios de Êxito   | * Ao clicar em "Cadastrar", caso todas as informações tenham sido preenchidas, deve aparecer mensagem de cadastro concluído, e nenhum erro pode ser apresentado.                                                            |
 
 |Caso de Teste        | CT-04-Cadastrar médico NÃO OK                       |
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-007: O site deve permitir o cadastro de médicos  |
 |Objetivo do teste    | Verificar se usuário é impedido de se cadastrar no site caso preencha algum campo incorretamente |
-|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, porém erroneamente. Por exemplo, nome com dígitos, CPF e número de celular com letras, e-mail sem o @, senhas diferentes </br> 5. No campo "Tipo de cadastro", selecionar médico </br> 6. Clicar em "Cadastrar" </br> |
-|Critérios de Êxito   | Ao clicar em "Cadastrar", deve aparecer mensagem de erro nos campos preenchidos incorretamente, e o cadastro NÃO pode ser criado |  
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Cadastro" no menu </br> 4. Preencher as informações solicitadas, porém erroneamente. Por exemplo, CPF e número de celular com letras, e-mail sem o @, senhas diferentes </br> 5. No campo "Tipo de cadastro", selecionar médico </br> 6. Clicar em "Cadastrar" </br> |
+|Critérios de Êxito   | * Ao clicar em "Cadastrar", deve aparecer mensagem de erro nos campos preenchidos incorretamente, e o cadastro NÃO pode ser criado |  
 
 
-|Caso de Teste        | CT-05-Relizar login usuário OK                      |
+|Caso de Teste        | CT-05-Realizar login usuário OK                     |
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
 |Objetivo do teste    | Verificar se usuários conseguem realizar login com dados cadastrados |
-|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha previamente definidos no JSON (exemplo abaixo) </br> 5. Clicar em "Entrar" |
-|Critérios de Êxito   | * O usuário deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer o nome do usuário no canto superior da tela </br> * NÃO deve exibir um botão para cadastrar conteúdo |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha previamente definidos no JSON (exemplo abaixo) ou no cadastro feito localmente </br> 5. Clicar em "Entrar" |
+|Critérios de Êxito   | * O usuário deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer um botão para logout </br> * NÃO deve exibir um botão para cadastrar conteúdo |
 
 | Login (e-mail)          | Senha       |
 |-------------------------|-------------|
@@ -629,19 +629,19 @@ Os testes funcionais e não funcionais do software a serem realizados estão des
 |rodrigosantana@email.com | Rodrigo1234 |
 |amandalima@email.com     | Amanda1234  |
 
-|Caso de Teste        | CT-06-Relizar login usuário NÃO OK                  |
+|Caso de Teste        | CT-06-Realizar login usuário NÃO OK                 |
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-006: O site deve permitir o cadastro de usuários |
 |Objetivo do teste    | Verificar se usuários não cadastrados conseguem realizar login|
 |Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha SEM seguir os dados previamente definidos no JSON (exemplo acima) ou no cadastro feito localmente </br> 5. Clicar em "Entrar" |
 |Critérios de Êxito   | * O usuário não deve conseguir logar na página </br> * A página de conteúdos deve estar bloqueada, ou seja, não mostrar as videoaulas |
 
-|Caso de Teste        | CT-07-Relizar login médico OK                       |
+|Caso de Teste        | CT-07-Realizar login médico OK                      |
 |---------------------|-----------------------------------------------------|
 |Requisitos Associados| RF-007: O site deve permitir o cadastro de médicos  |
 |Objetivo do teste    | Verificar se usuários conseguem realizar login com dados cadastrados |
-|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha previamente definidos no JSON (exemplo abaixo) </br> 5. Clicar em "Entrar" |
-|Critérios de Êxito   | * O médico deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer o nome do médico no canto superior da tela </br> * Deve aparecer um botão para cadastrar conteúdo "Cadastre novas publicações" |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Clicar "Login" no menu </br> 4. Preencher os campos de e-mail e de senha previamente definidos no JSON (exemplo abaixo) ou no cadastro feito localmente </br> 5. Clicar em "Entrar" |
+|Critérios de Êxito   | * O médico deve conseguir logar na página </br> * A página de conteúdos deve estar desbloqueada, ou seja, mostrar as videoaulas </br> * Deve aparecer o botão de logout </br> * Deve aparecer um botão para cadastrar conteúdo "Cadastre novas publicações" |
 
 | Login (e-mail)          | Senha       |
 |-------------------------|-------------|
@@ -673,7 +673,7 @@ Os testes funcionais e não funcionais do software a serem realizados estão des
 |Requisitos Associados| RF-004: O site deve proporcionar videoaulas informativas e verdadeiras sobre prevenção </br> RF-005: O site deve disponibilizar o tipo de socorro preciso às situações comuns |
 |Objetivo do teste    | Verificar se conteúdo principal está sendo exibido corretamente|
 |Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Realizar login corretamente </br> 4. Acessar página de conteúdo inicial </br> 5. Escolher um dos nove cards presentes </br> 6. Clicar em "Acessar aula" |
-|Critérios de Êxito   | * Deve haver n cards com detalhes sobre cada tipo de acidente </br> * Cada um deles deve conter uma pequna descrição retirada de um JSON, contendo vídeo explicativo do YouTube, detalhamento, médico que postou, e-mail para contato </br> * Na parte inferior, haverá um botão para "Acessar site de Apoio" </br> * Este site deve levar a uma outra página da web sobre o tipo de acidente selecionado |
+|Critérios de Êxito   | * Deve abrir página com n cards com detalhes sobre cada tipo de acidente </br> * Cada um deles deve conter uma pequna descrição retirada de um JSON, contendo vídeo explicativo do YouTube, detalhamento, médico que postou, e-mail para contato </br> * Na parte inferior, haverá um botão para "Acessar site de Apoio" </br> * Este site deve levar a uma outra página da web sobre o tipo de acidente selecionado |
 
 |Caso de Teste        | CT-11-Visualizar área de notícias                   |
 |---------------------|-----------------------------------------------------|
@@ -681,6 +681,20 @@ Os testes funcionais e não funcionais do software a serem realizados estão des
 |Objetivo do teste    | Verificar se, na página home, são exibidas notícias retiradas do JSON   |
 |Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Selecionar, no menu, "Home" </br> 4. Descer um pouco na página |
 |Critérios de Êxito   | * Deve haver uma área de notícias retiradas de um JSON </br> * Em cada uma delas, há título, referência, um trecho inicial e data </br> * Em baixo do texto, há um botão "Leia Mais" que deverá levar ao site do qual a notícia foi retirada |
+
+|Caso de Teste        | CT-12-Cadastrar publicações                         |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-001: O site deve possibilitar o cadastro de links de sites e de vídeos para divulgação |
+|Objetivo do teste    | Verificar os médicos conseguem cadastrar conteúdo no site |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Efetuar login como médico, seguindo passos acima </br> 4. Ir à página de conteúdo </br> 5. Clicar em cadastrar novas publicações </br> 6. Ser redirecionado a uma página de cadastro </br> 7. Preencher todas as informações pedidas, lembrando que o vídeo YouTube deve ser adicionado com o link de incorporar a páginas HTML </br> 8. Verificar que cadastro apareceu na tabela da mesma página </br> 9. Retornar à página de conteúdo sobre o acidente cadastrado |
+|Critérios de Êxito   | * Caso as informações tenham sido preenchidas corretamente, haverá mensagem de êxito na página de cadastro </br> * A publicação aparecerá na tabela </br> * O conteúdo estará disponível na página referente àquele tipo de acidente |
+
+|Caso de Teste        | CT-13-Visualizar publicações                        |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-001: O site deve possibilitar o cadastro de links de sites e de vídeos para divulgação </br> RF-009: O site deve possibilitar o cadastro de links de sites e de vídeos para divulgação* </br> * * Não foi implementada ainda  |
+|Objetivo do teste    | Verificar os médicos conseguem visualizar todas as publicações em uma tabela e se novos médicos cadastrados localmente se encontrar registrados no filtro de busca |
+|Passos               | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Efetuar login como médico, seguindo passos acima </br> 4. Ir à página de conteúdo </br> 5. Clicar em cadastrar novas publicações </br> 6. Ser redirecionado a uma página de cadastro </br> 7. Clicar em "Pesquisar Informações" </br> 8. Verificar todas as postagens em uma tabela </br> 9. Selecionar o filtro de médicos |
+|Critérios de Êxito   | * Deverá haver uma tabela não editável com todas as publicações </br> * Na parte de filtrar, caso tenha cadastrado novos médicos, estes devem aparecer na busca também |
 
 
 ......  COLOQUE AQUI O SEU TEXTO ......
