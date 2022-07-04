@@ -286,11 +286,11 @@ Figura 9 - Página de Comentários
 |HTML                        | Linguagem de marcação    | --                                                                                            |
 |CSS                         | Linguagem de estilo      | --                                                                                            |
 |JavaScript                  | Linguagem de programação | --                                                                                            |
-|Bootstrap                   | Framework                | https://getbootstrap.com/           
-|Visual Studio Code          | Editor de texto          | https://code.visualstudio.com/
-|Replit                      | Hospedagem do site       | link site
+|Bootstrap                   | Framework                | https://getbootstrap.com/                                                                     |
+|Visual Studio Code          | Editor de texto          | https://code.visualstudio.com/                                                                |
+|Replit                      | Hospedagem do site       | https://catuana.portal-primeiros-socorros.repl.co/                                            |
 |Canva                       | Apresentação slide I     | https://www.canva.com/design/DAE-EYoqQd0/Q5qoWJlzMyKO4IEzne_oDg/view?utm_content=DAE-EYoqQd0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink                                                                            |
-|Canva                       | Apresentação slide II    | link slide 2                                                                                  |
+|Canva                       | Apresentação slide II    | https://www.canva.com/design/DAFE7KUzweU/5oRj4Q4ZQqNr0pJ4rzJ00w/edit?utm_content=DAFE7KUzweU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton |
 
 
 As ferramentas empregadas neste projeto foram:
@@ -329,7 +329,7 @@ Os componentes que fazem parte da solução implementada estão divididos em doi
 * **Hospedagem**: Local da web, no qual se encontram as páginas implementadas.
 
 ## Hospedagem
-Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Este se encontra no seguinte link: 
+Para este projeto, foi utilizada a plataforma Replit para hospedagem do site. Este se encontra no seguinte link: https://catuana.portal-primeiros-socorros.repl.co/
 
 
 ## Template do Site e Funcionalidades
@@ -364,7 +364,7 @@ JSON das notícias exibidas:
 
 **Link ambiente funcional**
 
-Link:
+Link: https://catuana.portal-primeiros-socorros.repl.co/
 
 ### Página de Cadastro de Usuário e de Médico
 
@@ -395,7 +395,7 @@ JSON dos usuários cadastrados inicialmente:
 
 **Link ambiente funcional**
 
-Link:
+Link: https://catuana.portal-primeiros-socorros.repl.co/cadastro.html
 
 
 ### Página de Login
@@ -427,7 +427,7 @@ JSON dos usuários cadastrados inicialmente:
 
 **Link ambiente funcional**
 
-Link:
+Link: https://catuana.portal-primeiros-socorros.repl.co/login.html
 
 ### Página Introdução das Informações
   
@@ -466,7 +466,7 @@ JSON das informações iniciais cadastradas:
 
 **Link ambiente funcional**
 
-Link:
+Link: https://catuana.portal-primeiros-socorros.repl.co/conteudo.html
 
 ### Página de Apresentação das Informações
 
@@ -503,7 +503,9 @@ JSON das informações iniciais cadastradas:
 
 **Link ambiente funcional**
 
-Link:
+Link: https://catuana.portal-primeiros-socorros.repl.co/conteudo-principal.html?id=1
+
+O id varia de 1 a 9
 
 ### Página de Cadastro das Informações
 
@@ -536,6 +538,11 @@ JSON das informações iniciais cadastradas:
 6. Faça o login como um MÉDICO
 7. Selecione "Cadastre novas publicações"
 8. Verifique a página como descrita anteriormente
+
+**Link ambiente funcional**
+
+Link: https://catuana.portal-primeiros-socorros.repl.co/informacoes-cadastro.html
+
 
 ### Página de Visualização de Todas as Informações
 
@@ -574,7 +581,7 @@ JSON das informações iniciais cadastradas:
 
 **Link ambiente funcional**
 
-Link:
+Link: https://catuana.portal-primeiros-socorros.repl.co/informacoes.html
 
 # Avaliação da Aplicação
 
@@ -697,18 +704,6 @@ Os testes funcionais e não funcionais do software a serem realizados estão des
 |Critérios de Êxito   | * Deverá haver uma tabela não editável com todas as publicações </br> * Na parte de filtrar, caso tenha cadastrado novos médicos, estes devem aparecer na busca também |
 
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
 ## Registros de Testes de Software
 
 Relatório dos testes realizados com print das telas geradas nos testes (mín. de 8 testes)
@@ -723,7 +718,8 @@ Relatório de problemas identificados nos testes e propostas de correções/ajus
 > as melhorias geradas a partir dos resultados obtidos nos testes.
 
 ## Plano de Testes de Usuabilidade
-Planejamento dos testes de usabilidade a serem feitos com (1) identificação de objetivos a serem validados, (2) detalhes dos público a ser envolvido e  (3) roteiro detalhado das tarefas a serem desempenhadas pelos usuários (mínimo de 10 passos)
+
+
 
 ## Registros de Testes de Usuabilidade
 Relatório com detalhamento das pessoas envolvidas no teste
