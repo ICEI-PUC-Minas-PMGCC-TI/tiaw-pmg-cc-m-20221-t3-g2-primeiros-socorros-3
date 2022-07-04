@@ -719,6 +719,15 @@ Relatório de problemas identificados nos testes e propostas de correções/ajus
 
 ## Plano de Testes de Usuabilidade
 
+  O planejamento dos testes de usabilidade a serem realizados com usuários são descritos na Tabela a seguir.
+
+
+|Caso de Teste        | CTU-01-Testar Todo o Site                           |
+|---------------------|-----------------------------------------------------|
+|Requisitos Associados| RF-001, RF-003, RF-004, RF-005, RF-006, RF-007, RF-010, RFN-001, RFN-002, RFN-003, RFN-004 |
+|Objetivo do teste    | Verificar todas as funcionalidades presentes no site|
+|Roteiro              | 1. Acessar o navegador </br> 2. Entrar no endereço do site </br> 3. Acessar a home do site </br> 4. Verificar os textos, os cards, as imagens e os botões </br> 5. Visualizar a parte de conteúdo gratuito </br> 6. Clicar nos botões "Acessar Conteúdo" </br> 7. Abrir páginas sobre o conteúdo gratuito selecionado corretamente </br> 8. Na home, perceber uma parte de notícias </br> 9. Verificar se as informações sobre ela estão aparecendo: título, data, texto e botão "Leia mais" </br> 10. Acessar o botão e perceber que redireciona à página da notícia </br> 11. No final da página, verificar as partes dos planos </br> 12. Clicar no botão de "Cadastre-se" e ver se é levado à página de cadastro </br> 13. Voltar à home e clicar, no menu, "Conteúdo" </br> 14. Verificar uma página vazia, contendo apenas um texto e dois botões </br> 15. Clicar em "Cadastro" ou em "Fazer Cadastro" </br> 16. Ser redirecionado à página de cadastro </br> 16.  |
+|Critérios de Êxito   | Todo o roteiro deve ter sido reaizado com sucesso   |
 
 
 ## Registros de Testes de Usuabilidade
